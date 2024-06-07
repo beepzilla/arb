@@ -34,13 +34,23 @@ const PriceChart = ({ addLog }: { addLog: (message: string) => void }) => {
 
   useEffect(() => {
     const checkFileExists = async () => {
-      const response = await fetch('/refinedPoolsData.json');
-      if (response.ok) {
-        addLog('JSON file exists.');
-        console.log('JSON file exists.');
-      } else {
-        addLog('JSON file does not exist.');
-        console.log('JSON file does not exist.');
+      try {
+        const response = await fetch('/refinedPoolsData.json');
+        if (response.ok) {
+          addLog('JSON file exists.');
+          console.log('JSON file exists.');
+        } else {
+          addLog('JSON file does not exist.');
+          console.log('JSON file does not exist.');
+        }
+      } catch (error) {
+        if (error instanceof Error) {
+          console.error('Error checking JSON file:', error.message);
+          addLog(`Error checking JSON file: ${error.message}`);
+        } else {
+          addLog(`Unexpected error: ${error}`);
+          console.error('Unexpected error:', error);
+        }
       }
     };
 
