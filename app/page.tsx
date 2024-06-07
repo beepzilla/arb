@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import PriceChart from "../components/PriceChart";
+import PoolDataTable from "../components/PoolDataTable";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("chart");
@@ -26,7 +27,12 @@ export default function Home() {
           </div>
         );
       case "dashboard":
-        return <div>Dashboard Section</div>;
+        return (
+          <div>
+            <h2>Dashboard Section</h2>
+            <PoolDataTable />
+          </div>
+        );
       case "logs":
         return (
           <div>

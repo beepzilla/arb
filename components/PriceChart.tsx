@@ -1,67 +1,42 @@
-"use client";
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
-const PriceChart = ({ addLog }: { addLog: (message: string) => void }) => {
-  const [poolsData, setPoolsData] = useState([]);
+const PriceChart = ({ addLog }) => {
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         addLog('Fetching pools data...');
-        console.log('Fetching pools data...');
-        const response = await fetch('/refinedPoolsData.json');
-        addLog(`HTTP status: ${response.status}`);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        addLog('Pools data fetched successfully.');
-        setPoolsData(data);
-        addLog(`Number of pools fetched: ${data.length}`);
+        const result = await axios('/public/refinedPoolsData.json');
+        setData(result.data);
       } catch (error) {
-        if (error instanceof Error) {
-          console.error('Error reading pools data:', error.message);
-          addLog(`Error reading pools data: ${error.message}`);
-        } else {
-          addLog(`Unexpected error: ${error}`);
-          console.error('Unexpected error:', error);
-        }
+        console.error('Error reading pools data:', error);
+        addLog('Error reading pools data: Failed to fetch');
       }
     };
 
     fetchData();
   }, [addLog]);
 
-  useEffect(() => {
-    const checkFileExists = async () => {
-      try {
-        const response = await fetch('/refinedPoolsData.json');
-        if (response.ok) {
-          addLog('JSON file exists.');
-          console.log('JSON file exists.');
-        } else {
-          addLog('JSON file does not exist.');
-          console.log('JSON file does not exist.');
-        }
-      } catch (error) {
-        if (error instanceof Error) {
-          console.error('Error checking JSON file:', error.message);
-          addLog(`Error checking JSON file: ${error.message}`);
-        } else {
-          addLog(`Unexpected error: ${error}`);
-          console.error('Unexpected error:', error);
-        }
-      }
-    };
-
-    checkFileExists();
-  }, [addLog]);
-
   return (
-    <div style={{ width: "600px", height: "300px", border: "1px solid #ccc", display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <pre>{JSON.stringify(poolsData, null, 2)}</pre>
-      {/* Chart implementation will go here */}
-    </div>
+    <LineChart
+      width={500}
+      height={300}
+      data={data}
+      margin={{
+        top: 5, right: 30, left: 20, bottom: 5,
+      }}
+    >
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="id" />
+      <YAxis />
+      <Tooltip />
+      <Legend />
+      <Line type="monotone" dataKey="liquidity" stroke="#8884d8" activeDot={{ r: 8 }} />
+      <Line type="monotone" dataKey="totalValueLockedUSD" stroke="#82ca9d" />
+    </LineChart>
   );
 };
 
