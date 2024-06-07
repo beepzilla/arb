@@ -3,8 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 console.log('Logs initialized.');
-const fs = require('fs');
-const path = require('path');
 
 async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   const endpoint = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
