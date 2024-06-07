@@ -8,6 +8,7 @@ const PriceChart = ({ addLog }) => {
       try {
         addLog('Fetching pools data...');
         console.log('Fetching pools data...');
+        console.log('Fetching pools data...');
         const response = await fetch('/refinedPoolsData.json');
         const data = await response.json();
         setPoolsData(data);
@@ -16,6 +17,7 @@ const PriceChart = ({ addLog }) => {
       } catch (error) {
         addLog('Error reading pools data: ' + error.message);
         console.error('Error reading pools data:', error);
+        addLog('Error reading pools data: ' + error.message);
         addLog('Error reading pools data: ' + error.message);
       }
     };
