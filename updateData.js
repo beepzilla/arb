@@ -4,10 +4,10 @@ const path = require('path');
 
 const SUBGRAPH_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
 
-async function fetchPools(batchSize = 1000, skip = 0, minTVL = 10000) {
+async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
   const query = `
     {
-      pools(first: ${batchSize}, skip: ${skip}, where: { totalValueLockedUSD_gt: ${minTVL} }) {
+      pools(first: ${batchSize}, skip: ${skip}, where: { liquidity_gt: ${minLiquidity} }) {
         id
         token0 {
           id
@@ -50,27 +50,15 @@ async function fetchPools(batchSize = 1000, skip = 0, minTVL = 10000) {
 async function updateData() {
   const allPools = [];
   const batchSize = 1000;
-  const totalPoolsToFetch = 3000;
-  const minTVL = 10000; // Minimum Total Value Locked in USD
+  const minLiquidity = 0; // Minimum liquidity
 
-  let totalFetchedPools = 0;
-  for (let skipBase = 0; totalFetchedPools < totalPoolsToFetch; skipBase += 5000) {
-    for (let skip = 0; skip < 5000; skip += batchSize) {
-      const actualSkip = skipBase + skip;
-      if (actualSkip >= totalPoolsToFetch) break;
-      const pools = await fetchPools(batchSize, actualSkip, minTVL);
-      if (pools.length > 0) {
-        allPools.push(...pools);
-        totalFetchedPools += pools.length;
-      } else {
-        break;
-      }
-      console.log(`Fetched ${pools.length} pools... (skip: ${actualSkip})`);
-    }
-    // Break out of the outer loop if fewer than batchSize pools are fetched in the last iteration
-    if (totalFetchedPools % batchSize !== 0) {
-      break;
-    }
+  let skip = 0;
+  while (true) {
+    const pools = await fetchPools(batchSize, skip, minLiquidity);
+    if (pools.length === 0) break;
+    allPools.push(...pools);
+    skip += batchSize;
+    console.log(`Fetched ${pools.length} pools... (skip: ${skip})`);
   }
 
   const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
@@ -78,5 +66,5 @@ async function updateData() {
   console.log('Data written to refinedPoolsData.json');
 }
 
-setInterval(updateData, 60000); // Run every minute
+setInterval(updateData, 300000); // Run every 5 minutes
 updateData(); // Initial run
