@@ -50,6 +50,7 @@ async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
 async function updateData() {
   console.log('Starting to fetch pools...');
   console.log('Starting to fetch pools...');
+  console.log('Starting to fetch pools...');
   const allPools = [];
   const batchSize = 1000;
   const minLiquidity = 0; // Minimum liquidity
@@ -58,7 +59,9 @@ async function updateData() {
   while (true) {
     console.log(`Fetching pools with skip: ${skip}`);
     console.log(`Fetching pools with skip: ${skip}`);
+    console.log(`Fetching pools with skip: ${skip}`);
     const pools = await fetchPools(batchSize, skip, minLiquidity);
+    console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     if (pools.length === 0) break;
@@ -72,8 +75,11 @@ async function updateData() {
   console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
+  console.log('Data written to refinedPoolsData.json');
 }
 
+console.log('Starting initial data update...');
+updateData().then(() => console.log('Initial data update complete.'));
 console.log('Starting initial data update...');
 updateData().then(() => console.log('Initial data update complete.'));
 console.log('Starting initial data update...');

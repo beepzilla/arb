@@ -22,7 +22,7 @@ export default function Home() {
         return (
           <div>
             <h2>Chart Section</h2>
-            <PriceChart poolAddress="0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8" addLog={addLog} />
+            <PriceChart addLog={addLog} />
           </div>
         );
       case "dashboard":
