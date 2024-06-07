@@ -2,6 +2,10 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
+console.log('Logs initialized.');
+const fs = require('fs');
+const path = require('path');
+
 async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   const endpoint = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
   const query = `
@@ -25,6 +29,7 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
     }
   `;
 
+  console.log('Query being made:', query);
   try {
     const response = await fetch(endpoint, {
       method: 'POST',
@@ -34,6 +39,7 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
 
     const data = await response.json();
 
+    console.log('Query result:', JSON.stringify(data, null, 2).slice(0, 500)); // Log first 500 characters of the result
     if (data.errors) {
       console.error('GraphQL errors:', data.errors);
       return [];
@@ -48,6 +54,7 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
 
 (async () => {
   console.log('Starting to fetch pools...');
+  console.log('Query process started.');
   const allPools = [];
   const batchSize = 1000;
   const totalPoolsToFetch = 26000;
@@ -76,6 +83,7 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   }
 
   const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
+  console.log('Writing data to refinedPoolsData.json');
   fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
   console.log('Data written to refinedPoolsData.json');
   console.log(`Checking if file exists: ${filePath}`);
@@ -84,4 +92,5 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   } else {
     console.log('File does not exist.');
   }
+  console.log('Data written to refinedPoolsData.json');
 })();

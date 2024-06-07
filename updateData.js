@@ -4,6 +4,8 @@ const path = require('path');
 
 const SUBGRAPH_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
 
+console.log('Logs initialized.');
+
 async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
   const query = `
     {
@@ -26,6 +28,7 @@ async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
     }
   `;
 
+  console.log('Query being made:', query);
   try {
     const response = await fetch(SUBGRAPH_URL, {
       method: 'POST',
@@ -35,6 +38,7 @@ async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
 
     const data = await response.json();
 
+    console.log('Query result:', JSON.stringify(data, null, 2).slice(0, 500)); // Log first 500 characters of the result
     if (data.errors) {
       console.error('GraphQL errors:', data.errors);
       return [];
@@ -48,9 +52,7 @@ async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
 }
 
 async function updateData() {
-  console.log('Starting to fetch pools...');
-  console.log('Starting to fetch pools...');
-  console.log('Starting to fetch pools...');
+  console.log('Query process started.');
   const allPools = [];
   const batchSize = 1000;
   const minLiquidity = 0; // Minimum liquidity
@@ -58,11 +60,7 @@ async function updateData() {
   let skip = 0;
   while (true) {
     console.log(`Fetching pools with skip: ${skip}`);
-    console.log(`Fetching pools with skip: ${skip}`);
-    console.log(`Fetching pools with skip: ${skip}`);
     const pools = await fetchPools(batchSize, skip, minLiquidity);
-    console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
-    console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     if (pools.length === 0) break;
     allPools.push(...pools);
@@ -71,19 +69,11 @@ async function updateData() {
   }
 
   const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
+  console.log('Writing data to refinedPoolsData.json');
   fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
-  console.log('Data written to refinedPoolsData.json');
-  console.log('Data written to refinedPoolsData.json');
-  console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
 }
 
-console.log('Starting initial data update...');
-updateData().then(() => console.log('Initial data update complete.'));
-console.log('Starting initial data update...');
-updateData().then(() => console.log('Initial data update complete.'));
-console.log('Starting initial data update...');
-updateData().then(() => console.log('Initial data update complete.'));
 setInterval(updateData, 300000); // Run every 5 minutes
 console.log('Starting initial data update...');
 updateData().then(() => console.log('Initial data update complete.'));
