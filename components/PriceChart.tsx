@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import fs from 'fs';
-import path from 'path';
 
 const PriceChart = () => {
   const [poolsData, setPoolsData] = useState([]);
@@ -8,9 +6,9 @@ const PriceChart = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const filePath = path.join(process.cwd(), 'public', 'refinedPoolsData.json');
-        const data = fs.readFileSync(filePath, 'utf8');
-        setPoolsData(JSON.parse(data));
+        const response = await fetch('/refinedPoolsData.json');
+        const data = await response.json();
+        setPoolsData(data);
       } catch (error) {
         console.error('Error reading pools data:', error);
       }
