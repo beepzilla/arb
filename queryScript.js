@@ -78,4 +78,10 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
   fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
   console.log('Data written to refinedPoolsData.json');
+  console.log(`Checking if file exists: ${filePath}`);
+  if (fs.existsSync(filePath)) {
+    console.log('File exists.');
+  } else {
+    console.log('File does not exist.');
+  }
 })();
