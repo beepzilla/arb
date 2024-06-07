@@ -29,7 +29,7 @@ export const getPoolData = async (poolAddress: string) => {
 
   const variables = { poolAddress };
   console.log(`Fetching data for pool: ${poolAddress}`);
-  const data = await request(UNISWAP_SUBGRAPH_URL, query, variables);
+  const data: any = await request(UNISWAP_SUBGRAPH_URL, query, variables);
   console.log(`Data fetched for pool: ${poolAddress}`);
   return data.pool;
 };
