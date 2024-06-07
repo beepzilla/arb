@@ -3,10 +3,27 @@ import axios from 'axios';
 import {
   useTable,
   usePagination,
+  Column,
+  HeaderGroup,
+  Row,
+  Cell,
+  TableOptions,
 } from 'react-table';
 
-const PoolDataTable = () => {
-  const [data, setData] = useState([]);
+interface Token {
+  symbol: string;
+}
+
+interface PoolData {
+  id: string;
+  token0: Token;
+  token1: Token;
+  liquidity: number;
+  totalValueLockedUSD: number;
+}
+
+const PoolDataTable: React.FC = () => {
+  const [data, setData] = useState<PoolData[]>([]);
   const pageSize = 100;
 
   useEffect(() => {
@@ -18,11 +35,21 @@ const PoolDataTable = () => {
     fetchData();
   }, []);
 
-  const columns = React.useMemo(
+  const columns: Column<PoolData>[] = React.useMemo(
     () => [
       { Header: 'ID', accessor: 'id' },
-      { Header: 'Token 0', accessor: 'token0.symbol' },
-      { Header: 'Token 1', accessor: 'token1.symbol' },
+      {
+        Header: 'Token 0',
+        accessor: 'token0.symbol' as keyof PoolData,
+        Cell: ({ value }: { value: string }) => value,
+        id: 'token0Symbol'
+      },
+      {
+        Header: 'Token 1',
+        accessor: 'token1.symbol' as keyof PoolData,
+        Cell: ({ value }: { value: string }) => value,
+        id: 'token1Symbol'
+      },
       { Header: 'Liquidity', accessor: 'liquidity' },
       { Header: 'TVL (USD)', accessor: 'totalValueLockedUSD' },
     ],
@@ -41,12 +68,12 @@ const PoolDataTable = () => {
     nextPage,
     previousPage,
     state: { pageIndex },
-  } = useTable(
+  } = useTable<PoolData>(
     {
       columns,
       data,
       initialState: { pageIndex: 0, pageSize },
-    },
+    } as TableOptions<PoolData>,
     usePagination
   );
 
@@ -54,10 +81,19 @@ const PoolDataTable = () => {
     <div>
       <table {...getTableProps()} style={{ border: 'solid 1px blue' }}>
         <thead>
-          {headerGroups.map(headerGroup => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map(column => (
-                <th {...column.getHeaderProps()} style={{ borderBottom: 'solid 3px red', background: 'aliceblue', color: 'black', fontWeight: 'bold' }}>
+          {headerGroups.map((headerGroup: HeaderGroup<PoolData>, index) => (
+            <tr {...headerGroup.getHeaderGroupProps()} key={index}>
+              {headerGroup.headers.map((column, colIndex) => (
+                <th
+                  {...column.getHeaderProps()}
+                  style={{
+                    borderBottom: 'solid 3px red',
+                    background: 'aliceblue',
+                    color: 'black',
+                    fontWeight: 'bold',
+                  }}
+                  key={colIndex}
+                >
                   {column.render('Header')}
                 </th>
               ))}
@@ -65,13 +101,21 @@ const PoolDataTable = () => {
           ))}
         </thead>
         <tbody {...getTableBodyProps()}>
-          {page.map(row => {
+          {page.map((row: Row<PoolData>, rowIndex) => {
             prepareRow(row);
             return (
-              <tr {...row.getRowProps()}>
-                {row.cells.map(cell => {
+              <tr {...row.getRowProps()} key={rowIndex}>
+                {row.cells.map((cell: Cell<PoolData>, cellIndex) => {
                   return (
-                    <td {...cell.getCellProps()} style={{ padding: '10px', border: 'solid 1px gray', background: 'papayawhip' }}>
+                    <td
+                      {...cell.getCellProps()}
+                      style={{
+                        padding: '10px',
+                        border: 'solid 1px gray',
+                        background: 'papayawhip',
+                      }}
+                      key={cellIndex}
+                    >
                       {cell.render('Cell')}
                     </td>
                   );
@@ -82,8 +126,12 @@ const PoolDataTable = () => {
         </tbody>
       </table>
       <div>
-        <button onClick={() => previousPage()} disabled={!canPreviousPage}>Previous</button>
-        <button onClick={() => nextPage()} disabled={!canNextPage}>Next</button>
+        <button onClick={() => previousPage()} disabled={!canPreviousPage}>
+          Previous
+        </button>
+        <button onClick={() => nextPage()} disabled={!canNextPage}>
+          Next
+        </button>
         <span>
           Page{' '}
           <strong>

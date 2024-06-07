@@ -2,8 +2,18 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
-const PriceChart = ({ addLog }) => {
-  const [data, setData] = useState([]);
+interface PoolData {
+  id: string;
+  liquidity: number;
+  totalValueLockedUSD: number;
+}
+
+interface PriceChartProps {
+  addLog: (message: string) => void;
+}
+
+const PriceChart: React.FC<PriceChartProps> = ({ addLog }) => {
+  const [data, setData] = useState<PoolData[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
