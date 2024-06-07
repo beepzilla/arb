@@ -49,6 +49,7 @@ async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
 
 async function updateData() {
   console.log('Starting to fetch pools...');
+  console.log('Starting to fetch pools...');
   const allPools = [];
   const batchSize = 1000;
   const minLiquidity = 0; // Minimum liquidity
@@ -56,7 +57,9 @@ async function updateData() {
   let skip = 0;
   while (true) {
     console.log(`Fetching pools with skip: ${skip}`);
+    console.log(`Fetching pools with skip: ${skip}`);
     const pools = await fetchPools(batchSize, skip, minLiquidity);
+    console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     console.log(`Fetched ${pools.length} pools with skip: ${skip}`);
     if (pools.length === 0) break;
     allPools.push(...pools);
@@ -66,6 +69,7 @@ async function updateData() {
 
   const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
   fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
+  console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
 }
