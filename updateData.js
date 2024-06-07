@@ -74,6 +74,8 @@ async function updateData() {
   console.log('Data written to refinedPoolsData.json');
 }
 
+console.log('Starting initial data update...');
+updateData().then(() => console.log('Initial data update complete.'));
 setInterval(updateData, 300000); // Run every 5 minutes
 console.log('Starting initial data update...');
 updateData().then(() => console.log('Initial data update complete.'));
