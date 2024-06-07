@@ -7,13 +7,16 @@ const PriceChart = ({ addLog }) => {
     const fetchData = async () => {
       try {
         addLog('Fetching pools data...');
+        console.log('Fetching pools data...');
         const response = await fetch('/refinedPoolsData.json');
         const data = await response.json();
         setPoolsData(data);
-        addLog('Pools data fetched successfully.');
+        addLog(`Pools data fetched successfully. Number of pools: ${data.length}`);
+        console.log(`Pools data fetched successfully. Number of pools: ${data.length}`);
       } catch (error) {
         addLog('Error reading pools data: ' + error.message);
         console.error('Error reading pools data:', error);
+        addLog('Error reading pools data: ' + error.message);
       }
     };
 

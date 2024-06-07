@@ -1,7 +1,6 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
-const fs = require('fs');
 
 async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   const endpoint = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
@@ -78,6 +77,5 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
 
   const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
   fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
-  console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
 })();
