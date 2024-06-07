@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
+const path = require('path');
+const fs = require('fs');
 
 async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   const endpoint = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
@@ -46,6 +48,7 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
 }
 
 (async () => {
+  console.log('Starting to fetch pools...');
   const allPools = [];
   const batchSize = 1000;
   const totalPoolsToFetch = 26000;
@@ -56,7 +59,9 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
     for (let skip = 0; skip < 5000; skip += batchSize) {
       const actualSkip = skipBase + skip;
       if (actualSkip >= totalPoolsToFetch) break;
+      console.log(`Fetching pools with skip: ${actualSkip}`);
       const pools = await fetchPools(batchSize, actualSkip, minTVL);
+      console.log(`Fetched ${pools.length} pools with skip: ${actualSkip}`);
       if (pools.length > 0) {
         allPools.push(...pools);
         totalFetchedPools += pools.length;
@@ -71,6 +76,8 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
     }
   }
 
-  fs.writeFileSync('refinedPoolsData.json', JSON.stringify(allPools, null, 2));
+  const filePath = path.join(__dirname, 'public', 'refinedPoolsData.json');
+  fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
+  console.log('Data written to refinedPoolsData.json');
   console.log('Data written to refinedPoolsData.json');
 })();
