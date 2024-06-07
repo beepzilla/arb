@@ -4,7 +4,7 @@ const path = require('path');
 
 console.log('Logs initialized.');
 
-async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
+async function fetchPools(batchSize = 5, skip, minTVL = 10000) {
   const endpoint = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
   const query = `
     {
@@ -54,8 +54,8 @@ async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
   console.log('Starting to fetch pools...');
   console.log('Query process started.');
   const allPools = [];
-  const batchSize = 1000;
-  const totalPoolsToFetch = 26000;
+  const batchSize = 5;
+  const totalPoolsToFetch = 5; // For testing purposes
   const minTVL = 10000; // Minimum Total Value Locked in USD
 
   let totalFetchedPools = 0;

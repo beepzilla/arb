@@ -6,7 +6,7 @@ const SUBGRAPH_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3
 
 console.log('Logs initialized.');
 
-async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
+async function fetchPools(batchSize = 5, skip = 0, minLiquidity = 0) {
   const query = `
     {
       pools(first: ${batchSize}, skip: ${skip}, where: { liquidity_gt: ${minLiquidity} }) {
@@ -54,7 +54,7 @@ async function fetchPools(batchSize = 1000, skip = 0, minLiquidity = 0) {
 async function updateData() {
   console.log('Query process started.');
   const allPools = [];
-  const batchSize = 1000;
+  const batchSize = 5; // For testing purposes
   const minLiquidity = 0; // Minimum liquidity
 
   let skip = 0;
