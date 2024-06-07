@@ -25,7 +25,12 @@ const PriceChart: React.FC<{ addLog: (message: string) => void }> = ({ addLog })
   }, [addLog]);
 
   useEffect(() => {
-    fetchData();
+    fetchData(); // Fetch data initially
+    const interval = setInterval(() => {
+      fetchData();
+    }, 60000); // Fetch data every minute
+
+    return () => clearInterval(interval); // Clear interval on component unmount
   }, [fetchData]);
 
   return (

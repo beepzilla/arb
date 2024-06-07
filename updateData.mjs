@@ -84,4 +84,4 @@ updateData().then(() => {
   console.log('Initial data update complete.');
   console.log('Waiting for the next update...');
 });
-setInterval(updateData, 60000); // Run every 1 minute
+setInterval(updateData, 300000); // Run every 5 minutes

@@ -6,7 +6,6 @@ import PoolDataTable from "../components/PoolDataTable";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("chart");
-
   const [logs, setLogs] = useState<string[]>([]);
 
   useEffect(() => {
