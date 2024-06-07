@@ -1,10 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PriceChart from "../components/PriceChart";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("chart");
+
+  const [logs, setLogs] = useState<string[]>([]);
+
+  useEffect(() => {
+    setLogs((prevLogs) => [...prevLogs, "Site connected and logs initialized."]);
+  }, []);
+
+  const addLog = (message: string) => {
+    setLogs((prevLogs) => [...prevLogs, message]);
+  };
 
   const renderContent = () => {
     switch (activeTab) {
@@ -12,13 +22,22 @@ export default function Home() {
         return (
           <div>
             <h2>Chart Section</h2>
-            <PriceChart poolAddress="0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8" />
+            <PriceChart poolAddress="0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8" addLog={addLog} />
           </div>
         );
       case "dashboard":
         return <div>Dashboard Section</div>;
       case "logs":
-        return <div>Logs Section</div>;
+        return (
+          <div>
+            <h2>Logs Section</h2>
+            <div style={{ whiteSpace: "pre-wrap" }}>
+              {logs.map((log, index) => (
+                <div key={index}>{log}</div>
+              ))}
+            </div>
+          </div>
+        );
       case "settings":
         return <div>Settings Section</div>;
       default:
