@@ -1,84 +1,35 @@
-import React, { useEffect, useState } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import axios from 'axios';
-
-interface PoolData {
-  id: string;
-  token0: {
-    id: string;
-    symbol: string;
-    price: number;
-  };
-  token1: {
-    id: string;
-    symbol: string;
-    price: number;
-  };
-  liquidity: number;
-  exchangeid: string;
-}
+import React, { useEffect, useState, useCallback } from 'react';
+import HighchartsReact from 'highcharts-react-official';
+import Highcharts from 'highcharts';
 
 interface PriceChartProps {
-  logMessage: (message: string) => void;
+    logMessage: (message: string) => void;
 }
 
 const PriceChart: React.FC<PriceChartProps> = ({ logMessage }) => {
-  const [data, setData] = useState<PoolData[]>([]);
-  const [loading, setLoading] = useState(true);
+    const [data, setData] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [uniswapResponse, quickswapResponse] = await Promise.all([
-          axios.get('/uniswapchart.json'),
-          axios.get('/quickswapchart.json')
-        ]);
-        const combinedData = [...uniswapResponse.data, ...quickswapResponse.data];
-        setData(combinedData);
-        logMessage('Data fetched successfully');
-      } catch (error) {
-        console.error('Error fetching chart data:', error);
-        logMessage('Error fetching chart data');
-      } finally {
-        setLoading(false);
-      }
+    const fetchData = useCallback(() => {
+        fetch('/uniswapchart.json')
+            .then(response => response.json())
+            .then(data => setData(data))
+            .catch(error => logMessage(`Error fetching chart data: ${error}`));
+    }, [logMessage]);
+
+    useEffect(() => {
+        fetchData();
+    }, [fetchData]);
+
+    const options = {
+        title: {
+            text: 'Uniswap Price Chart'
+        },
+        series: [{
+            data: data
+        }]
     };
-    fetchData();
-  }, [logMessage]);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  const formatDataForChart = () => {
-    const chartData: any[] = [];
-    data.forEach(pool => {
-      chartData.push({
-        id: pool.id,
-        exchange: pool.exchangeid,
-        token0: pool.token0.symbol,
-        token1: pool.token1.symbol,
-        price0: pool.token0.price,
-        price1: pool.token1.price,
-        liquidity: pool.liquidity,
-      });
-    });
-    return chartData;
-  };
-
-  return (
-    <ResponsiveContainer width="100%" height={400}>
-      <LineChart data={formatDataForChart()}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="id" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Line type="monotone" dataKey="price0" stroke="#8884d8" />
-        <Line type="monotone" dataKey="price1" stroke="#82ca9d" />
-      </LineChart>
-    </ResponsiveContainer>
-  );
+    return <HighchartsReact highcharts={Highcharts} options={options} />;
 };
 
 export default PriceChart;

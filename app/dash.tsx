@@ -1,17 +1,17 @@
 import React from 'react';
 import Layout from './layout';
-import PriceChart from '../components/PriceChart';
+import PoolDataTable from '../components/PoolDataTable';
 
-const HomePage = () => {
+const DashPage = () => {
     const logMessage = (message: string) => {
         console.log(message);
     };
 
     return (
         <Layout>
-            <PriceChart logMessage={logMessage} />
+            <PoolDataTable logMessage={logMessage} />
         </Layout>
     );
 };
 
-export default HomePage;
+export default DashPage;

@@ -1,58 +1,27 @@
-"use client";
+import React, { ReactNode } from 'react';
+import Link from 'next/link';
 
-import React, { useState, ReactNode } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-import PriceChart from '../components/PriceChart';
-import PoolDataTable from '../components/PoolDataTable';
-
-interface RootLayoutProps {
-  children: ReactNode;
+interface LayoutProps {
+    children: ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
-  const [logs, setLogs] = useState<string[]>([]);
-
-  const logMessage = (message: string) => {
-    setLogs(prevLogs => [...prevLogs, message]);
-  };
-
-  return (
-    <html lang="en">
-      <head>
-        <title>Arbitrage Analysis</title>
-      </head>
-      <body>
+const Layout: React.FC<LayoutProps> = ({ children }) => {
+    return (
         <div>
-          <h1>Arbitrage Analysis</h1>
-          <Tabs>
-            <TabList>
-              <Tab>Chart</Tab>
-              <Tab>Dashboard</Tab>
-              <Tab>Logs</Tab>
-              <Tab>Settings</Tab>
-            </TabList>
-
-            <TabPanel>
-              <PriceChart logMessage={logMessage} />
-            </TabPanel>
-            <TabPanel>
-              <PoolDataTable logMessage={logMessage} />
-            </TabPanel>
-            <TabPanel>
-              <div>
-                {logs.map((log, index) => (
-                  <div key={index}>{log}</div>
-                ))}
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div>Settings Placeholder</div>
-            </TabPanel>
-          </Tabs>
+            <header>
+                <h1>BEEPZILLA&apos;s ARBITRAGE TRACKING TOOL</h1>
+                <nav>
+                    <ul>
+                        <li><Link href="/">Chart</Link></li>
+                        <li><Link href="/dash">Dash</Link></li>
+                        <li><Link href="/logs">Logs</Link></li>
+                        <li><Link href="/settings">Settings</Link></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>{children}</main>
         </div>
-        {children}
-      </body>
-    </html>
-  );
-}
+    );
+};
+
+export default Layout;
