@@ -1,5 +1,7 @@
+"use client";
+
 import React, { useEffect, useState, useCallback } from 'react';
-import { useTable, Column, HeaderGroup, Row } from 'react-table';
+import { useTable, Column } from 'react-table';
 
 interface PoolData {
     id: string;
