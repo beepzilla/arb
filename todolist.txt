@@ -1,0 +1,8 @@
+change font color in dashboard table
+obviously later get the table to organize the arbitrage opportunities
+so i need a chart that will display prices of token pairs and liquidity in that pool
+
+i need to integrate 3 other subgraphs so that the chart displays all 4 subgraphs data
+
+so i need to determine the queries for the other 3 subgraphs that i need.  also uniswap v2 and other exchanges that are not v3 forks if I change
+

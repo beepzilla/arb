@@ -1,87 +1,67 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 import fs from 'fs';
-import path from 'path';
 
-async function fetchPools(batchSize = 1000, skip, minTVL = 10000) {
-  const endpoint = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
-  const query = `
-    {
-      pools(first: ${batchSize}, skip: ${skip}, where: { totalValueLockedUSD_gt: ${minTVL} }) {
-        id
-        token0 {
-          id
-          symbol
+const UNISWAP_SUBGRAPH_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
+const QUICKSWAP_SUBGRAPH_URL = 'https://gateway-arbitrum.network.thegraph.com/api/50519f57b0b77627e43df041c62d7970/subgraphs/id/5AK9Y4tk27ZWrPKvSAUQmffXWyQvjWqyJ2GNEZUWTirU';
+
+async function fetchPoolsData(subgraphUrl, fileName) {
+  let skip = 0;
+  let allPools = [];
+
+  while (true) {
+    const query = {
+      query: `
+        {
+          pools(first: 1000, skip: ${skip}) {
+            id
+            token0 {
+              id
+              symbol
+              name
+              decimals
+              derivedMatic
+            }
+            token1 {
+              id
+              symbol
+              name
+              decimals
+              derivedMatic
+            }
+            liquidity
+            volumeUSD
+            feesUSD
+            createdAtTimestamp
+          }
         }
-        token1 {
-          id
-          symbol
-        }
-        feeTier
-        liquidity
-        token0Price
-        token1Price
-        totalValueLockedUSD
-      }
-    }
-  `;
+      `
+    };
 
-  try {
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query }),
-    });
+    try {
+      const response = await axios.post(subgraphUrl, query);
+      const pools = response.data.data.pools;
 
-    const data = await response.json();
-
-    if (data.errors) {
-      console.error('GraphQL errors:', data.errors);
-      return [];
-    }
-
-    return data.data.pools || [];
-  } catch (error) {
-    console.error('Error fetching pools:', error);
-    return [];
-  }
-}
-
-async function updateData() {
-  console.log('Starting to fetch pools...');
-  const allPools = [];
-  const batchSize = 1000;
-  const totalPoolsToFetch = 26000;
-  const minTVL = 10000; // Minimum Total Value Locked in USD
-
-  let totalFetchedPools = 0;
-  for (let skipBase = 0; totalFetchedPools < totalPoolsToFetch; skipBase += 5000) {
-    for (let skip = 0; skip < 5000; skip += batchSize) {
-      const actualSkip = skipBase + skip;
-      if (actualSkip >= totalPoolsToFetch) break;
-      const pools = await fetchPools(batchSize, actualSkip, minTVL);
-      if (pools.length > 0) {
-        allPools.push(...pools);
-        totalFetchedPools += pools.length;
-      } else {
-        break;
-      }
-      console.log(`Fetched ${pools.length} pools... (skip: ${actualSkip})`);
-    }
-    // Break out of the outer loop if fewer than batchSize pools are fetched in the last iteration
-    if (totalFetchedPools % batchSize !== 0) {
+      if (pools.length === 0) break;
+      allPools = allPools.concat(pools);
+      skip += 1000;
+    } catch (error) {
+      console.error('GraphQL errors:', error.response?.data?.errors);
       break;
     }
   }
 
-  const filePath = path.join(process.cwd(), 'public', 'refinedPoolsData.json');
-  fs.writeFileSync(filePath, JSON.stringify(allPools, null, 2));
-  console.log('Data written to refinedPoolsData.json');
-  console.log(`Total pools fetched and written: ${allPools.length}`);
+  fs.writeFileSync(`./public/${fileName}.json`, JSON.stringify(allPools, null, 2));
+  console.log(`Data written to ${fileName}.json`);
 }
 
-console.log('Starting initial data update...');
-updateData().then(() => {
+(async () => {
+  console.log('Starting initial data update...');
+
+  console.log('Starting to fetch Uniswap pools...');
+  await fetchPoolsData(UNISWAP_SUBGRAPH_URL, 'uniswapchart');
+
+  console.log('Starting to fetch QuickSwap pools...');
+  await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, 'quickswapchart');
+
   console.log('Initial data update complete.');
-  console.log('Waiting for the next update...');
-});
-setInterval(updateData, 300000); // Run every 5 minutes
+})();

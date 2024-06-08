@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import PriceChart from "../components/PriceChart";
 import PoolDataTable from "../components/PoolDataTable";
 
@@ -12,9 +12,9 @@ export default function Home() {
     setLogs((prevLogs) => [...prevLogs, "Site connected and logs initialized."]);
   }, []);
 
-  const addLog = (message: string) => {
+  const addLog = useCallback((message: string) => {
     setLogs((prevLogs) => [...prevLogs, message]);
-  };
+  }, []);
 
   const renderContent = () => {
     switch (activeTab) {
