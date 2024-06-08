@@ -1,37 +1,57 @@
 import axios from 'axios';
 import fs from 'fs';
+import path from 'path';
 
 const UNISWAP_SUBGRAPH_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
 const QUICKSWAP_SUBGRAPH_URL = 'https://gateway-arbitrum.network.thegraph.com/api/50519f57b0b77627e43df041c62d7970/subgraphs/id/5AK9Y4tk27ZWrPKvSAUQmffXWyQvjWqyJ2GNEZUWTirU';
 const COINGECKO_API_URL = 'https://api.coingecko.com/api/v3/simple/price?ids=matic-network&vs_currencies=usd';
 
+const logFilePath = path.join(__dirname, 'public', 'logs.json');
+
+const logMessage = (message) => {
+    const timestamp = new Date().toISOString();
+    const logEntry = { timestamp, message };
+
+    fs.readFile(logFilePath, 'utf8', (err, data) => {
+        let logs = [];
+        if (!err && data) {
+            logs = JSON.parse(data);
+        }
+        logs.push(logEntry);
+
+        fs.writeFile(logFilePath, JSON.stringify(logs, null, 2), (err) => {
+            if (err) console.error('Error writing to logs.json:', err);
+        });
+    });
+};
+
 async function fetchPoolsData(subgraphUrl, queryFunc, transformFunc, fileName, exchangeId) {
-  let skip = 0;
-  let allPools = [];
+    let skip = 0;
+    let allPools = [];
 
-  while (true) {
-    try {
-      console.log(`Fetching pools data with skip value: ${skip}`);
-      const query = queryFunc(skip);
-      const response = await axios.post(subgraphUrl, { query });
-      const pools = response.data.data.pools;
+    while (true) {
+        try {
+            logMessage(`Fetching pools data from ${exchangeId} with skip value: ${skip}`);
+            const query = queryFunc(skip);
+            const response = await axios.post(subgraphUrl, { query });
+            const pools = response.data.data.pools;
 
-      if (pools.length === 0) break;
-      allPools = allPools.concat(pools.map(pool => transformFunc(pool, exchangeId)).filter(pool => parseFloat(pool.liquidity) > 0));
-      console.log(`Fetched ${pools.length} pools, total: ${allPools.length}`);
-      skip += 1000;
-    } catch (error) {
-      console.error('GraphQL errors:', error.response?.data?.errors);
-      break;
+            if (pools.length === 0) break;
+            allPools = allPools.concat(pools.map(pool => transformFunc(pool, exchangeId)).filter(pool => parseFloat(pool.liquidity) > 0));
+            logMessage(`Fetched ${pools.length} pools from ${exchangeId}, total: ${allPools.length}`);
+            skip += 1000;
+        } catch (error) {
+            logMessage(`Error fetching pools data from ${exchangeId}: ${error.response?.data?.errors || error.message}`);
+            break;
+        }
     }
-  }
 
-  try {
-    fs.writeFileSync(`./public/${fileName}.json`, JSON.stringify(allPools, null, 2));
-    console.log(`Data written to ${fileName}.json`);
-  } catch (writeError) {
-    console.error('Error writing data to file:', writeError);
-  }
+    try {
+        fs.writeFileSync(`./public/${fileName}.json`, JSON.stringify(allPools, null, 2));
+        logMessage(`Data written to ${fileName}.json`);
+    } catch (writeError) {
+        logMessage(`Error writing data to ${fileName}.json: ${writeError.message}`);
+    }
 }
 
 const uniswapQuery = (skip) => `
@@ -134,13 +154,28 @@ const transformQuickswapData = (pool, exchangeId) => {
 };
 
 (async () => {
-  console.log('Starting initial data update...');
+  logMessage('Starting initial data update...');
 
-  console.log('Starting to fetch Uniswap pools...');
+  logMessage('Starting to fetch Uniswap pools...');
   await fetchPoolsData(UNISWAP_SUBGRAPH_URL, uniswapQuery, transformUniswapData, 'uniswapchart', 'uniswap');
 
-  console.log('Starting to fetch QuickSwap pools...');
+  logMessage('Starting to fetch QuickSwap pools...');
   await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, quickswapQuery, transformQuickswapData, 'quickswapchart', 'quickswap');
 
-  console.log('Initial data update complete.');
+  logMessage('Initial data update complete.');
 })();
+
+// Set interval to update data every 5 minutes
+setInterval(async () => {
+  logMessage('Starting periodic data update...');
+
+  logMessage('Starting to fetch Uniswap pools...');
+  await fetchPoolsData(UNISWAP_SUBGRAPH_URL, uniswapQuery, transformUniswapData, 'uniswapchart', 'uniswap');
+
+  logMessage('Starting to fetch QuickSwap pools...');
+  await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, quickswapQuery, transformQuickswapData, 'quickswapchart', 'quickswap');
+
+  logMessage('Periodic data update complete.');
+}, 5 * 60 * 1000);
+
+module.exports = { fetchPoolsData, logMessage };
