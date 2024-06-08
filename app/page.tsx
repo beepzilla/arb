@@ -1,27 +1,18 @@
-"use client";
-
-import { useState } from 'react';
+import React from 'react';
 import PriceChart from '../components/PriceChart';
 import PoolDataTable from '../components/PoolDataTable';
 
-const App = () => {
-  const [source, setSource] = useState<string>('uniswap');
+const Page = () => {
+  const logMessage = (message: string) => {
+    console.log(message);
+  };
 
   return (
     <div>
-      <h1>Arbitrage Analysis</h1>
-      <select onChange={(e) => setSource(e.target.value)} value={source}>
-        <option value="uniswap">Uniswap</option>
-        <option value="quickswap">QuickSwap</option>
-      </select>
-      <div>
-        <PriceChart source={source} />
-      </div>
-      <div>
-        <PoolDataTable source={source} />
-      </div>
+      <PriceChart logMessage={logMessage} />
+      <PoolDataTable logMessage={logMessage} />
     </div>
   );
 };
 
-export default App;
+export default Page;
