@@ -11,9 +11,7 @@ async function fetchPoolsData(subgraphUrl, query, fileName) {
 
   while (true) {
     try {
-      const response = await axios.post(subgraphUrl, {
-        query: query.replace('${skip}', skip)
-      });
+      const response = await axios.post(subgraphUrl, { query: query.replace('${skip}', skip) });
       const pools = response.data.data.pools;
 
       if (pools.length === 0) break;

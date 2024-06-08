@@ -1,29 +1,39 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+"use client";
 
-const PoolDataTable = ({ source }) => {
-  const [data, setData] = useState([]);
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+
+interface PoolDataTableProps {
+  source: string;
+}
+
+const fetchPoolsData = async (source: string) => {
+  try {
+    const result = await axios.get(`/${source}chart.json`);
+    return result.data;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return null;
+  }
+};
+
+const PoolDataTable = ({ source }: PoolDataTableProps) => {
+  const [data, setData] = useState<any>(null);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await axios.get(`/${source}chart.json`);
-        setData(result.data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
+    const getData = async () => {
+      const poolsData = await fetchPoolsData(source);
+      setData(poolsData);
     };
-
-    fetchData();
+    getData();
   }, [source]);
 
-  // Render table based on `data`
-  return (
-    <div>
-      <h2>{source} Pool Data</h2>
-      {/* Table rendering logic */}
-    </div>
-  );
+  if (!data) {
+    return <div>Loading data...</div>;
+  }
+
+  // Render table with data
+  return <div>Table data loaded successfully</div>;
 };
 
 export default PoolDataTable;

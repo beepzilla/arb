@@ -1,66 +1,27 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import PriceChart from "../components/PriceChart";
-import PoolDataTable from "../components/PoolDataTable";
+import { useState } from 'react';
+import PriceChart from '../components/PriceChart';
+import PoolDataTable from '../components/PoolDataTable';
 
-export default function Home() {
-  const [activeTab, setActiveTab] = useState("chart");
-  const [logs, setLogs] = useState<string[]>([]);
-
-  useEffect(() => {
-    setLogs((prevLogs) => [...prevLogs, "Site connected and logs initialized."]);
-  }, []);
-
-  const addLog = useCallback((message: string) => {
-    setLogs((prevLogs) => [...prevLogs, message]);
-  }, []);
-
-  const renderContent = () => {
-    switch (activeTab) {
-      case "chart":
-        return (
-          <div>
-            <h2>Chart Section</h2>
-            <PriceChart addLog={addLog} />
-          </div>
-        );
-      case "dashboard":
-        return (
-          <div>
-            <h2>Dashboard Section</h2>
-            <PoolDataTable />
-          </div>
-        );
-      case "logs":
-        return (
-          <div>
-            <h2>Logs Section</h2>
-            <div style={{ whiteSpace: "pre-wrap" }}>
-              {logs.map((log, index) => (
-                <div key={index}>{log}</div>
-              ))}
-            </div>
-          </div>
-        );
-      case "settings":
-        return <div>Settings Section</div>;
-      default:
-        return <div>Chart Section</div>;
-    }
-  };
+const App = () => {
+  const [source, setSource] = useState<string>('uniswap');
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="w-full max-w-5xl">
-        <nav className="flex justify-around border-b-2 border-gray-300">
-          <button onClick={() => setActiveTab("chart")}>Chart</button>
-          <button onClick={() => setActiveTab("dashboard")}>Dashboard</button>
-          <button onClick={() => setActiveTab("logs")}>Logs</button>
-          <button onClick={() => setActiveTab("settings")}>Settings</button>
-        </nav>
-        <div className="mt-4">{renderContent()}</div>
+    <div>
+      <h1>Arbitrage Analysis</h1>
+      <select onChange={(e) => setSource(e.target.value)} value={source}>
+        <option value="uniswap">Uniswap</option>
+        <option value="quickswap">QuickSwap</option>
+      </select>
+      <div>
+        <PriceChart source={source} />
       </div>
-    </main>
+      <div>
+        <PoolDataTable source={source} />
+      </div>
+    </div>
   );
-}
+};
+
+export default App;

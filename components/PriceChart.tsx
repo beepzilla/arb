@@ -1,7 +1,13 @@
+"use client";
+
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-const fetchPoolsData = async (source) => {
+interface PriceChartProps {
+  source: string;
+}
+
+const fetchPoolsData = async (source: string) => {
   try {
     const result = await axios.get(`/${source}chart.json`);
     return result.data;
@@ -11,8 +17,8 @@ const fetchPoolsData = async (source) => {
   }
 };
 
-const PriceChart = ({ source }) => {
-  const [data, setData] = useState(null);
+const PriceChart = ({ source }: PriceChartProps) => {
+  const [data, setData] = useState<any>(null);
 
   useEffect(() => {
     const getData = async () => {
