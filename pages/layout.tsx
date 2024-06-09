@@ -1,12 +1,17 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useEffect } from 'react';  // Added useEffect import
 import Head from 'next/head';
 import Link from 'next/link';
+import { log } from '../lib/logger';
 
 interface LayoutProps {
     children: ReactNode;
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
+    useEffect(() => {
+        log('Layout component mounted');
+    }, []);
+
     return (
         <>
             <Head>
