@@ -1,19 +1,16 @@
-"use client";
-
-import React, { useEffect, useState } from 'react';
-import Layout from './layout';
+import React, { useEffect } from 'react';
+import { log } from '../lib/logger';
 import LogsComponent from '../components/LogsComponent';
+import Layout from './layout';
 
-const LogsPage = () => {
-    const [isClient, setIsClient] = useState(false);
-
+const LogsPage: React.FC = () => {
     useEffect(() => {
-        setIsClient(true);
+        log('Logs page loaded');
     }, []);
 
     return (
         <Layout>
-            {isClient && <LogsComponent />}
+            <LogsComponent />
         </Layout>
     );
 };

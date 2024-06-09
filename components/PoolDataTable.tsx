@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import { useTable, Column } from 'react-table';
+import { log } from '../lib/logger';
 
 interface PoolData {
     id: string;
@@ -18,13 +19,18 @@ const PoolDataTable: React.FC<PoolDataTableProps> = ({ logMessage }) => {
     const [data, setData] = useState<PoolData[]>([]);
 
     const fetchData = useCallback(() => {
+        log('fetchData function called');
         fetch('/quickswapchart.json')
             .then(response => response.json())
-            .then(data => setData(data))
+            .then(data => {
+                setData(data);
+                logMessage('Data fetched successfully');
+            })
             .catch(error => logMessage(`Error fetching table data: ${error}`));
     }, [logMessage]);
 
     useEffect(() => {
+        logMessage('PoolDataTable component mounted');
         fetchData();
     }, [fetchData]);
 

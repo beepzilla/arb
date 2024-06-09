@@ -1,15 +1,12 @@
-"use client";
+import React, { useEffect } from 'react';
+import { log } from '../lib/logger';
 
-import React from 'react';
-import Layout from './layout';
+const Custom404: React.FC = () => {
+    useEffect(() => {
+        log('404 page loaded');
+    }, []);
 
-const Custom404 = () => {
-    return (
-        <Layout>
-            <h1>404 - Page Not Found</h1>
-            <p>The page you are looking for does not exist.</p>
-        </Layout>
-    );
+    return <h1>404 - Page Not Found</h1>;
 };
 
 export default Custom404;

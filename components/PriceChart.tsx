@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts';
+import { log } from '../lib/logger';
 
 interface Token {
     id: string;
@@ -30,13 +31,18 @@ const PriceChart: React.FC<PriceChartProps> = ({ logMessage }) => {
     const [data, setData] = useState<PoolData[]>([]);
 
     const fetchData = useCallback(() => {
+        log('fetchData function called');
         fetch('/uniswapchart.json')
             .then(response => response.json())
-            .then(data => setData(data))
+            .then(data => {
+                setData(data);
+                logMessage('Data fetched successfully');
+            })
             .catch(error => logMessage(`Error fetching chart data: ${error}`));
     }, [logMessage]);
 
     useEffect(() => {
+        logMessage('PriceChart component mounted');
         fetchData();
     }, [fetchData]);
 

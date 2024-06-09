@@ -1,10 +1,16 @@
 import React from 'react';
+import { useLogs } from '../lib/logger';
 
 const LogsComponent: React.FC = () => {
+    const logs = useLogs();
     return (
         <div>
             <h1>Logs Page</h1>
-            <p>Content for logs page goes here.</p>
+            <div>
+                {logs.map((log, index) => (
+                    <div key={index}>{log}</div>
+                ))}
+            </div>
         </div>
     );
 };
