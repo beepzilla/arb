@@ -167,28 +167,37 @@ const transformQuickswapData = (pool, exchangeId) => {
 };
 
 (async () => {
-  logMessage('Starting initial data update...');
+  try {
+    logMessage('Starting initial data update...');
 
-  logMessage('Starting to fetch Uniswap pools...');
-  await fetchPoolsData(UNISWAP_SUBGRAPH_URL, uniswapQuery, transformUniswapData, 'uniswapchart', 'uniswap');
+    logMessage('Starting to fetch Uniswap pools...');
+    await fetchPoolsData(UNISWAP_SUBGRAPH_URL, uniswapQuery, transformUniswapData, 'uniswapchart', 'uniswap');
 
-  logMessage('Starting to fetch QuickSwap pools...');
-  await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, quickswapQuery, transformQuickswapData, 'quickswapchart', 'quickswap');
+    logMessage('Starting to fetch QuickSwap pools...');
+    await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, quickswapQuery, transformQuickswapData, 'quickswapchart', 'quickswap');
 
-  logMessage('Initial data update complete.');
+    logMessage('Initial data update complete.');
+  } catch (error) {
+    logMessage(`Error during initial data update: ${error.message}`);
+  }
 })();
 
 // Set interval to update data every 5 minutes
 setInterval(async () => {
-  logMessage('Starting periodic data update...');
+  try {
+    logMessage('Starting periodic data update...');
+    logMessage('Periodic data update started.');
 
-  logMessage('Starting to fetch Uniswap pools...');
-  await fetchPoolsData(UNISWAP_SUBGRAPH_URL, uniswapQuery, transformUniswapData, 'uniswapchart', 'uniswap');
+    logMessage('Starting to fetch Uniswap pools...');
+    await fetchPoolsData(UNISWAP_SUBGRAPH_URL, uniswapQuery, transformUniswapData, 'uniswapchart', 'uniswap');
 
-  logMessage('Starting to fetch QuickSwap pools...');
-  await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, quickswapQuery, transformQuickswapData, 'quickswapchart', 'quickswap');
+    logMessage('Starting to fetch QuickSwap pools...');
+    await fetchPoolsData(QUICKSWAP_SUBGRAPH_URL, quickswapQuery, transformQuickswapData, 'quickswapchart', 'quickswap');
 
-  logMessage('Periodic data update complete.');
+    logMessage('Periodic data update complete.');
+  } catch (error) {
+    logMessage(`Error during periodic data update: ${error.message}`);
+  }
 }, 5 * 60 * 1000);
 
 export { fetchPoolsData, logMessage };

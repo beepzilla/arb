@@ -1,15 +1,12 @@
+// PoolDataTable.tsx
 "use client";
 
 import React, { useEffect, useState, useCallback } from 'react';
-import { useTable, Column } from 'react-table';
+import { useTable, usePagination } from 'react-table';
 import { log } from '../lib/logger';
-
-interface PoolData {
-    id: string;
-    exchangeid: string;
-    liquidity: string;
-    volume: string;
-}
+import { PoolData } from './types';
+import { fetchData } from './fetchData';
+import { columns } from './columns';
 
 interface PoolDataTableProps {
     logMessage: (message: string) => void;
@@ -18,70 +15,78 @@ interface PoolDataTableProps {
 const PoolDataTable: React.FC<PoolDataTableProps> = ({ logMessage }) => {
     const [data, setData] = useState<PoolData[]>([]);
 
-    const fetchData = useCallback(() => {
-        log('fetchData function called');
-        fetch('/quickswapchart.json')
-            .then(response => response.json())
-            .then(data => {
-                setData(data);
-                logMessage('Data fetched successfully');
-            })
-            .catch(error => logMessage(`Error fetching table data: ${error}`));
+    const fetchDataCallback = useCallback(() => {
+        fetchData(setData, logMessage);
     }, [logMessage]);
 
     useEffect(() => {
         logMessage('PoolDataTable component mounted');
-        fetchData();
-    }, [fetchData]);
+        fetchDataCallback();
+    }, [fetchDataCallback]);
 
-    const columns: Column<PoolData>[] = React.useMemo(
-        () => [
-            {
-                Header: 'Pool ID',
-                accessor: 'id'
-            },
-            {
-                Header: 'Exchange ID',
-                accessor: 'exchangeid'
-            },
-            {
-                Header: 'Liquidity',
-                accessor: 'liquidity'
-            },
-            {
-                Header: 'Volume',
-                accessor: 'volume'
-            }
-        ],
-        []
+    const tableInstance = useTable<PoolData>(
+        {
+            columns,
+            data,
+            initialState: { pageIndex: 0, pageSize: 100 } as Partial<any>
+        },
+        usePagination
     );
 
-    const tableInstance = useTable({ columns, data });
+    const {
+        getTableProps,
+        getTableBodyProps,
+        headerGroups,
+        page,
+        prepareRow,
+        canPreviousPage,
+        canNextPage,
+        pageOptions,
+        nextPage,
+        previousPage,
+        state: { pageIndex }
+    } = tableInstance;
 
     return (
-        <table {...tableInstance.getTableProps()}>
-            <thead>
-                {tableInstance.headerGroups.map((headerGroup, index) => (
-                    <tr {...headerGroup.getHeaderGroupProps()} key={index}>
-                        {headerGroup.headers.map((column, columnIndex) => (
-                            <th {...column.getHeaderProps()} key={columnIndex}>{column.render('Header')}</th>
-                        ))}
-                    </tr>
-                ))}
-            </thead>
-            <tbody {...tableInstance.getTableBodyProps()}>
-                {tableInstance.rows.map((row, rowIndex) => {
-                    tableInstance.prepareRow(row);
-                    return (
-                        <tr {...row.getRowProps()} key={rowIndex}>
-                            {row.cells.map((cell, cellIndex) => (
-                                <td {...cell.getCellProps()} key={cellIndex}>{cell.render('Cell')}</td>
+        <div>
+            <table {...getTableProps()}>
+                <thead>
+                    {headerGroups.map((headerGroup, index) => (
+                        <tr {...headerGroup.getHeaderGroupProps()} key={index}>
+                            {headerGroup.headers.map((column, columnIndex) => (
+                                <th {...column.getHeaderProps()} key={columnIndex}>{column.render('Header')}</th>
                             ))}
                         </tr>
-                    );
-                })}
-            </tbody>
-        </table>
+                    ))}
+                </thead>
+                <tbody {...getTableBodyProps()}>
+                    {page.map((row, rowIndex) => {
+                        prepareRow(row);
+                        return (
+                            <tr {...row.getRowProps()} key={rowIndex}>
+                                {row.cells.map((cell, cellIndex) => (
+                                    <td {...cell.getCellProps()} key={cellIndex}>{cell.render('Cell')}</td>
+                                ))}
+                            </tr>
+                        );
+                    })}
+                </tbody>
+            </table>
+            <div>
+                <button onClick={() => previousPage()} disabled={!canPreviousPage}>
+                    Previous
+                </button>
+                <span>
+                    Page{' '}
+                    <strong>
+                        {pageIndex + 1} of {pageOptions.length}
+                    </strong>{' '}
+                </span>
+                <button onClick={() => nextPage()} disabled={!canNextPage}>
+                    Next
+                </button>
+            </div>
+        </div>
     );
 };
 
