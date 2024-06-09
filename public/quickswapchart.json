@@ -58,21 +58,21 @@
   },
   {
     "id": "0x00a6177c6455a29b8daa7144b2befc9f2147bb7e",
-    "liquidity": "1879013929428021157948024",
+    "liquidity": "3243717848598260564333286",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.6149449080256569"
+      "price": "0.6188699960371672"
     },
     "token1": {
       "id": "0x172370d5cd63279efa6d502dab29171933a610af",
       "symbol": "CRV",
       "name": "CRV (PoS)",
-      "price": "1.6261619324739212"
+      "price": "1.615848249880163"
     },
-    "volumeUSD": "43643039.47381638863540304118578376",
-    "feesUSD": "76245.59614799946998670656448457886",
+    "volumeUSD": "43807932.6534439683428460256463067",
+    "feesUSD": "76713.9669182140689212665448659537",
     "exchangeid": "quickswap"
   },
   {
@@ -128,8 +128,8 @@
       "name": "Any Inu",
       "price": "Infinity"
     },
-    "volumeUSD": "214700.1107572660729597822045710556",
-    "feesUSD": "1319.547352121648850313529403812169",
+    "volumeUSD": "214726.706636005379246108750406193",
+    "feesUSD": "1319.606744990755023371175421824508",
     "exchangeid": "quickswap"
   },
   {
@@ -153,7 +153,7 @@
   },
   {
     "id": "0x01e0d3b51b8a005951d8ff6b0ad147a7faead9d5",
-    "liquidity": "1100729391368973002",
+    "liquidity": "1087764544706063425",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
@@ -191,21 +191,21 @@
   },
   {
     "id": "0x022df0b3341b3a0157eea97dd024a93f7496d631",
-    "liquidity": "2585019656736476493",
+    "liquidity": "2634925309729638553",
     "token0": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.052572244964858905"
+      "price": "0.052452979411183674"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "19.0214437421958"
+      "price": "19.064693964491685"
     },
-    "volumeUSD": "50993207.6902787229368",
-    "feesUSD": "232458.3654168821098572424",
+    "volumeUSD": "50995952.1736954423168",
+    "feesUSD": "232479.2893584511784103624",
     "exchangeid": "quickswap"
   },
   {
@@ -329,16 +329,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "1.7999653640847002e-7"
+      "price": "1.8047063061354504e-7"
     },
     "token1": {
       "id": "0xe0339c80ffde91f3e20494df88d4206d86024cdf",
       "symbol": "ELON",
       "name": "Dogelon (PoS)",
-      "price": "5555662.45858575"
+      "price": "5541067.799233068"
     },
-    "volumeUSD": "10304.222249",
-    "feesUSD": "29.937558020343",
+    "volumeUSD": "10308.581622",
+    "feesUSD": "29.947659502762",
     "exchangeid": "quickswap"
   },
   {
@@ -386,13 +386,13 @@
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
       "name": "Aavegotchi GHST Token (PoS)",
-      "price": "0.03032554288974924"
+      "price": "0.03070791200727566"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "32.975501993008805"
+      "price": "32.56489727348017"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -508,8 +508,8 @@
       "name": "(PoS) Tether USD",
       "price": "0"
     },
-    "volumeUSD": "5.182745110492047895183500107587342",
-    "feesUSD": "0.03667010313005983009379169381472663",
+    "volumeUSD": "8.201039110492047895183500107587342",
+    "feesUSD": "0.08194451313005983009379169381472663",
     "exchangeid": "quickswap"
   },
   {
@@ -519,13 +519,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.006559257729007591"
+      "price": "0.006590344028703135"
     },
     "token1": {
       "id": "0x67eb41a14c0fe5cd701fc9d5a3d6597a72f641a6",
       "symbol": "GIDDY",
       "name": "Giddy Token",
-      "price": "152.45627498026352"
+      "price": "151.73714689926175"
     },
     "volumeUSD": "10.12814575414529934999141833664753",
     "feesUSD": "0.01492746390762123229213753807448491",
@@ -584,8 +584,8 @@
       "name": "Axelar",
       "price": "Infinity"
     },
-    "volumeUSD": "1304344.3689274101048",
-    "feesUSD": "2294.8966496798846639698",
+    "volumeUSD": "1304352.7911456894113",
+    "feesUSD": "2294.9166046906485222743",
     "exchangeid": "quickswap"
   },
   {
@@ -622,8 +622,8 @@
       "name": "(PoS) Tether USD",
       "price": "0"
     },
-    "volumeUSD": "3442354.151883351464641359259499065",
-    "feesUSD": "10253.94865180561302985069185339827",
+    "volumeUSD": "3442378.028712351464641359259499065",
+    "feesUSD": "10253.98972605093302985069185339827",
     "exchangeid": "quickswap"
   },
   {
@@ -717,8 +717,8 @@
       "name": "The Bitcoin $Witch - Staking Satoshis",
       "price": "Infinity"
     },
-    "volumeUSD": "711.922546",
-    "feesUSD": "0.246289081428",
+    "volumeUSD": "716.618366",
+    "feesUSD": "0.253567602428",
     "exchangeid": "quickswap"
   },
   {
@@ -728,13 +728,13 @@
       "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
       "symbol": "PolyDoge",
       "name": "PolyDoge",
-      "price": "10.035959311039774"
+      "price": "8.721728098808743"
     },
     "token1": {
       "id": "0xe0339c80ffde91f3e20494df88d4206d86024cdf",
       "symbol": "ELON",
       "name": "Dogelon (PoS)",
-      "price": "0.09964169532851515"
+      "price": "0.11465617692628884"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -742,21 +742,21 @@
   },
   {
     "id": "0x05bfe97bf794a4db69d3059091f064ea0a5e538e",
-    "liquidity": "11375998484603852153357039",
+    "liquidity": "11381836028619066858348270",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.1143156148086735"
+      "price": "1.1143790158523814"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "0.8974118164643136"
+      "price": "0.8973607594675554"
     },
-    "volumeUSD": "84901137.09292705988244649486831976",
-    "feesUSD": "9373.609082936819282870452031931794",
+    "volumeUSD": "84901379.55812436809718741384331431",
+    "feesUSD": "9373.633329456550104344543929431249",
     "exchangeid": "quickswap"
   },
   {
@@ -1070,13 +1070,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.006912618494934673"
+      "price": "0.007037833805389104"
     },
     "token1": {
       "id": "0x18e73a5333984549484348a94f4d219f4fab7b81",
       "symbol": "DUCKIES",
       "name": "Yellow Duckies",
-      "price": "144.66298129034104"
+      "price": "142.08917511440333"
     },
     "volumeUSD": "268.7454464381385643939857637476807",
     "feesUSD": "0.8473141954134016620910771632169096",
@@ -1173,8 +1173,8 @@
       "name": "HashMoney",
       "price": "Infinity"
     },
-    "volumeUSD": "134.6558077101273270688499545672898",
-    "feesUSD": "0.300652522971495696465250589293055",
+    "volumeUSD": "134.818720886628095309378436383323",
+    "feesUSD": "0.3006688142891457732893034374746583",
     "exchangeid": "quickswap"
   },
   {
@@ -1502,21 +1502,21 @@
   },
   {
     "id": "0x0bef3882798219eeaf40a8b63563a3d3ab6092ab",
-    "liquidity": "4064089176704269545356702",
+    "liquidity": "4070170750861329398277853",
     "token0": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.9838124445833095"
+      "price": "0.9890462761887603"
     },
     "token1": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "1.016453903897858"
+      "price": "1.0110750367045"
     },
-    "volumeUSD": "30757583.16734615928324851072279044",
-    "feesUSD": "4934.687768262782087524123238339069",
+    "volumeUSD": "30773480.03011134630719015505167404",
+    "feesUSD": "4936.277500295523985209046356586363",
     "exchangeid": "quickswap"
   },
   {
@@ -1686,8 +1686,8 @@
       "name": "Hop",
       "price": "Infinity"
     },
-    "volumeUSD": "1317016.02613266379573912217298499",
-    "feesUSD": "4549.511259067029341188740412665028",
+    "volumeUSD": "1317029.359869720854994752491361222",
+    "feesUSD": "4549.547778483794770587041912937253",
     "exchangeid": "quickswap"
   },
   {
@@ -1768,21 +1768,21 @@
   },
   {
     "id": "0x0e3eb2c75bd7dd0e12249d96b1321d9570764d77",
-    "liquidity": "62868144227858",
+    "liquidity": "63121474611514",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "1.0000122368419868"
+      "price": "1.0000719511885645"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.9999877633077517"
+      "price": "0.9999280539880365"
     },
-    "volumeUSD": "47548641.09717695680094966690174214",
-    "feesUSD": "4755.647597781652265296930071566039",
+    "volumeUSD": "47622235.12706301200627012956548029",
+    "feesUSD": "4763.007000770257785828976337939854",
     "exchangeid": "quickswap"
   },
   {
@@ -1792,13 +1792,13 @@
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.7500048265350782"
+      "price": "0.7479001377821028"
     },
     "token1": {
       "id": "0x9f28e2455f9ffcfac9ebd6084853417362bc5dbb",
       "symbol": "rMATIC",
       "name": "StaFi rMATIC (PoS)",
-      "price": "1.333324752881746"
+      "price": "1.3370769030281222"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -1806,7 +1806,7 @@
   },
   {
     "id": "0x0eec104c1af798396d04f2678ce9d90d4652fddf",
-    "liquidity": "75960832337332839",
+    "liquidity": "4535805434290334",
     "token0": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
@@ -1819,8 +1819,8 @@
       "name": "Dragon QUICK",
       "price": "Infinity"
     },
-    "volumeUSD": "435056.363125",
-    "feesUSD": "1056.310230468437",
+    "volumeUSD": "435098.395195",
+    "feesUSD": "1056.389761314596",
     "exchangeid": "quickswap"
   },
   {
@@ -2351,8 +2351,8 @@
       "name": "MoonEdge",
       "price": "Infinity"
     },
-    "volumeUSD": "62649.25093",
-    "feesUSD": "193.920858251499",
+    "volumeUSD": "62650.173611",
+    "feesUSD": "193.922278257558",
     "exchangeid": "quickswap"
   },
   {
@@ -2362,16 +2362,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "1.0038000761164694"
+      "price": "1.0011825807090815"
     },
     "token1": {
       "id": "0x323665443cef804a3b5206103304bd4872ea4253",
       "symbol": "USDV",
       "name": "USDV",
-      "price": "0.9962143097944649"
+      "price": "0.9988188161361696"
     },
-    "volumeUSD": "14864181.4900399624302",
-    "feesUSD": "1489.1227381245141237358",
+    "volumeUSD": "14864265.6194739624302",
+    "feesUSD": "1489.1311510679141237358",
     "exchangeid": "quickswap"
   },
   {
@@ -2693,24 +2693,24 @@
       "name": "MANTRA DAO (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "527.3531211989870626575873530571877",
-    "feesUSD": "1.940579765662472088773690100877772",
+    "volumeUSD": "527.4215008700696643601568238809753",
+    "feesUSD": "1.941116751219483759943968155256976",
     "exchangeid": "quickswap"
   },
   {
     "id": "0x14ef96a0f7d738db906bdd5260e46aa47b1e6e45",
-    "liquidity": "881319575648096766",
+    "liquidity": "1236971661637711438",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.05257288828311343"
+      "price": "0.05245675346539606"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "19.021210982642607"
+      "price": "19.063322335791636"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -2742,13 +2742,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.004637192067143804"
+      "price": "0.004624034135424563"
     },
     "token1": {
       "id": "0x65ad509db5924ef0001d977590985f965ef1aaaa",
       "symbol": "fxMETOD",
       "name": "META TOY DRAGONZ TOKEN (FXERC20)",
-      "price": "215.64774232349887"
+      "price": "216.26137928763006"
     },
     "volumeUSD": "1002641.4978773671779",
     "feesUSD": "3976.3385170347423644049",
@@ -3035,8 +3035,8 @@
       "name": "Wrapped Ether",
       "price": "0"
     },
-    "volumeUSD": "42522.03910244798755632942550725275",
-    "feesUSD": "31.09578212982665768751860813816306",
+    "volumeUSD": "42642.67175894885780603980694262819",
+    "feesUSD": "31.31408360518829164773229984793796",
     "exchangeid": "quickswap"
   },
   {
@@ -3103,16 +3103,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0001494714851981854"
+      "price": "0.00014950878960536047"
     },
     "token1": {
       "id": "0xd125443f38a69d776177c2b9c041f462936f8218",
       "symbol": "FBX",
       "name": "FireBotToken",
-      "price": "6690.239269878747"
+      "price": "6688.569967288037"
     },
-    "volumeUSD": "4125925.42263868861993527469872073",
-    "feesUSD": "2111.700201076559791221559261942721",
+    "volumeUSD": "4126893.705597930442584733992701705",
+    "feesUSD": "2111.801870787280182599752487810724",
     "exchangeid": "quickswap"
   },
   {
@@ -3141,13 +3141,13 @@
       "id": "0x67eb41a14c0fe5cd701fc9d5a3d6597a72f641a6",
       "symbol": "GIDDY",
       "name": "Giddy Token",
-      "price": "843791.4519446305"
+      "price": "840007.9011489053"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0000011851269619944194"
+      "price": "0.0000011904649928081253"
     },
     "volumeUSD": "3279285.18761751083550361592625597",
     "feesUSD": "12967.84211288383819304214403837497",
@@ -3160,21 +3160,21 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.3383500563174522"
+      "price": "1.3570217790343306"
     },
     "token1": {
       "id": "0x6ae5e5b65de6ec22052adb07eb087762307f4927",
       "symbol": "P2PBIT",
       "name": "P2PBIT",
-      "price": "0.7471886710652952"
+      "price": "0.7369078488273116"
     },
-    "volumeUSD": "1615913.373626613146485378853817718",
-    "feesUSD": "8881.287574765994668549616345535812",
+    "volumeUSD": "1619459.331094875288245136095092752",
+    "feesUSD": "8888.777328381570893240101438833529",
     "exchangeid": "quickswap"
   },
   {
     "id": "0x183607c41880f91ac25a6089c80679567067ad3a",
-    "liquidity": "3153375874644269100388",
+    "liquidity": "3226656087137015187945",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -3187,8 +3187,8 @@
       "name": "MCHCoin (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "30637.19672145973569835593107082966",
-    "feesUSD": "57.64757845711712811780849146359369",
+    "volumeUSD": "30638.53822318951953833929815499401",
+    "feesUSD": "57.6498509610473819427403153041681",
     "exchangeid": "quickswap"
   },
   {
@@ -3217,13 +3217,13 @@
       "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
       "symbol": "PolyDoge",
       "name": "PolyDoge",
-      "price": "2931239.2442931025"
+      "price": "2534931.1566179087"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "3.4115263772717396e-7"
+      "price": "3.9448803072592887e-7"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -3255,13 +3255,13 @@
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.012683661658529593"
+      "price": "0.012648427282433544"
     },
     "token1": {
       "id": "0xe6828d65bf5023ae1851d90d8783cc821ba7eee1",
       "symbol": "ABOND",
       "name": "ApeBond",
-      "price": "78.84158588600583"
+      "price": "79.0612127239586"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -3345,21 +3345,21 @@
   },
   {
     "id": "0x1923114924fb259858519256c3b5860e91932dd9",
-    "liquidity": "3105012133285158441425454",
+    "liquidity": "3103900933784338279738404",
     "token0": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "8.372680601344033e-10"
+      "price": "8.313080457633464e-10"
     },
     "token1": {
       "id": "0xba777ae3a3c91fcd83ef85bfe65410592bdd0f7c",
       "symbol": "CONE",
       "name": "BitCone",
-      "price": "1194360620.7066755"
+      "price": "1202923519.261446"
     },
-    "volumeUSD": "5692373.688762275568062829527680202",
-    "feesUSD": "17784.22911331146233757699460621896",
+    "volumeUSD": "5705090.76789900531285873524956875",
+    "feesUSD": "17810.66449791551932283023985305049",
     "exchangeid": "quickswap"
   },
   {
@@ -3453,8 +3453,8 @@
       "name": "GONE",
       "price": "Infinity"
     },
-    "volumeUSD": "1047979.199051688378920827994546055",
-    "feesUSD": "8351.388955185064381439552694900678",
+    "volumeUSD": "1048024.092786232081065502067359236",
+    "feesUSD": "8351.478210070253330198175523524152",
     "exchangeid": "quickswap"
   },
   {
@@ -3521,16 +3521,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.0342600546263343"
+      "price": "1.0254876398577053"
     },
     "token1": {
       "id": "0x3c59798620e5fec0ae6df1a19c6454094572ab92",
       "symbol": "MNW",
       "name": "Morpheus.Network (PoS)",
-      "price": "0.9668748159874433"
+      "price": "0.975145834169935"
     },
-    "volumeUSD": "1824255.646234220836399063539076425",
-    "feesUSD": "4306.15051635144353283217092177519",
+    "volumeUSD": "1825504.217837017192615758052768996",
+    "feesUSD": "4308.480950783405524454229708451209",
     "exchangeid": "quickswap"
   },
   {
@@ -3624,8 +3624,8 @@
       "name": "Ponos ant",
       "price": "Infinity"
     },
-    "volumeUSD": "610.039650674801114368765210169",
-    "feesUSD": "0.9565709638368377498467106273220922",
+    "volumeUSD": "612.182677566852301844858111826122",
+    "feesUSD": "0.9605165093398760490142215762236797",
     "exchangeid": "quickswap"
   },
   {
@@ -3825,16 +3825,16 @@
       "id": "0x0c9c7712c83b3c70e7c5e11100d33d9401bdf9dd",
       "symbol": "WOMBAT",
       "name": "Wombat",
-      "price": "411.1562447236377"
+      "price": "409.494140322137"
     },
     "token1": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.0024321654184582767"
+      "price": "0.002442037385964374"
     },
-    "volumeUSD": "56060.6032388592105191039763128866",
-    "feesUSD": "161.5717146625051360149777540445084",
+    "volumeUSD": "56143.1221178811177767434073620588",
+    "feesUSD": "161.7780845860489471046874552657143",
     "exchangeid": "quickswap"
   },
   {
@@ -3844,13 +3844,13 @@
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.9994752758709139"
+      "price": "0.999892060546087"
     },
     "token1": {
       "id": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed",
       "symbol": "axlUSDC",
       "name": "Axelar Wrapped USDC",
-      "price": "1.0005249996090488"
+      "price": "1.0001079511060964"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -4194,8 +4194,8 @@
       "name": "Telcoin (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "69233.60240392761139170392561382368",
-    "feesUSD": "216.5533895628298482398801326360644",
+    "volumeUSD": "69233.73581128101951054786870561901",
+    "feesUSD": "216.5536467722072190930112549170458",
     "exchangeid": "quickswap"
   },
   {
@@ -4243,13 +4243,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.012437746014063406"
+      "price": "0.012042549031832129"
     },
     "token1": {
       "id": "0x612d833c0c7a54cdfbe9a4328b6d658020563ec0",
       "symbol": "fxPINE",
       "name": "Pine Token (FXERC20)",
-      "price": "80.40041972792307"
+      "price": "83.03889794068475"
     },
     "volumeUSD": "0.1402995099477461302009229164903473",
     "feesUSD": "0.001980553214312124684689605487761926",
@@ -4281,13 +4281,13 @@
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "0.07225932482214278"
+      "price": "0.0722993785127256"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "13.839044337341567"
+      "price": "13.831377538383508"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -4631,8 +4631,8 @@
       "name": "BitGem",
       "price": "Infinity"
     },
-    "volumeUSD": "220787.3575015912405401477599133204",
-    "feesUSD": "1112.826860744246868708762590820988",
+    "volumeUSD": "220831.6046316789667580556942609544",
+    "feesUSD": "1112.958212050093627052635535418929",
     "exchangeid": "quickswap"
   },
   {
@@ -4699,13 +4699,13 @@
       "id": "0x7e26081d41fd9a18a32b66268c8cc5c621eb1cf2",
       "symbol": "BUSO",
       "name": "Butterfly Solution",
-      "price": "93.82993083635975"
+      "price": "94.09692882707688"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.010657580060929695"
+      "price": "0.010627339409107737"
     },
     "volumeUSD": "132435.4099035745829912049320698014",
     "feesUSD": "221.0818349847690655466715539544216",
@@ -5201,8 +5201,8 @@
       "name": "SHIBA INU (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "174535.54701922684887711185889671",
-    "feesUSD": "554.4641317223080953227162023132927",
+    "volumeUSD": "174537.611820453474431069755276989",
+    "feesUSD": "554.4674808298976819712359102421053",
     "exchangeid": "quickswap"
   },
   {
@@ -5231,16 +5231,16 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.004527586754271809"
+      "price": "0.004556096267993456"
     },
     "token1": {
       "id": "0xfe302b8666539d5046cd9aa0707bb327f5f94c22",
       "symbol": "SEN",
       "name": "Senspark",
-      "price": "220.8682139677375"
+      "price": "219.48614365877054"
     },
-    "volumeUSD": "137669.5376978559663905872723868167",
-    "feesUSD": "609.2939253025182925231993697521583",
+    "volumeUSD": "137743.6444908559663905872723868167",
+    "feesUSD": "609.4540700821912925231993697521583",
     "exchangeid": "quickswap"
   },
   {
@@ -5250,13 +5250,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.012683506452465297"
+      "price": "0.012647517278532963"
     },
     "token1": {
       "id": "0xe6828d65bf5023ae1851d90d8783cc821ba7eee1",
       "symbol": "ABOND",
       "name": "ApeBond",
-      "price": "78.8425506580343"
+      "price": "79.06690127218344"
     },
     "volumeUSD": "4.862723267408483067739938347320104",
     "feesUSD": "0.004734516084739382918330857248015422",
@@ -5334,8 +5334,8 @@
       "name": "StaFi (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "147250.07281",
-    "feesUSD": "493.887780876619",
+    "volumeUSD": "147275.133588",
+    "feesUSD": "493.927189628677",
     "exchangeid": "quickswap"
   },
   {
@@ -5383,16 +5383,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.19662358715957537"
+      "price": "0.19735370191245735"
     },
     "token1": {
       "id": "0xe261d618a959afffd53168cd07d12e37b26761db",
       "symbol": "DIMO",
       "name": "Dimo",
-      "price": "5.085859811866936"
+      "price": "5.06704455153105"
     },
-    "volumeUSD": "11995223.7346459607192",
-    "feesUSD": "61153.5592908741073066654",
+    "volumeUSD": "11995435.7042507879877",
+    "feesUSD": "61154.0375468586202616669",
     "exchangeid": "quickswap"
   },
   {
@@ -5619,8 +5619,8 @@
       "name": "AETHER GAMES",
       "price": "Infinity"
     },
-    "volumeUSD": "8347.056730440298652704588070718716",
-    "feesUSD": "29.18099357269937932570515066501819",
+    "volumeUSD": "8347.285904881261792388022875399249",
+    "feesUSD": "29.18443118931382642095667273522619",
     "exchangeid": "quickswap"
   },
   {
@@ -5796,7 +5796,7 @@
   },
   {
     "id": "0x2cc281e92e4ea723c1385d61438a39a7a03d72ce",
-    "liquidity": "983241260522532964156400",
+    "liquidity": "983319526127189095516921",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -5809,8 +5809,8 @@
       "name": "Ethernity CLOUD",
       "price": "Infinity"
     },
-    "volumeUSD": "3917728.450795766319043944949339808",
-    "feesUSD": "37134.03348486860465960384007590531",
+    "volumeUSD": "3919414.147201407804920618187483273",
+    "feesUSD": "37136.98558946034032077014753411355",
     "exchangeid": "quickswap"
   },
   {
@@ -5828,8 +5828,8 @@
       "name": "Genius",
       "price": "Infinity"
     },
-    "volumeUSD": "84.87498882709646271822500859542645",
-    "feesUSD": "0.1529832036850525834177841266668141",
+    "volumeUSD": "85.58575695808470719417272691997664",
+    "feesUSD": "0.1541360695935155159577713257892345",
     "exchangeid": "quickswap"
   },
   {
@@ -6086,16 +6086,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "22.434152580991274"
+      "price": "21.9176203633471"
     },
     "token1": {
       "id": "0x6a8ec2d9bfbdd20a7f5a4e89d640f7e7ceba4499",
       "symbol": "MSQ",
       "name": "MSQUARE",
-      "price": "0.044574895191152084"
+      "price": "0.045625391051681084"
     },
-    "volumeUSD": "120501.1645384746511542979579309519",
-    "feesUSD": "1026.263074193090669304576257737882",
+    "volumeUSD": "120603.4864584810384723975448895283",
+    "feesUSD": "1026.508646801105998868015266438465",
     "exchangeid": "quickswap"
   },
   {
@@ -6219,13 +6219,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.00005424967275620097"
+      "price": "0.00005038372103433556"
     },
     "token1": {
       "id": "0xf3abaa9ea255d38763a5d0ae6286d6df53154ddc",
       "symbol": "$HROOM",
       "name": "Shroom",
-      "price": "18433.290915763097"
+      "price": "19847.68054980534"
     },
     "volumeUSD": "472.7466323206277905339693838872506",
     "feesUSD": "1.989934473244633374682641752704667",
@@ -6436,8 +6436,8 @@
       "name": "HITCOIN",
       "price": "Infinity"
     },
-    "volumeUSD": "1212.31709974263155596305350660821",
-    "feesUSD": "1.055938884778769514247207883019304",
+    "volumeUSD": "1346.774411086586256857163196231431",
+    "feesUSD": "1.069384615913164984336618851981626",
     "exchangeid": "quickswap"
   },
   {
@@ -6447,13 +6447,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.012683506452465297"
+      "price": "0.012647517278532963"
     },
     "token1": {
       "id": "0xe6828d65bf5023ae1851d90d8783cc821ba7eee1",
       "symbol": "ABOND",
       "name": "ApeBond",
-      "price": "78.8425506580343"
+      "price": "79.06690127218344"
     },
     "volumeUSD": "10.991147",
     "feesUSD": "0.038694096461",
@@ -6694,16 +6694,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "23.731916042532415"
+      "price": "24.186675245479154"
     },
     "token1": {
       "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
       "symbol": "LINK",
       "name": "ChainLink Token",
-      "price": "0.04213734778969371"
+      "price": "0.04134507905078499"
     },
-    "volumeUSD": "10628460.36953971084959456161382298",
-    "feesUSD": "18156.04042872361360722548072471349",
+    "volumeUSD": "10684726.498161637914011513239872",
+    "feesUSD": "18165.44085188096686970639003960978",
     "exchangeid": "quickswap"
   },
   {
@@ -6865,13 +6865,13 @@
       "id": "0x57999936fc9a9ec0751a8d146cce11901be8bed0",
       "symbol": "fxVRSW",
       "name": "Virtuswap Token (FXERC20)",
-      "price": "2370015.635671808"
+      "price": "2370570.367274701"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "4.2193814460491464e-7"
+      "price": "4.2183940785087873e-7"
     },
     "volumeUSD": "6737953.092164337732848380735012952",
     "feesUSD": "46492.33552896290698941298881599555",
@@ -6884,16 +6884,16 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "5.4079761107886704e-8"
+      "price": "5.4035566451330225e-8"
     },
     "token1": {
       "id": "0xb6c3c00d730acca326db40e418353f04f7444e2b",
       "symbol": "fcc",
       "name": "first choice coin",
-      "price": "18491205.943107713"
+      "price": "18506329.546867967"
     },
-    "volumeUSD": "54861.83959797311236812969239309697",
-    "feesUSD": "63.91081266671774743034998977050987",
+    "volumeUSD": "54967.74520689662762233187395600315",
+    "feesUSD": "64.08259156439168917266592826554368",
     "exchangeid": "quickswap"
   },
   {
@@ -7031,21 +7031,21 @@
   },
   {
     "id": "0x3654e293a599953044ac5f6e1e1a45ee749d0d0f",
-    "liquidity": "443492651125497142858",
+    "liquidity": "443222391153442739763",
     "token0": {
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.00015498373282408852"
+      "price": "0.0001548567293594941"
     },
     "token1": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "6452.290067984309"
+      "price": "6457.581818601744"
     },
-    "volumeUSD": "9182624.412571517966292444851220938",
-    "feesUSD": "14672.14633194187471589645741952437",
+    "volumeUSD": "9182717.49763381697484885989426565",
+    "feesUSD": "14672.31062707683246599852997049828",
     "exchangeid": "quickswap"
   },
   {
@@ -7139,8 +7139,8 @@
       "name": "BTC Staked DeFi LP Tokens by StarSeeds Protocol",
       "price": "Infinity"
     },
-    "volumeUSD": "2516.589549049883473680645653614339",
-    "feesUSD": "1.175771643517094302114026182381609",
+    "volumeUSD": "2649.777939045265778409941742729505",
+    "feesUSD": "1.189773702515170732400890329835065",
     "exchangeid": "quickswap"
   },
   {
@@ -7188,16 +7188,16 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.8577800353863159"
+      "price": "0.8572777257662119"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "1.165800040507626"
+      "price": "1.166483124364659"
     },
-    "volumeUSD": "13760880.22928884694509100880313708",
-    "feesUSD": "841.0346773611589739589926768233307",
+    "volumeUSD": "13780660.08021826343179702211759713",
+    "feesUSD": "842.2214684169239631613534756909326",
     "exchangeid": "quickswap"
   },
   {
@@ -7207,13 +7207,13 @@
       "id": "0x4b4327db1600b8b1440163f667e199cef35385f5",
       "symbol": "fxcbETH",
       "name": "Coinbase Wrapped Staked ETH (FXERC20)",
-      "price": "0.9336513416251213"
+      "price": "0.9338698743206392"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "1.0710636352317469"
+      "price": "1.0708129981465226"
     },
     "volumeUSD": "1060967.278780913098573378182201106",
     "feesUSD": "283.9360638393800709758719143956981",
@@ -7278,21 +7278,21 @@
   },
   {
     "id": "0x384d2094d0df788192043a1cbd200308dd60b068",
-    "liquidity": "411059930866124981779659",
+    "liquidity": "411072014834004695034760",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "4.743366563105202"
+      "price": "4.717854462953912"
     },
     "token1": {
       "id": "0xe5417af564e4bfda1c483642db72007871397896",
       "symbol": "GNS",
       "name": "Gains Network",
-      "price": "0.21082072968557566"
+      "price": "0.2119607562828224"
     },
-    "volumeUSD": "62410773.3629022552534689450503546",
-    "feesUSD": "139444.568953504361154634542025145",
+    "volumeUSD": "62424380.12683555401435829611277337",
+    "feesUSD": "139476.0553298851366046731827945725",
     "exchangeid": "quickswap"
   },
   {
@@ -7435,16 +7435,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.17684227963417393"
+      "price": "0.17792900225533875"
     },
     "token1": {
       "id": "0xac0f66379a6d7801d7726d5a943356a172549adb",
       "symbol": "GEOD",
       "name": "Geodnet Token",
-      "price": "5.654756329021868"
+      "price": "5.620219229718044"
     },
-    "volumeUSD": "2177969.2222369122302",
-    "feesUSD": "9034.3726449482915878834",
+    "volumeUSD": "2178569.3641922153225",
+    "feesUSD": "9035.6186286349647313905",
     "exchangeid": "quickswap"
   },
   {
@@ -7606,13 +7606,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.1532194865959837"
+      "price": "0.15278472963239545"
     },
     "token1": {
       "id": "0x6f06e6bed64cf4c4187c06ee2a4732f6a171bc4e",
       "symbol": "FOOD",
       "name": "FoodChain Global",
-      "price": "6.5265849809094245"
+      "price": "6.545156720871447"
     },
     "volumeUSD": "3532909.5469800433706",
     "feesUSD": "4992.882397973915182002",
@@ -7625,13 +7625,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.27103156097700426"
+      "price": "0.2712708480285047"
     },
     "token1": {
       "id": "0x58001cc1a9e17a20935079ab40b1b8f4fc19efd1",
       "symbol": "PUSH",
       "name": "Ethereum Push Notification Service (PoS)",
-      "price": "3.689607204398034"
+      "price": "3.686352614988403"
     },
     "volumeUSD": "276.6863725205953983391151299397601",
     "feesUSD": "0.5696185113654942693185406166626005",
@@ -7739,13 +7739,13 @@
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.1966259932113423"
+      "price": "0.19736790174587757"
     },
     "token1": {
       "id": "0xe261d618a959afffd53168cd07d12e37b26761db",
       "symbol": "DIMO",
       "name": "Dimo",
-      "price": "5.085797577765599"
+      "price": "5.066679997883126"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -7872,13 +7872,13 @@
       "id": "0x9f95e17b2668afe01f8fbd157068b0a4405cc08d",
       "symbol": "BULL",
       "name": "Bullieverse",
-      "price": "9.748871225714938"
+      "price": "9.757058876181878"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "0.10257597796166032"
+      "price": "0.10248990117719972"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -7891,13 +7891,13 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.00023846761613370836"
+      "price": "0.00023893594901740702"
     },
     "token1": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "4193.441508801354"
+      "price": "4185.222040100579"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -7948,13 +7948,13 @@
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "0.7361185177771757"
+      "price": "0.7301862537623096"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "1.358476897198097"
+      "price": "1.3695135930695297"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -8032,13 +8032,13 @@
       "name": "PlanetIX",
       "price": "Infinity"
     },
-    "volumeUSD": "2657258.867974027321010144715591266",
-    "feesUSD": "6972.292531689204590723472034704481",
+    "volumeUSD": "2657259.135512634417972136638396803",
+    "feesUSD": "6972.293182610635657631998382890353",
     "exchangeid": "quickswap"
   },
   {
     "id": "0x3e31cff73585a82c61a36625cbfdb850e2f9ad45",
-    "liquidity": "47306638129489503352302",
+    "liquidity": "47134838440301717437487",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -8051,8 +8051,8 @@
       "name": "Sunflower Land",
       "price": "Infinity"
     },
-    "volumeUSD": "322913.0298737651874861924148146024",
-    "feesUSD": "824.7480104453574189276417498018572",
+    "volumeUSD": "323009.995421686758842131849939498",
+    "feesUSD": "824.9627133370847846558587097159516",
     "exchangeid": "quickswap"
   },
   {
@@ -8184,8 +8184,8 @@
       "name": "MANTRA DAO (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "119443.3053669808340505044838440655",
-    "feesUSD": "349.8788824076542849183332796611512",
+    "volumeUSD": "120899.6443857625239708120960616878",
+    "feesUSD": "354.0460263930235321454226153506282",
     "exchangeid": "quickswap"
   },
   {
@@ -8336,8 +8336,8 @@
       "name": "Wrapped Matic",
       "price": "0"
     },
-    "volumeUSD": "5590.219420639032005931429548714964",
-    "feesUSD": "12.97988284548797592912281269691571",
+    "volumeUSD": "5603.586729338278438151669415253294",
+    "feesUSD": "13.00347614534214588199153606135586",
     "exchangeid": "quickswap"
   },
   {
@@ -8575,13 +8575,13 @@
       "id": "0xc2a45fe7d40bcac8369371b08419ddafd3131b4a",
       "symbol": "LCD",
       "name": "Lucidao",
-      "price": "285.60449659206114"
+      "price": "284.4203710553324"
     },
     "token1": {
       "id": "0xe5417af564e4bfda1c483642db72007871397896",
       "symbol": "GNS",
       "name": "Gains Network",
-      "price": "0.003501345433746216"
+      "price": "0.0035159225631045095"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -8651,16 +8651,16 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.000014507308732985332"
+      "price": "0.000014618961371124628"
     },
     "token1": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "68930.7726474653"
+      "price": "68404.31235937185"
     },
-    "volumeUSD": "9378860.528771792926468789994795651",
-    "feesUSD": "11000.66802422564070190197207165852",
+    "volumeUSD": "9379140.464078777252219294896304471",
+    "feesUSD": "11000.93886411493718536969538922096",
     "exchangeid": "quickswap"
   },
   {
@@ -8684,21 +8684,21 @@
   },
   {
     "id": "0x4201507989a8ab6d3d328358e91fd6afc85c9594",
-    "liquidity": "448434771151990852",
+    "liquidity": "450986675749003307",
     "token0": {
       "id": "0x3ce1327867077b551ae9a6987bf10c9fd08edce1",
       "symbol": "SWCH",
       "name": "SwissCheese Token",
-      "price": "2.6242369852564122"
+      "price": "2.6866563828508343"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.38106314544693864"
+      "price": "0.3722098614408186"
     },
-    "volumeUSD": "8703400.712431150951174728954003541",
-    "feesUSD": "29981.41184186777076439195230133109",
+    "volumeUSD": "8716141.749003244885732166153470741",
+    "feesUSD": "30005.64841450688790779288735228273",
     "exchangeid": "quickswap"
   },
   {
@@ -8773,8 +8773,8 @@
       "name": "Wrapped Ether",
       "price": "0"
     },
-    "volumeUSD": "773.7272481442596696061991767610336",
-    "feesUSD": "1.309347753947904673920891979563902",
+    "volumeUSD": "782.0052080483725674270344546711826",
+    "feesUSD": "1.321938530962060391506382437265239",
     "exchangeid": "quickswap"
   },
   {
@@ -8830,8 +8830,8 @@
       "name": "Scooter",
       "price": "Infinity"
     },
-    "volumeUSD": "234.587594369592469616607817858661",
-    "feesUSD": "1.62840129484141296774977816770421",
+    "volumeUSD": "238.95150141666992182919505253155",
+    "feesUSD": "1.664549029673519830105839221581182",
     "exchangeid": "quickswap"
   },
   {
@@ -8917,13 +8917,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "2.5388718574149767"
+      "price": "2.520653544556194"
     },
     "token1": {
       "id": "0x2760e46d9bb43dafcbecaad1f64b93207f9f0ed7",
       "symbol": "MVX",
       "name": "Metavault Trade",
-      "price": "0.3938757275517552"
+      "price": "0.3967225095887058"
     },
     "volumeUSD": "425.1569315416780435090516016970791",
     "feesUSD": "0.5952072862188323678037711172045921",
@@ -9064,21 +9064,21 @@
   },
   {
     "id": "0x44720a6f572649526ac9073cae9200755cc78e0a",
-    "liquidity": "1369808103867314027154",
+    "liquidity": "1369687341294483550570",
     "token0": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.025249414410115866"
+      "price": "0.02517589655267743"
     },
     "token1": {
       "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
       "symbol": "AAVE",
       "name": "Aave (PoS)",
-      "price": "39.60487889966122"
+      "price": "39.720531815326794"
     },
-    "volumeUSD": "37675622.72536583837777151294852537",
-    "feesUSD": "74109.19863821800768806500963995991",
+    "volumeUSD": "37689264.10239797254837237972496361",
+    "feesUSD": "74137.68892778471966548162420598678",
     "exchangeid": "quickswap"
   },
   {
@@ -9172,8 +9172,8 @@
       "name": "beoble",
       "price": "Infinity"
     },
-    "volumeUSD": "22.535924452156312911770103695118",
-    "feesUSD": "0.2449327797804267078844637827027992",
+    "volumeUSD": "22.78033736943624375049897897756893",
+    "feesUSD": "0.2481872178094779258681581840621304",
     "exchangeid": "quickswap"
   },
   {
@@ -9438,8 +9438,8 @@
       "name": "STARV4 by StarSeeds Protocol",
       "price": "Infinity"
     },
-    "volumeUSD": "28485.20482296087274243473356833116",
-    "feesUSD": "29.81281841599901622143695760142154",
+    "volumeUSD": "28575.74981819966454581246897373234",
+    "feesUSD": "29.96620163793352953635884137817113",
     "exchangeid": "quickswap"
   },
   {
@@ -9520,21 +9520,21 @@
   },
   {
     "id": "0x479e1b71a702a595e19b6d5932cd5c863ab57ee0",
-    "liquidity": "775457894482322552620097",
+    "liquidity": "772345153222944520827794",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "5534.6456028383545"
+      "price": "5535.9410554001415"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0001806800420043455"
+      "price": "0.00018063776149215507"
     },
-    "volumeUSD": "2496756402.147461729846359163304638",
-    "feesUSD": "2319687.789481202066228695447707757",
+    "volumeUSD": "2497437268.472249310994756104171782",
+    "feesUSD": "2320429.997667756440787155345759988",
     "exchangeid": "quickswap"
   },
   {
@@ -9601,13 +9601,13 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "5.004064961305644e-11"
+      "price": "5.030344624715473e-11"
     },
     "token1": {
       "id": "0xe0339c80ffde91f3e20494df88d4206d86024cdf",
       "symbol": "ELON",
       "name": "Dogelon (PoS)",
-      "price": "19983753363.16744"
+      "price": "19879353694.510784"
     },
     "volumeUSD": "2883431.250856636556910524816458436",
     "feesUSD": "8890.720020678826463503421503189415",
@@ -9696,13 +9696,13 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.9940449454152824"
+      "price": "0.9944232625965019"
     },
     "token1": {
       "id": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
       "symbol": "tBTC",
       "name": "Polygon tBTC v2",
-      "price": "1.0059907297071258"
+      "price": "1.0056080118127335"
     },
     "volumeUSD": "3370484.388110892186588244549371585",
     "feesUSD": "442.3451794405026638332059822391926",
@@ -9905,13 +9905,13 @@
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "13.775364067501387"
+      "price": "13.768293113467134"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "0.07259336269443387"
+      "price": "0.07263064431871177"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -10000,13 +10000,13 @@
       "id": "0x4b4327db1600b8b1440163f667e199cef35385f5",
       "symbol": "fxcbETH",
       "name": "Coinbase Wrapped Staked ETH (FXERC20)",
-      "price": "4.6553117842585475e-12"
+      "price": "5.386188664966722e-12"
     },
     "token1": {
       "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
       "symbol": "PolyDoge",
       "name": "PolyDoge",
-      "price": "214808383700.8288"
+      "price": "185660039445.75497"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -10065,8 +10065,8 @@
       "name": "UnirisToken (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "2417.210948165603405132353575212122",
-    "feesUSD": "6.598329843704068236600475768403972",
+    "volumeUSD": "2418.129265167668739066346456408533",
+    "feesUSD": "6.60012763262366772071760010939472",
     "exchangeid": "quickswap"
   },
   {
@@ -10076,13 +10076,13 @@
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "0.9953985066968567"
+      "price": "0.9954390352847133"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "1.0046227649249877"
+      "price": "1.0045818624281517"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -10095,16 +10095,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.023730763277611082"
+      "price": "0.02369808300944711"
     },
     "token1": {
       "id": "0xbfc70507384047aa74c29cdc8c5cb88d0f7213ac",
       "symbol": "ALI",
       "name": "Artificial Liquid Intelligence Token",
-      "price": "42.13939468788412"
+      "price": "42.197506000859036"
     },
-    "volumeUSD": "21163062.54807468980507455552588388",
-    "feesUSD": "103807.1248903039487141075914333905",
+    "volumeUSD": "21163389.02358218948163414706073048",
+    "feesUSD": "103807.6779398136531661995394934207",
     "exchangeid": "quickswap"
   },
   {
@@ -10152,13 +10152,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "1.7935160041000755e-8"
+      "price": "2.069207255362554e-8"
     },
     "token1": {
       "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
       "symbol": "PolyDoge",
       "name": "PolyDoge",
-      "price": "55756402.38023778"
+      "price": "48327686.72197537"
     },
     "volumeUSD": "7219.001932",
     "feesUSD": "32.82970487257",
@@ -10190,13 +10190,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.10314096435690297"
+      "price": "0.10284830411190678"
     },
     "token1": {
       "id": "0x60ea918fc64360269da4efbda11d8fc6514617c6",
       "symbol": "SUKU",
       "name": "SUKU (PoS)",
-      "price": "9.69546878134335"
+      "price": "9.723057746406045"
     },
     "volumeUSD": "100268.979153",
     "feesUSD": "691.439379989392",
@@ -10532,13 +10532,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.0000030116585622883213"
+      "price": "0.0000029824335795186344"
     },
     "token1": {
       "id": "0xba777ae3a3c91fcd83ef85bfe65410592bdd0f7c",
       "symbol": "CONE",
       "name": "BitCone",
-      "price": "332042.95218651183"
+      "price": "335296.65400340623"
     },
     "volumeUSD": "443.234141",
     "feesUSD": "4.871019440668",
@@ -10749,8 +10749,8 @@
       "name": "Quickswap",
       "price": "Infinity"
     },
-    "volumeUSD": "16156.01451798735803613414330827695",
-    "feesUSD": "35.94144455083717410684574651676635",
+    "volumeUSD": "16156.17957587629873919158569020269",
+    "feesUSD": "35.94146105662606817715149075495892",
     "exchangeid": "quickswap"
   },
   {
@@ -11015,8 +11015,8 @@
       "name": "PYR Token",
       "price": "Infinity"
     },
-    "volumeUSD": "1590694.159951306974059351685146762",
-    "feesUSD": "4306.365198115991728069090957849901",
+    "volumeUSD": "1591038.14304465466964119450745048",
+    "feesUSD": "4306.729988204717970519250987800381",
     "exchangeid": "quickswap"
   },
   {
@@ -11292,13 +11292,13 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.00017270079352721737"
+      "price": "0.00017256908966175162"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "5790.3613502644475"
+      "price": "5794.780525064339"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -11553,21 +11553,21 @@
   },
   {
     "id": "0x55caabb0d2b704fd0ef8192a7e35d8837e678207",
-    "liquidity": "443593427178392096",
+    "liquidity": "129210822568578302",
     "token0": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "3597.006389811253"
+      "price": "3587.639497438068"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0002780089584585012"
+      "price": "0.0002787348061905606"
     },
-    "volumeUSD": "5059718279.883787281733504502208959",
-    "feesUSD": "3138320.627642567589051866202184838",
+    "volumeUSD": "5059818201.518028090253381256697485",
+    "feesUSD": "3138409.956049862485945717638307635",
     "exchangeid": "quickswap"
   },
   {
@@ -11615,16 +11615,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.00808338150223964"
+      "price": "0.0078043324746550555"
     },
     "token1": {
       "id": "0x612d833c0c7a54cdfbe9a4328b6d658020563ec0",
       "symbol": "fxPINE",
       "name": "Pine Token (FXERC20)",
-      "price": "123.71060300975932"
+      "price": "128.13395677946167"
     },
-    "volumeUSD": "2642604.6554701265023",
-    "feesUSD": "20250.2761969236945580551",
+    "volumeUSD": "2642906.5225566693203",
+    "feesUSD": "20250.3088161778304455763",
     "exchangeid": "quickswap"
   },
   {
@@ -11691,13 +11691,13 @@
       "id": "0x02968ea3ec4461d46fdc339a707d2a94123e3da5",
       "symbol": "Fluctus",
       "name": "FluctusCash",
-      "price": "50665.749873332155"
+      "price": "50809.92192263217"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.000019737199242092904"
+      "price": "0.0000196811953681545"
     },
     "volumeUSD": "37522.587375",
     "feesUSD": "3.7522587375",
@@ -11705,21 +11705,21 @@
   },
   {
     "id": "0x5874d4f1403ece204a2ee7066f6444a635d81dd1",
-    "liquidity": "2750013928867908174064",
+    "liquidity": "4522807133083880159779",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "4.116165683215901"
+      "price": "3.931752458533939"
     },
     "token1": {
       "id": "0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6",
       "symbol": "ICHI",
       "name": "ICHI",
-      "price": "0.2429445452299467"
+      "price": "0.2543395115909401"
     },
-    "volumeUSD": "2619094.221245826501395852131145468",
-    "feesUSD": "4206.972396399478941062954720190817",
+    "volumeUSD": "2619219.562129486004434157692530535",
+    "feesUSD": "4207.349722932937828431620906287799",
     "exchangeid": "quickswap"
   },
   {
@@ -11857,7 +11857,7 @@
   },
   {
     "id": "0x59108874ab4575626d7dc4b094bd40eed2c38d18",
-    "liquidity": "2118621737658969857",
+    "liquidity": "1588966303244227393",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -11990,18 +11990,18 @@
   },
   {
     "id": "0x5a3d7563cded245c6d1206cde1fdc1a726be9c48",
-    "liquidity": "903776115571805671",
+    "liquidity": "1759246392281817165",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.9838234722946952"
+      "price": "0.9891174392438775"
     },
     "token1": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "1.016442510430834"
+      "price": "1.0110022938878134"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -12060,27 +12060,27 @@
       "name": "(PoS) Tether USD",
       "price": "0"
     },
-    "volumeUSD": "306555.4232829548748140413738179942",
-    "feesUSD": "1029.960779023566369674833278393363",
+    "volumeUSD": "306571.8740119548748140413738179942",
+    "feesUSD": "1029.965209150301369674833278393363",
     "exchangeid": "quickswap"
   },
   {
     "id": "0x5b1fd9fa139353c5d9eaf459e4bd2f7a6b4812bb",
-    "liquidity": "165729368655313723",
+    "liquidity": "166936461258768273",
     "token0": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "1.0164549484772227"
+      "price": "1.0110750367045"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.9838114335496382"
+      "price": "0.9890462761887603"
     },
-    "volumeUSD": "65834473.49130564459784735122477043",
-    "feesUSD": "6528.811950004995759860070146122208",
+    "volumeUSD": "65835040.09406163071784735122477043",
+    "feesUSD": "6528.868610280594371860070146122208",
     "exchangeid": "quickswap"
   },
   {
@@ -12090,13 +12090,13 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0005364480568318425"
+      "price": "0.000537267140232312"
     },
     "token1": {
       "id": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
       "symbol": "LDO",
       "name": "Lido DAO Token (PoS)",
-      "price": "1864.1133792259493"
+      "price": "1861.2714702179705"
     },
     "volumeUSD": "97764.77313605838568790117504401416",
     "feesUSD": "301.8852150578667920869378657570374",
@@ -12123,21 +12123,21 @@
   },
   {
     "id": "0x5b41eedcfc8e0ae47493d4945aa1ae4fe05430ff",
-    "liquidity": "6049814245428587520",
+    "liquidity": "6051950824629465877",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.5386810594820144"
+      "price": "1.543059457159326"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.6499072656009963"
+      "price": "0.6480631678580527"
     },
-    "volumeUSD": "1218038560.523062291952690523397737",
-    "feesUSD": "816094.3821554051928970333930324176",
+    "volumeUSD": "1218194235.762081539416807121067967",
+    "feesUSD": "816287.7302892614097521343458118047",
     "exchangeid": "quickswap"
   },
   {
@@ -12185,13 +12185,13 @@
       "id": "0xac0f66379a6d7801d7726d5a943356a172549adb",
       "symbol": "GEOD",
       "name": "Geodnet Token",
-      "price": "0.2972832349459239"
+      "price": "0.2947972435427391"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "3.3637954733030972"
+      "price": "3.392161975405384"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -12242,16 +12242,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.00027800867275727887"
+      "price": "0.0002787348061905606"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "3597.0100863474513"
+      "price": "3587.639497438068"
     },
-    "volumeUSD": "65019196.97918331066977982672054985",
-    "feesUSD": "103497.9547684025618067191521635523",
+    "volumeUSD": "65019273.2794454183682717667284385",
+    "feesUSD": "103498.0785274277004936730788563477",
     "exchangeid": "quickswap"
   },
   {
@@ -12421,8 +12421,8 @@
       "name": "USD Coin (PoS)",
       "price": "0"
     },
-    "volumeUSD": "10446337.9885248442715",
-    "feesUSD": "18183.2653560454465089401",
+    "volumeUSD": "10446390.0041026592787",
+    "feesUSD": "18183.3198124750994514929",
     "exchangeid": "quickswap"
   },
   {
@@ -12432,13 +12432,13 @@
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "3.133474858742184"
+      "price": "3.0913292758524515"
     },
     "token1": {
       "id": "0xe5417af564e4bfda1c483642db72007871397896",
       "symbol": "GNS",
       "name": "Gains Network",
-      "price": "0.31913452160309097"
+      "price": "0.3234854364468322"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -12565,13 +12565,13 @@
       "id": "0x18e73a5333984549484348a94f4d219f4fab7b81",
       "symbol": "DUCKIES",
       "name": "Yellow Duckies",
-      "price": "222.59018931964877"
+      "price": "219.2520454202476"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.004492560984185868"
+      "price": "0.004560960870778957"
     },
     "volumeUSD": "411.374116",
     "feesUSD": "2.405872427622",
@@ -12630,8 +12630,8 @@
       "name": "Pleasure Coin",
       "price": "Infinity"
     },
-    "volumeUSD": "200866.4827630705983293349907893076",
-    "feesUSD": "901.0595431916147182050696299003007",
+    "volumeUSD": "200868.5476412843005088030915863536",
+    "feesUSD": "901.0630775619837592216393738649801",
     "exchangeid": "quickswap"
   },
   {
@@ -12717,16 +12717,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.0056429783539405035"
+      "price": "0.005641082649089611"
     },
     "token1": {
       "id": "0xb6c3c00d730acca326db40e418353f04f7444e2b",
       "symbol": "fcc",
       "name": "first choice coin",
-      "price": "177.21138329401847"
+      "price": "177.27093577708627"
     },
-    "volumeUSD": "153808.6896851613941758316058050974",
-    "feesUSD": "126.1022183642837494389440740044399",
+    "volumeUSD": "153862.1735749125888440076879353455",
+    "feesUSD": "126.1889692334601871907256792197025",
     "exchangeid": "quickswap"
   },
   {
@@ -12755,16 +12755,16 @@
       "id": "0xac0f66379a6d7801d7726d5a943356a172549adb",
       "symbol": "GEOD",
       "name": "Geodnet Token",
-      "price": "5.654756329021868"
+      "price": "5.620219229718044"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.17684227963417393"
+      "price": "0.17792900225533875"
     },
-    "volumeUSD": "4651531.740734767781728325078790567",
-    "feesUSD": "21951.35036095014267505642458577666",
+    "volumeUSD": "4653076.619802534970351311097994118",
+    "feesUSD": "21954.68539481453045789884197982472",
     "exchangeid": "quickswap"
   },
   {
@@ -12991,8 +12991,8 @@
       "name": "TOWER",
       "price": "Infinity"
     },
-    "volumeUSD": "5805.822802307010357271754966088826",
-    "feesUSD": "14.43774925080000677547953664284319",
+    "volumeUSD": "5806.846676936778134047204777060648",
+    "feesUSD": "14.43933625647614682948148384984951",
     "exchangeid": "quickswap"
   },
   {
@@ -13306,16 +13306,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.9418985017298307"
+      "price": "1.9448547395988949"
     },
     "token1": {
       "id": "0x186d65ced0693382713437e34ef8723fd6aa9a1e",
       "symbol": "una.WEMIX",
       "name": "una WEMIX",
-      "price": "0.5149599729899408"
+      "price": "0.5141772182976705"
     },
-    "volumeUSD": "597343.178753284437967280990526917",
-    "feesUSD": "1597.213301063653734384750381992944",
+    "volumeUSD": "597442.4329230255973978759118084349",
+    "feesUSD": "1597.381437627195258460178178643835",
     "exchangeid": "quickswap"
   },
   {
@@ -13477,16 +13477,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.119466833948177"
+      "price": "1.1194849471958361"
     },
     "token1": {
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "0.8932823820006913"
+      "price": "0.8932679287067411"
     },
-    "volumeUSD": "61765461.87097702993919279660867727",
-    "feesUSD": "5000.264683739864720662409550609266",
+    "volumeUSD": "61765667.26288064923848163005366568",
+    "feesUSD": "5000.277007254081878619739557308572",
     "exchangeid": "quickswap"
   },
   {
@@ -13529,21 +13529,21 @@
   },
   {
     "id": "0x65c30f39b880bdd9616280450c4b41cc74b438b7",
-    "liquidity": "3399145312871784170",
+    "liquidity": "3398624288104867653",
     "token0": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.004262909255031525"
+      "price": "0.004270959228515755"
     },
     "token1": {
       "id": "0x67eb41a14c0fe5cd701fc9d5a3d6597a72f641a6",
       "symbol": "GIDDY",
       "name": "Giddy Token",
-      "price": "234.58158271131316"
+      "price": "234.1394395252797"
     },
-    "volumeUSD": "8376471.3168745081385",
-    "feesUSD": "23632.5002271857416091655",
+    "volumeUSD": "8376548.8698745081385",
+    "feesUSD": "23632.9246609776856091655",
     "exchangeid": "quickswap"
   },
   {
@@ -13662,21 +13662,21 @@
   },
   {
     "id": "0x6669b4706cc152f359e947bca68e263a87c52634",
-    "liquidity": "5055201453496511487",
+    "liquidity": "5069643994240252997",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.5386622311154212"
+      "price": "1.5429484401851608"
     },
     "token1": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.6499152184135115"
+      "price": "0.6481097967732451"
     },
-    "volumeUSD": "57746297.62752429790820676422151116",
-    "feesUSD": "78675.58753120006859148696794200066",
+    "volumeUSD": "57846796.84529124223680461812525401",
+    "feesUSD": "78808.70039627943246845389435912204",
     "exchangeid": "quickswap"
   },
   {
@@ -13808,8 +13808,8 @@
       "name": "Wrapped Matic",
       "price": "0"
     },
-    "volumeUSD": "3660.851852809995110568822654395076",
-    "feesUSD": "8.744465055201461028445277952226888",
+    "volumeUSD": "3664.639854247071276756211446530271",
+    "feesUSD": "8.755829059512689527007444328632472",
     "exchangeid": "quickswap"
   },
   {
@@ -13928,7 +13928,7 @@
   },
   {
     "id": "0x689e076175bab35a44cd060e791599df51b13ce1",
-    "liquidity": "17586222260829858257",
+    "liquidity": "7708446374203259386",
     "token0": {
       "id": "0x6b2f1c1fcfa168a09007e8ae959f4de11bcfd722",
       "symbol": "PNT",
@@ -14036,8 +14036,8 @@
       "name": "Reaper Ecosystem",
       "price": "Infinity"
     },
-    "volumeUSD": "30170.64030904216625812039111747177",
-    "feesUSD": "285.5789841320867192514138877434035",
+    "volumeUSD": "30230.86073606886409007591245483084",
+    "feesUSD": "285.6936666130077737574976331222577",
     "exchangeid": "quickswap"
   },
   {
@@ -14283,8 +14283,8 @@
       "name": "Talk.Online",
       "price": "Infinity"
     },
-    "volumeUSD": "41734.04057095108919172447138700749",
-    "feesUSD": "50.48566018597738514775127913681144",
+    "volumeUSD": "41739.58068527661189339276913317594",
+    "feesUSD": "50.48623635786723950872478210241296",
     "exchangeid": "quickswap"
   },
   {
@@ -14321,8 +14321,8 @@
       "name": "CustomComputerSystems",
       "price": "Infinity"
     },
-    "volumeUSD": "5756.769801731429851539770178979699",
-    "feesUSD": "5.517888513588097436187071217480001",
+    "volumeUSD": "5758.803171050020482156292506885435",
+    "feesUSD": "5.518112184213142405554888673549632",
     "exchangeid": "quickswap"
   },
   {
@@ -14427,16 +14427,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.9994630455995532"
+      "price": "0.9998201222999369"
     },
     "token1": {
       "id": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed",
       "symbol": "axlUSDC",
       "name": "Axelar Wrapped USDC",
-      "price": "1.0005372428753727"
+      "price": "1.0001799100618713"
     },
-    "volumeUSD": "87543248.80812440114",
-    "feesUSD": "9793.318828232044874",
+    "volumeUSD": "87547607.93149922648",
+    "feesUSD": "9793.754740569527408",
     "exchangeid": "quickswap"
   },
   {
@@ -14465,16 +14465,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.5386794782270006"
+      "price": "1.543059457159326"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.6499079334913119"
+      "price": "0.6480631678580527"
     },
-    "volumeUSD": "6107746.601756724326514192418490107",
-    "feesUSD": "12272.61437916287132642346762310867",
+    "volumeUSD": "6108866.367520384903999519225186655",
+    "feesUSD": "12275.4606604190574091157449089319",
     "exchangeid": "quickswap"
   },
   {
@@ -14541,16 +14541,16 @@
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "4944.001407633098"
+      "price": "4945.078599999895"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0002022653145802283"
+      "price": "0.00020222125488561927"
     },
-    "volumeUSD": "11171468.962162736922001120162582",
-    "feesUSD": "16101.69477564933141091141918640605",
+    "volumeUSD": "11171591.27371794849594159408773855",
+    "feesUSD": "16101.91065554427983891635566430735",
     "exchangeid": "quickswap"
   },
   {
@@ -14693,16 +14693,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.10542026101492231"
+      "price": "0.10563024910334055"
     },
     "token1": {
       "id": "0xe238ecb42c424e877652ad82d8a939183a04c35f",
       "symbol": "WIFI",
       "name": "WiFi Map",
-      "price": "9.485842573074727"
+      "price": "9.466985153293319"
     },
-    "volumeUSD": "1039008.044741780739806914344672379",
-    "feesUSD": "3736.873922157806327166165637089241",
+    "volumeUSD": "1039055.924331286157521632527799863",
+    "feesUSD": "3736.964466066466577904704581222245",
     "exchangeid": "quickswap"
   },
   {
@@ -14764,7 +14764,7 @@
   },
   {
     "id": "0x6e8e0683e3e98302e2d44c44e191e4c47a72590e",
-    "liquidity": "476932933831440176",
+    "liquidity": "473348098715867459",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
@@ -15195,8 +15195,8 @@
       "name": "Flare Token",
       "price": "Infinity"
     },
-    "volumeUSD": "40186.59418124942199133335371319428",
-    "feesUSD": "142.0545217123906206802564330175318",
+    "volumeUSD": "40195.93518599055185946922125715122",
+    "feesUSD": "142.0735493390483022216491952045721",
     "exchangeid": "quickswap"
   },
   {
@@ -15282,16 +15282,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.5137720189046766"
+      "price": "1.5261572100412812"
     },
     "token1": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "0.6606014561714334"
+      "price": "0.6552404912289153"
     },
-    "volumeUSD": "47894099.39115040547977879481162188",
-    "feesUSD": "99804.11379324336213470865300024459",
+    "volumeUSD": "47894126.22939065209074735071027336",
+    "feesUSD": "99804.15948784611233342792081555807",
     "exchangeid": "quickswap"
   },
   {
@@ -15529,13 +15529,13 @@
       "id": "0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f",
       "symbol": "EURT",
       "name": "Euro Tether (PoS)",
-      "price": "0.9382795071888003"
+      "price": "0.94094943075069"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "1.0657804975365195"
+      "price": "1.0627563685353414"
     },
     "volumeUSD": "1074211.759217335779206720681165477",
     "feesUSD": "297.0731203738004292407366172332612",
@@ -15871,16 +15871,16 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.00001474602575072977"
+      "price": "0.000014780866904891501"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "67814.88225398703"
+      "price": "67655.03041428952"
     },
-    "volumeUSD": "1931485.020303955870193514210555232",
-    "feesUSD": "2903.11542717132181801904034536149",
+    "volumeUSD": "1976687.382841061675859293512443477",
+    "feesUSD": "3010.138109151394451789971998336438",
     "exchangeid": "quickswap"
   },
   {
@@ -15904,7 +15904,7 @@
   },
   {
     "id": "0x76e5e217d7286aa06ae38a1328f0d687f52a8a8a",
-    "liquidity": "10588023487487086",
+    "liquidity": "11311419006005850",
     "token0": {
       "id": "0x7dff46370e9ea5f0bad3c4e29711ad50062ea7a4",
       "symbol": "SOL",
@@ -16004,13 +16004,13 @@
       "id": "0x0169ec1f8f639b32eec6d923e24c2a2ff45b9dd6",
       "symbol": "ALGB",
       "name": "Algebra",
-      "price": "69.29267521118577"
+      "price": "70.10175691251588"
     },
     "token1": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.014431539797709704"
+      "price": "0.014264977713011658"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -16278,8 +16278,8 @@
       "name": "Runy",
       "price": "Infinity"
     },
-    "volumeUSD": "544531.3012307006026688056816358568",
-    "feesUSD": "1593.273504397043295954857027660715",
+    "volumeUSD": "544531.7672309806474730463431339433",
+    "feesUSD": "1593.273552861072420614498056456516",
     "exchangeid": "quickswap"
   },
   {
@@ -16289,16 +16289,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.368416283638916"
+      "price": "0.37348070236261527"
     },
     "token1": {
       "id": "0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f",
       "symbol": "VOXEL",
       "name": "VOXEL Token",
-      "price": "2.7143208495640163"
+      "price": "2.6775145105866605"
     },
-    "volumeUSD": "10823991.49854572708281360861879951",
-    "feesUSD": "32003.4153855587254109015147181856",
+    "volumeUSD": "10823997.49631342607470162516536648",
+    "feesUSD": "32003.427745776867382127299164139",
     "exchangeid": "quickswap"
   },
   {
@@ -16612,16 +16612,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.04468252708470237"
+      "price": "0.04475734108204216"
     },
     "token1": {
       "id": "0x2934b36ca9a4b31e633c5be670c8c8b28b6aa015",
       "symbol": "THX",
       "name": "THX Network (PoS)",
-      "price": "22.380112881806156"
+      "price": "22.34270347219591"
     },
-    "volumeUSD": "275592.6335903210678591377114232759",
-    "feesUSD": "520.1908237437256003091992671667786",
+    "volumeUSD": "275786.1766979235680504925045787275",
+    "feesUSD": "520.5324273286440131469404770861505",
     "exchangeid": "quickswap"
   },
   {
@@ -16707,16 +16707,16 @@
       "id": "0x765af38a6e8fdcb1efef8a3dd2213efd3090b00f",
       "symbol": "VDT",
       "name": "Vendetta",
-      "price": "16.262813343147"
+      "price": "17.065009694831904"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.06148997586702248"
+      "price": "0.05859943931369975"
     },
-    "volumeUSD": "947872.2875441114036597722174722855",
-    "feesUSD": "3094.444755306748424973776891135098",
+    "volumeUSD": "948416.4045021114036597722174722855",
+    "feesUSD": "3095.599900699246424973776891135098",
     "exchangeid": "quickswap"
   },
   {
@@ -16772,8 +16772,8 @@
       "name": "(PoS) Tether USD",
       "price": "1"
     },
-    "volumeUSD": "3005790235.90912622774232068909856",
-    "feesUSD": "45259.52919194462923216904912635346",
+    "volumeUSD": "3007023415.892466494652973074563456",
+    "feesUSD": "45271.86099177803190127557298100242",
     "exchangeid": "quickswap"
   },
   {
@@ -16924,8 +16924,8 @@
       "name": "ETH Staked DeFi LP Tokens by StarSeeds Protocol",
       "price": "Infinity"
     },
-    "volumeUSD": "1219.274085757099966542378742493728",
-    "feesUSD": "0.3337597031525205085231312469622139",
+    "volumeUSD": "1219.864076966989651039237513764676",
+    "feesUSD": "0.3338458418691644024596726275677723",
     "exchangeid": "quickswap"
   },
   {
@@ -16943,8 +16943,8 @@
       "name": "Uniswap (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "1.269934715786530574384387953023734",
-    "feesUSD": "0.001789362456206809692426438795302373",
+    "volumeUSD": "18.51009606479686879164782815553123",
+    "feesUSD": "0.2373236655716751630504900418329149",
     "exchangeid": "quickswap"
   },
   {
@@ -16954,16 +16954,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "2.769572613440776e-7"
+      "price": "2.7847691330773804e-7"
     },
     "token1": {
       "id": "0xe0339c80ffde91f3e20494df88d4206d86024cdf",
       "symbol": "ELON",
       "name": "Dogelon (PoS)",
-      "price": "3610665.3970615733"
+      "price": "3590961.951287231"
     },
-    "volumeUSD": "1622055.298003222319227810604206893",
-    "feesUSD": "4503.713978444786543042831372130859",
+    "volumeUSD": "1623251.250545054969706451050598426",
+    "feesUSD": "4507.087743975131426593688458340078",
     "exchangeid": "quickswap"
   },
   {
@@ -17125,13 +17125,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.7275496289822644"
+      "price": "0.7254969612491385"
     },
     "token1": {
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "1.3744766819534413"
+      "price": "1.3783655251680593"
     },
     "volumeUSD": "2575564.8962189117625",
     "feesUSD": "5552.3047442482435327329",
@@ -17144,13 +17144,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "1.7999653640847002e-7"
+      "price": "1.8047063061354504e-7"
     },
     "token1": {
       "id": "0xe0339c80ffde91f3e20494df88d4206d86024cdf",
       "symbol": "ELON",
       "name": "Dogelon (PoS)",
-      "price": "5555662.45858575"
+      "price": "5541067.799233068"
     },
     "volumeUSD": "7.134497",
     "feesUSD": "0.0007134497",
@@ -17220,13 +17220,13 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.00023847053422424596"
+      "price": "0.0002389531407429296"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "4193.390194948149"
+      "price": "4184.920930065612"
     },
     "volumeUSD": "0.0837519094639942610339610914842304",
     "feesUSD": "0.0004122219944176715694114516904651714",
@@ -17334,13 +17334,13 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "4.9861351627851495e-12"
+      "price": "5.767600832915833e-12"
     },
     "token1": {
       "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
       "symbol": "PolyDoge",
       "name": "PolyDoge",
-      "price": "200556135634.60266"
+      "price": "173382317703.5721"
     },
     "volumeUSD": "8412.979852707151413319935699820858",
     "feesUSD": "23.7728361855604128389624891787501",
@@ -17372,16 +17372,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "9.801833152312388e-9"
+      "price": "9.101202583287583e-9"
     },
     "token1": {
       "id": "0xf3abaa9ea255d38763a5d0ae6286d6df53154ddc",
       "symbol": "$HROOM",
       "name": "Shroom",
-      "price": "102021732.5127684"
+      "price": "109875589.61013423"
     },
-    "volumeUSD": "38155.69159169084432142827268273585",
-    "feesUSD": "312.6777159339327312403999079252626",
+    "volumeUSD": "38444.8393659850310693440382577535",
+    "feesUSD": "313.2152526959166573542065997449837",
     "exchangeid": "quickswap"
   },
   {
@@ -17494,8 +17494,8 @@
       "name": "Wrapped Matic",
       "price": "0"
     },
-    "volumeUSD": "758183.2994882587847588418586093185",
-    "feesUSD": "11371.35596864621298504663882439315",
+    "volumeUSD": "758183.5363309478649063909816713703",
+    "feesUSD": "11371.35952128654918725987567032393",
     "exchangeid": "quickswap"
   },
   {
@@ -17524,16 +17524,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.00027350839196069984"
+      "price": "0.0002756816221069698"
     },
     "token1": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "3656.194944627838"
+      "price": "3627.372736554709"
     },
-    "volumeUSD": "16325634.97113447029019515547980917",
-    "feesUSD": "28069.39947511169050446109100144456",
+    "volumeUSD": "16325649.94684202118388185892950474",
+    "feesUSD": "28069.42882210872732381447362450954",
     "exchangeid": "quickswap"
   },
   {
@@ -17638,16 +17638,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "2.667451589439492"
+      "price": "2.6357398027398813"
     },
     "token1": {
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
       "name": "Aavegotchi GHST Token (PoS)",
-      "price": "0.3748896527153577"
+      "price": "0.3794001209681201"
     },
-    "volumeUSD": "17832656.65598674653592399331740572",
-    "feesUSD": "51605.17343360144354179530432695929",
+    "volumeUSD": "17842019.37515903371353551282355896",
+    "feesUSD": "51637.22006335417068612131207184348",
     "exchangeid": "quickswap"
   },
   {
@@ -17657,16 +17657,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.3542962758883237"
+      "price": "0.35428384927552414"
     },
     "token1": {
       "id": "0x46f48fbdedaa6f5500993bede9539ef85f4bee8e",
       "symbol": "ARIA20",
       "name": "ARIANEE (PoS)",
-      "price": "2.8224965037882757"
+      "price": "2.822595503703887"
     },
-    "volumeUSD": "49533.29809305761931383918699065511",
-    "feesUSD": "64.81091862120012019374686097620597",
+    "volumeUSD": "49538.06656199853003189991837719654",
+    "feesUSD": "64.81382738725407573176390712199624",
     "exchangeid": "quickswap"
   },
   {
@@ -17828,16 +17828,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.7242018142367981"
+      "price": "0.7221879952078335"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "1.3808305645489891"
+      "price": "1.3846810063800865"
     },
-    "volumeUSD": "4850834.5638213587716",
-    "feesUSD": "9956.6782319054013114702",
+    "volumeUSD": "4850906.4872626846108",
+    "feesUSD": "9956.8191122967878663726",
     "exchangeid": "quickswap"
   },
   {
@@ -17980,16 +17980,16 @@
       "id": "0x612d833c0c7a54cdfbe9a4328b6d658020563ec0",
       "symbol": "fxPINE",
       "name": "Pine Token (FXERC20)",
-      "price": "444987.8295135075"
+      "price": "459698.44430501893"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.000002247252472260357"
+      "price": "0.000002175339099769675"
     },
-    "volumeUSD": "25160.00630330615586198937139497982",
-    "feesUSD": "112.3207857219817200206533943038819",
+    "volumeUSD": "25186.02240576439675423401417586872",
+    "feesUSD": "112.361661111641008302505850773121",
     "exchangeid": "quickswap"
   },
   {
@@ -18018,13 +18018,13 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.000056325747198795926"
+      "price": "0.0000574860726382306"
     },
     "token1": {
       "id": "0xee9a352f6aac4af1a5b9f467f6a93e0ffbe9dd35",
       "symbol": "MASQ",
       "name": "MASQ (PoS)",
-      "price": "17753.87011681537"
+      "price": "17395.5178029497"
     },
     "volumeUSD": "4979.267034223693246772185255310756",
     "feesUSD": "7.156139256681230339189177578612439",
@@ -18132,16 +18132,16 @@
       "id": "0x0169ec1f8f639b32eec6d923e24c2a2ff45b9dd6",
       "symbol": "ALGB",
       "name": "Algebra",
-      "price": "45.03442425454249"
+      "price": "45.43363542601809"
     },
     "token1": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.022205235584845582"
+      "price": "0.02201012511156742"
     },
-    "volumeUSD": "16861453.01905995357288743494904674",
-    "feesUSD": "56878.47962702100742752303610195905",
+    "volumeUSD": "16863931.45191435817478227671647723",
+    "feesUSD": "56881.68000866964066918142031492795",
     "exchangeid": "quickswap"
   },
   {
@@ -18189,13 +18189,13 @@
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "1.374475269446196"
+      "price": "1.3783655251680593"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.7275503766633213"
+      "price": "0.7254969612491385"
     },
     "volumeUSD": "2.625534604817478781877478435759701",
     "feesUSD": "0.009832736879366524311913248598902489",
@@ -18322,16 +18322,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.31742296330626324"
+      "price": "0.3096920238560069"
     },
     "token1": {
       "id": "0xe9e7c09e82328c3107d367f6c617cf9977e63ed0",
       "symbol": "A51",
       "name": "A51 Finance",
-      "price": "3.1503706902110835"
+      "price": "3.2290143851588367"
     },
-    "volumeUSD": "170242.3630766552617603667485765842",
-    "feesUSD": "411.490466560200538930239557220829",
+    "volumeUSD": "170745.7063049639054779829382816339",
+    "feesUSD": "411.7739632027657151867419335674536",
     "exchangeid": "quickswap"
   },
   {
@@ -18431,40 +18431,40 @@
   },
   {
     "id": "0x87b8e76606a9e84458ebc4ee82906acd4a75dffb",
-    "liquidity": "23126008471867632289813566",
+    "liquidity": "23041014935906239811148253",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.154004099743798"
+      "price": "1.1539713510051623"
     },
     "token1": {
       "id": "0x9f28e2455f9ffcfac9ebd6084853417362bc5dbb",
       "symbol": "rMATIC",
       "name": "StaFi rMATIC (PoS)",
-      "price": "0.8665480479852814"
+      "price": "0.8665726398917563"
     },
-    "volumeUSD": "1691719.459533041633704717292030435",
-    "feesUSD": "623.7806052568651643967784201535505",
+    "volumeUSD": "1691947.849483928916509455534854762",
+    "feesUSD": "623.8045862017083290912759356501049",
     "exchangeid": "quickswap"
   },
   {
     "id": "0x8808b6e360686766025e9e95a19ceff5f1ea9abc",
-    "liquidity": "8553326486704515109141875130",
+    "liquidity": "9085692104906727331505681884",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "2.759649105386653e-8"
+      "price": "3.192909824209881e-8"
     },
     "token1": {
       "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
       "symbol": "PolyDoge",
       "name": "PolyDoge",
-      "price": "36236491.01068922"
+      "price": "31319393.752294913"
     },
-    "volumeUSD": "4423019.572323365575332955950452876",
-    "feesUSD": "22004.48498654635558719636098045445",
+    "volumeUSD": "4557733.940065084238902195021692826",
+    "feesUSD": "22413.00558086342214287166770192816",
     "exchangeid": "quickswap"
   },
   {
@@ -18721,13 +18721,13 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.000010679098601461042"
+      "price": "0.000010674564637477409"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "93640.86214759613"
+      "price": "93680.63560073377"
     },
     "volumeUSD": "8.436247796214230458885477262232672",
     "feesUSD": "0.03600934418234840284553424924847747",
@@ -18740,13 +18740,13 @@
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.7242025584774057"
+      "price": "0.7221879952078335"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "1.3808291455120547"
+      "price": "1.3846810063800865"
     },
     "volumeUSD": "0.03475693636712877339304475312445984",
     "feesUSD": "0.00003477036586417747215123056776771422",
@@ -18906,7 +18906,7 @@
   },
   {
     "id": "0x8b8542bb23c27c15be1e15d6faf983cd35405a2f",
-    "liquidity": "10029960",
+    "liquidity": "6513814",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
@@ -18930,13 +18930,13 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.00001072846556390636"
+      "price": "0.000010723474024126743"
     },
     "token1": {
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "93209.9743475234"
+      "price": "93253.3615272532"
     },
     "volumeUSD": "31.29078318039333064487132263260927",
     "feesUSD": "0.1360364385643892538359775180556363",
@@ -19261,8 +19261,8 @@
       "name": "Lama Inu Collectiva",
       "price": "Infinity"
     },
-    "volumeUSD": "2649.589597468100058813055144021798",
-    "feesUSD": "10.96247092273299375674102923354792",
+    "volumeUSD": "2649.795103063049965867777052627297",
+    "feesUSD": "10.96284652736400186304984447071906",
     "exchangeid": "quickswap"
   },
   {
@@ -19318,8 +19318,8 @@
       "name": "PeakPok Coin",
       "price": "Infinity"
     },
-    "volumeUSD": "101.2526235631569352028359538172622",
-    "feesUSD": "0.9291555998821720763273977157116998",
+    "volumeUSD": "101.835143647148228724008699098954",
+    "feesUSD": "0.9302769811871141756846415260338648",
     "exchangeid": "quickswap"
   },
   {
@@ -19595,16 +19595,16 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.00023847053422424596"
+      "price": "0.0002389531407429296"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "4193.390194948149"
+      "price": "4184.920930065612"
     },
-    "volumeUSD": "2905459.905731891461",
-    "feesUSD": "3751.3133941666561897336",
+    "volumeUSD": "2905610.715884891461",
+    "feesUSD": "3751.5580082348221897336",
     "exchangeid": "quickswap"
   },
   {
@@ -19880,16 +19880,16 @@
       "id": "0x18e73a5333984549484348a94f4d219f4fab7b81",
       "symbol": "DUCKIES",
       "name": "Yellow Duckies",
-      "price": "222.59018931964877"
+      "price": "219.2520454202476"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.004492560984185868"
+      "price": "0.004560960870778957"
     },
-    "volumeUSD": "642638.264509180674194363362902773",
-    "feesUSD": "1972.04480218523734716460947345532",
+    "volumeUSD": "642906.1828270210392080875465004348",
+    "feesUSD": "1972.667897077026262890284622652647",
     "exchangeid": "quickswap"
   },
   {
@@ -19951,21 +19951,21 @@
   },
   {
     "id": "0x944180a2dac71286a7bbd70d18e690d6d278fe66",
-    "liquidity": "244677776736376",
+    "liquidity": "1025322174272425",
     "token0": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "19.0214437421958"
+      "price": "19.064693964491685"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.052572244964858905"
+      "price": "0.052452979411183674"
     },
-    "volumeUSD": "148820.9479002322272786136793413454",
-    "feesUSD": "436.7289340119005661576650862538019",
+    "volumeUSD": "148823.0798776279082252063229177492",
+    "feesUSD": "436.7326476246133676191782847001816",
     "exchangeid": "quickswap"
   },
   {
@@ -20103,21 +20103,21 @@
   },
   {
     "id": "0x94d47616f45f98e1ac688326ffdab7bf3a6be440",
-    "liquidity": "106701020112318805",
+    "liquidity": "112632658345399622",
     "token0": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.9838114335496382"
+      "price": "0.9890462761887603"
     },
     "token1": {
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "1.0164549484772227"
+      "price": "1.0110750367045"
     },
-    "volumeUSD": "60935178.60178782333",
-    "feesUSD": "6615.090274456714333",
+    "volumeUSD": "60935609.02465848711",
+    "feesUSD": "6615.133316743780711",
     "exchangeid": "quickswap"
   },
   {
@@ -20572,8 +20572,8 @@
       "name": "Uniswap (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "1876.39197915018709754687880652162",
-    "feesUSD": "3.842695766046865387241149593405943",
+    "volumeUSD": "1878.565768571125179576803395314836",
+    "feesUSD": "3.846577402308745976086739720908972",
     "exchangeid": "quickswap"
   },
   {
@@ -21058,13 +21058,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "90.82230497217911"
+      "price": "90.32204085580044"
     },
     "token1": {
       "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
       "symbol": "AAVE",
       "name": "Aave (PoS)",
-      "price": "0.011010511132769888"
+      "price": "0.011071494737331109"
     },
     "volumeUSD": "315.0667665737573958882762361377928",
     "feesUSD": "2.21834121278245250092733125053038",
@@ -21096,13 +21096,13 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.00017349914869805252"
+      "price": "0.00017335977748993313"
     },
     "token1": {
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "5763.717041288426"
+      "price": "5768.350735556691"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -21110,18 +21110,18 @@
   },
   {
     "id": "0x9b1751da19984e691034a5affd85449cbcf6ad29",
-    "liquidity": "121732798270445141",
+    "liquidity": "120691748415168848",
     "token0": {
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "6.286096964771912e-8"
+      "price": "6.312847991290948e-8"
     },
     "token1": {
       "id": "0x67eb41a14c0fe5cd701fc9d5a3d6597a72f641a6",
       "symbol": "GIDDY",
       "name": "Giddy Token",
-      "price": "15908122.410521623"
+      "price": "15840710.9022675"
     },
     "volumeUSD": "2861925.585671689299226423833104789",
     "feesUSD": "11614.11904661420567753960816755222",
@@ -21338,21 +21338,21 @@
   },
   {
     "id": "0x9ccbff02c051675ac72c2d1cc4f1391c35bac46b",
-    "liquidity": "3629461106608975425630",
+    "liquidity": "3612572162933606921689",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.0003169251605523651"
+      "price": "0.00031427686593173815"
     },
     "token1": {
       "id": "0xc708d6f2153933daa50b2d0758955be0a93a8fec",
       "symbol": "fxVERSE",
       "name": "Verse (FXERC20)",
-      "price": "3155.3190609956996"
+      "price": "3181.9077647834342"
     },
-    "volumeUSD": "55155.05755040623800809120969799541",
-    "feesUSD": "87.59139854583048601470313078761519",
+    "volumeUSD": "55155.28144964346206129142060202003",
+    "feesUSD": "87.59181415577497761329930956638117",
     "exchangeid": "quickswap"
   },
   {
@@ -21376,21 +21376,21 @@
   },
   {
     "id": "0x9ceff2f5138fc59eb925d270b8a7a9c02a1810f2",
-    "liquidity": "142161777707654738",
+    "liquidity": "41752602294576692",
     "token0": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0002780089584585012"
+      "price": "0.0002787348061905606"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "3597.006389811253"
+      "price": "3587.639497438068"
     },
-    "volumeUSD": "935399533.756829609388560178045221",
-    "feesUSD": "533482.791054771705721805296092354",
+    "volumeUSD": "935443646.3755536400929509703907236",
+    "feesUSD": "533522.3046394533686979541251505357",
     "exchangeid": "quickswap"
   },
   {
@@ -21490,21 +21490,21 @@
   },
   {
     "id": "0x9dd391f34f2e21795617f3a8ef0d037d7abcda6c",
-    "liquidity": "1155921923370658930043",
+    "liquidity": "937544243630895466534",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.000005493963282696906"
+      "price": "0.000005437125471740566"
     },
     "token1": {
       "id": "0x74dd45dd579cad749f9381d6227e7e02277c944b",
       "symbol": "$CULO",
       "name": "$CULO",
-      "price": "182017.96199648327"
+      "price": "183920.71420780985"
     },
-    "volumeUSD": "3068137.839727726948780781461418598",
-    "feesUSD": "23668.10733632955600812496317253601",
+    "volumeUSD": "3068979.694357090655531101084043999",
+    "feesUSD": "23669.82154413376859962292435628781",
     "exchangeid": "quickswap"
   },
   {
@@ -21604,21 +21604,21 @@
   },
   {
     "id": "0x9f1a8caf3c8e94e43aa64922d67dff4dc3e88a42",
-    "liquidity": "31898256244270562012100699",
+    "liquidity": "37075161305272637287217337",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.0808919175818771"
+      "price": "0.08093806593661038"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "12.362174490273656"
+      "price": "12.35512596487278"
     },
-    "volumeUSD": "92620106.92601403839812603816918681",
-    "feesUSD": "418721.9142413931370048481245031308",
+    "volumeUSD": "92670848.96064460887524814819300402",
+    "feesUSD": "418977.0246491016021676294003466441",
     "exchangeid": "quickswap"
   },
   {
@@ -21685,13 +21685,13 @@
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.40844284564341354"
+      "price": "0.4122911023374356"
     },
     "token1": {
       "id": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
       "symbol": "SAND",
       "name": "SAND",
-      "price": "2.4483229677452565"
+      "price": "2.425470727674253"
     },
     "volumeUSD": "1.658230367729867021992748993910821",
     "feesUSD": "0.005363601677240291388756180229057276",
@@ -21818,13 +21818,13 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.5378548579162414"
+      "price": "1.5427818951731114"
     },
     "token1": {
       "id": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed",
       "symbol": "axlUSDC",
       "name": "Axelar Wrapped USDC",
-      "price": "0.6502564236490935"
+      "price": "0.6481797609426786"
     },
     "volumeUSD": "54.9024971037871865684204992796357",
     "feesUSD": "0.2413798707289851777227374781870318",
@@ -22122,13 +22122,13 @@
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
       "name": "Aavegotchi GHST Token (PoS)",
-      "price": "0.5768277795406537"
+      "price": "0.5853948248538222"
     },
     "token1": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "1.733619696326574"
+      "price": "1.7082487879008974"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -22236,13 +22236,13 @@
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.7242116428296637"
+      "price": "0.7222399574924557"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "1.380811824693631"
+      "price": "1.384581384103836"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -22255,16 +22255,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.008297567555155068"
+      "price": "0.008295334379316873"
     },
     "token1": {
       "id": "0x9f95e17b2668afe01f8fbd157068b0a4405cc08d",
       "symbol": "BULL",
       "name": "Bullieverse",
-      "price": "120.51724717549607"
+      "price": "120.54969146190714"
     },
-    "volumeUSD": "2248840.488068634002127447200200009",
-    "feesUSD": "12567.73711326795209534656091675984",
+    "volumeUSD": "2248843.006405969438097683921258991",
+    "feesUSD": "12567.74211640974829566695278913271",
     "exchangeid": "quickswap"
   },
   {
@@ -22331,16 +22331,16 @@
       "id": "0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6",
       "symbol": "ICHI",
       "name": "ICHI",
-      "price": "1344.6119589904883"
+      "price": "1408.0085442267055"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0007437089885402945"
+      "price": "0.000710222962850848"
     },
-    "volumeUSD": "2341090.649770578218694804631969359",
-    "feesUSD": "2531.29823819172203051370285403403",
+    "volumeUSD": "2341620.298856917330810748532879111",
+    "feesUSD": "2532.893558697861904545947576965445",
     "exchangeid": "quickswap"
   },
   {
@@ -22388,13 +22388,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.0015177142022489824"
+      "price": "0.0015134077211816986"
     },
     "token1": {
       "id": "0x57999936fc9a9ec0751a8d146cce11901be8bed0",
       "symbol": "fxVRSW",
       "name": "Virtuswap Token (FXERC20)",
-      "price": "658.885578403482"
+      "price": "660.7604718833998"
     },
     "volumeUSD": "580348.0254587603235",
     "feesUSD": "3498.5066215988953629095",
@@ -22516,7 +22516,7 @@
   },
   {
     "id": "0xa4aa08dc0154f80241be34fa03283fde8a5844f2",
-    "liquidity": "3458670142787953387918",
+    "liquidity": "3492135501765163376094",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -22529,8 +22529,8 @@
       "name": "SOL",
       "price": "Infinity"
     },
-    "volumeUSD": "123031.2439762269962193377480219815",
-    "feesUSD": "295.2543472077995449646998772436951",
+    "volumeUSD": "123246.7569933324776103054354956353",
+    "feesUSD": "295.6780183360641614635927489043693",
     "exchangeid": "quickswap"
   },
   {
@@ -22554,7 +22554,7 @@
   },
   {
     "id": "0xa4bf339fc51541dbdda6a805b1cba602833398b5",
-    "liquidity": "571411376",
+    "liquidity": "571447452",
     "token0": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
@@ -22567,8 +22567,8 @@
       "name": "Telcoin (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "240900.526141",
-    "feesUSD": "485.835759395936",
+    "volumeUSD": "240971.282143",
+    "feesUSD": "485.980999575634",
     "exchangeid": "quickswap"
   },
   {
@@ -22597,16 +22597,16 @@
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "3.0827515608194886"
+      "price": "3.0574677087551643"
     },
     "token1": {
       "id": "0xe5417af564e4bfda1c483642db72007871397896",
       "symbol": "GNS",
       "name": "Gains Network",
-      "price": "0.3243855303520371"
+      "price": "0.3270680495288521"
     },
-    "volumeUSD": "36537168.33008654814583868739556706",
-    "feesUSD": "120500.8074388592711216577561463259",
+    "volumeUSD": "36537190.087870524006795561906167",
+    "feesUSD": "120500.8530709018979426915847705506",
     "exchangeid": "quickswap"
   },
   {
@@ -22649,21 +22649,21 @@
   },
   {
     "id": "0xa5cd8351cbf30b531c7b11b0d9d3ff38ea2e280f",
-    "liquidity": "166353282311",
+    "liquidity": "166353493922",
     "token0": {
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.00001474602575072977"
+      "price": "0.000014780866904891501"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "67814.88225398703"
+      "price": "67655.03041428952"
     },
-    "volumeUSD": "834820393.5144313630788531480281236",
-    "feesUSD": "407999.0563333538852596711540156019",
+    "volumeUSD": "834908623.9793321796565371710149504",
+    "feesUSD": "408036.8635480212041225150049424167",
     "exchangeid": "quickswap"
   },
   {
@@ -22768,16 +22768,16 @@
       "id": "0x2760e46d9bb43dafcbecaad1f64b93207f9f0ed7",
       "symbol": "MVX",
       "name": "Metavault Trade",
-      "price": "2179.9625635590796"
+      "price": "2196.2324284334927"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.00045872347384138867"
+      "price": "0.0004553252137858971"
     },
-    "volumeUSD": "2112343.586455544974968451071214988",
-    "feesUSD": "7269.956513357530034564479535554443",
+    "volumeUSD": "2112632.012015623347424533409534219",
+    "feesUSD": "7272.840480532753680752846836408439",
     "exchangeid": "quickswap"
   },
   {
@@ -22844,35 +22844,35 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "3.318947088300118e-8"
+      "price": "3.35543332609163e-8"
     },
     "token1": {
       "id": "0xafcdd4f666c84fed1d8bd825aa762e3714f652c9",
       "symbol": "VINU",
       "name": "Vita Inu",
-      "price": "30130037.430400107"
+      "price": "29802410.085876703"
     },
-    "volumeUSD": "611151.6901008988288901397902785193",
-    "feesUSD": "1994.869942828129456689338036900577",
+    "volumeUSD": "611380.150757352946051072348474352",
+    "feesUSD": "1995.257732091073237468894415241254",
     "exchangeid": "quickswap"
   },
   {
     "id": "0xa6aedf7c4ed6e821e67a6bfd56fd1702ad9a9719",
-    "liquidity": "160920132262488954",
+    "liquidity": "162042959800103408",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "3597.055207020276"
+      "price": "3587.8976323640495"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0002780051854773668"
+      "price": "0.00027871475233285975"
     },
-    "volumeUSD": "179809996.2271780540552880756528134",
-    "feesUSD": "243742.5031733584733605061050742922",
+    "volumeUSD": "179891722.2718420728191909948619236",
+    "feesUSD": "243813.8781512587757954090868828824",
     "exchangeid": "quickswap"
   },
   {
@@ -22920,16 +22920,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.000004633981987419874"
+      "price": "0.000004602072340225769"
     },
     "token1": {
       "id": "0xba777ae3a3c91fcd83ef85bfe65410592bdd0f7c",
       "symbol": "CONE",
       "name": "BitCone",
-      "price": "215797.12711761828"
+      "price": "217293.4117656529"
     },
-    "volumeUSD": "124973.0642949833682925231233279277",
-    "feesUSD": "372.6162973340856427259784887939831",
+    "volumeUSD": "124985.6673939642221606160216439911",
+    "feesUSD": "372.6437286698097496452085429242226",
     "exchangeid": "quickswap"
   },
   {
@@ -23205,13 +23205,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "90.82230497217911"
+      "price": "90.32204085580044"
     },
     "token1": {
       "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
       "symbol": "AAVE",
       "name": "Aave (PoS)",
-      "price": "0.011010511132769888"
+      "price": "0.011071494737331109"
     },
     "volumeUSD": "8053.476017451983616917817327815337",
     "feesUSD": "81.06220192994057222165602072136322",
@@ -23308,8 +23308,8 @@
       "name": "Bones",
       "price": "Infinity"
     },
-    "volumeUSD": "68863.69723635368157977070259245757",
-    "feesUSD": "636.1280136460959892092838766510189",
+    "volumeUSD": "68879.15035727853268234863686588191",
+    "feesUSD": "636.1466223609838114052322420795289",
     "exchangeid": "quickswap"
   },
   {
@@ -23409,21 +23409,21 @@
   },
   {
     "id": "0xab52931301078e2405c3a3ebb86e11ad0dfd2cfd",
-    "liquidity": "3352864929090297993364",
+    "liquidity": "33914250554486750881722",
     "token0": {
       "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
       "symbol": "LINK",
       "name": "ChainLink Token",
-      "price": "233.21528665949876"
+      "price": "228.8839205560049"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.004287883587408357"
+      "price": "0.004369026874281074"
     },
-    "volumeUSD": "155511568.796088129232157488148623",
-    "feesUSD": "291713.5729855281480025581243388736",
+    "volumeUSD": "155557556.505218677073814637207459",
+    "feesUSD": "291807.0266191275768878327217553957",
     "exchangeid": "quickswap"
   },
   {
@@ -23460,8 +23460,8 @@
       "name": "GAMEE",
       "price": "Infinity"
     },
-    "volumeUSD": "18739.03856461471134719989987626702",
-    "feesUSD": "222.281157802523574052500311059492",
+    "volumeUSD": "18739.04927304235450292097470452826",
+    "feesUSD": "222.2812581833243009942296664996128",
     "exchangeid": "quickswap"
   },
   {
@@ -23555,8 +23555,8 @@
       "name": "ETHical Finance",
       "price": "Infinity"
     },
-    "volumeUSD": "10230.05079419921614232779272660516",
-    "feesUSD": "28.58901501713720437345042945263563",
+    "volumeUSD": "10239.70703219921614232779272660516",
+    "feesUSD": "28.60435076944520437345042945263563",
     "exchangeid": "quickswap"
   },
   {
@@ -23580,21 +23580,21 @@
   },
   {
     "id": "0xac4494e30a85369e332bdb5230d6d694d4259dbc",
-    "liquidity": "106545817149746247",
+    "liquidity": "106545134469071816",
     "token0": {
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.05304154884969626"
+      "price": "0.05302842191436392"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "18.85314478341683"
+      "price": "18.857811790343472"
     },
-    "volumeUSD": "1855621062.368089216951916589900437",
-    "feesUSD": "958749.668682414300156723991522287",
+    "volumeUSD": "1856994014.455271925811025507473048",
+    "feesUSD": "959301.3564254046353741502304391409",
     "exchangeid": "quickswap"
   },
   {
@@ -23865,21 +23865,21 @@
   },
   {
     "id": "0xae81fac689a1b4b1e06e7ef4a2ab4cd8ac0a087d",
-    "liquidity": "15669704408553180097",
+    "liquidity": "15659106051589406392",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "1.5386810594820144"
+      "price": "1.543059457159326"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.6499072656009963"
+      "price": "0.6480631678580527"
     },
-    "volumeUSD": "3573256522.324175933329302266435577",
-    "feesUSD": "2189183.292387005931097820976480583",
+    "volumeUSD": "3573562447.522007841410745207967453",
+    "feesUSD": "2189559.001281366474750507414904286",
     "exchangeid": "quickswap"
   },
   {
@@ -23941,21 +23941,21 @@
   },
   {
     "id": "0xaf16d97df951bb8b7d876ae93367ec835c4c11b0",
-    "liquidity": "106529025970374843759",
+    "liquidity": "107407742352447261187",
     "token0": {
       "id": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
       "symbol": "tBTC",
       "name": "Polygon tBTC v2",
-      "price": "0.0533593064321021"
+      "price": "0.05332580593087028"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "18.740873277138"
+      "price": "18.752646725984135"
     },
-    "volumeUSD": "11029272.64083813075172006472114383",
-    "feesUSD": "7856.077636288556908865476995865022",
+    "volumeUSD": "11035244.31552600827910490057947554",
+    "feesUSD": "7856.754614621833096797479066712389",
     "exchangeid": "quickswap"
   },
   {
@@ -23984,35 +23984,35 @@
       "id": "0x0c9c7712c83b3c70e7c5e11100d33d9401bdf9dd",
       "symbol": "WOMBAT",
       "name": "Wombat",
-      "price": "632.6383262440133"
+      "price": "631.8738058754016"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.0015806819765995218"
+      "price": "0.0015825944843758705"
     },
-    "volumeUSD": "7554873.1166747157822",
-    "feesUSD": "19912.6921367146447063874",
+    "volumeUSD": "7554910.3359338554876",
+    "feesUSD": "19912.7864056396106527502",
     "exchangeid": "quickswap"
   },
   {
     "id": "0xafecf029079cb27f64e4bb372c41934f94c61369",
-    "liquidity": "20388653307732335591",
+    "liquidity": "1052775490584370275",
     "token0": {
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
       "name": "Aavegotchi GHST Token (PoS)",
-      "price": "2074.881367950652"
+      "price": "2100.336706091196"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0004819552652244856"
+      "price": "0.0004761141378427065"
     },
-    "volumeUSD": "11977.70074867826458974362225903992",
-    "feesUSD": "55.65704812099986091574893444932058",
+    "volumeUSD": "11994.58952292187819206170377356248",
+    "feesUSD": "55.71472525550288086629276901539331",
     "exchangeid": "quickswap"
   },
   {
@@ -24030,8 +24030,8 @@
       "name": "Telcoin (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "796923.0092170509672832500813928814",
-    "feesUSD": "1904.376223138490551612010834983779",
+    "volumeUSD": "797129.6838486349532037633787710602",
+    "feesUSD": "1904.878417116696549425844654340336",
     "exchangeid": "quickswap"
   },
   {
@@ -24117,13 +24117,13 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.00001474601059669443"
+      "price": "0.000014780866904891501"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "67814.95194531918"
+      "price": "67655.03041428952"
     },
     "volumeUSD": "6.499383962419676845079586427524398",
     "feesUSD": "0.01048810603180293015705358240904246",
@@ -24201,8 +24201,8 @@
       "name": "NASDEX Token",
       "price": "Infinity"
     },
-    "volumeUSD": "355502.353814",
-    "feesUSD": "3225.578292788683",
+    "volumeUSD": "355504.459038",
+    "feesUSD": "3225.583492691963",
     "exchangeid": "quickswap"
   },
   {
@@ -24573,13 +24573,13 @@
       "id": "0x0e9b89007eee9c958c0eda24ef70723c2c93dd58",
       "symbol": "aMATICc",
       "name": "Ankr MATIC Reward Bearing Certif",
-      "price": "1.309878433288922"
+      "price": "1.3136071110433842"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.7634296241439288"
+      "price": "0.7612626268486858"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -24725,16 +24725,16 @@
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.05257229899178727"
+      "price": "0.052452979411183674"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "19.021424194445405"
+      "price": "19.064693964491685"
     },
-    "volumeUSD": "4617.831157769964365697459130499901",
-    "feesUSD": "5.824896328009217120026422095603218",
+    "volumeUSD": "4617.860444458679294138246540585479",
+    "feesUSD": "5.824946507114244205144570180809906",
     "exchangeid": "quickswap"
   },
   {
@@ -24801,16 +24801,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.002429526552149747"
+      "price": "0.002440849066269863"
     },
     "token1": {
       "id": "0x13646e0e2d768d31b75d1a1e375e3e17f18567f2",
       "symbol": "NWS",
       "name": "Nodewaves",
-      "price": "411.60282817866636"
+      "price": "409.69350125700845"
     },
-    "volumeUSD": "510551.4133431630784298081562260408",
-    "feesUSD": "2449.275841467691950914894978697065",
+    "volumeUSD": "510824.9217385496171066839646231846",
+    "feesUSD": "2450.100038795326609429176024548087",
     "exchangeid": "quickswap"
   },
   {
@@ -25005,7 +25005,7 @@
   },
   {
     "id": "0xb8d00c66accdc01e78fd7957bf24050162916ae2",
-    "liquidity": "36809223731690932263513",
+    "liquidity": "36824703278496644797886",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -25018,8 +25018,8 @@
       "name": "Dragon QUICK",
       "price": "Infinity"
     },
-    "volumeUSD": "829280.4406619858420068827450098434",
-    "feesUSD": "2120.935976909863734366086504125573",
+    "volumeUSD": "829927.3020270808101629158539019211",
+    "feesUSD": "2121.252752247729470517182123837659",
     "exchangeid": "quickswap"
   },
   {
@@ -25029,13 +25029,13 @@
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.04259537939332373"
+      "price": "0.040799690705642676"
     },
     "token1": {
       "id": "0xbc5eb84c052fd012bb902c258c9fd241b17c0005",
       "symbol": "XNET",
       "name": "XNET Mobile",
-      "price": "23.47672480543129"
+      "price": "24.509989725527458"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -25081,7 +25081,7 @@
   },
   {
     "id": "0xb931716f4a258116d201d7c59199685165ef8f1c",
-    "liquidity": "2573440455320446642215",
+    "liquidity": "1286720227660223321108",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -25094,8 +25094,8 @@
       "name": "Ethereal",
       "price": "Infinity"
     },
-    "volumeUSD": "13791.67273857985294647351223806221",
-    "feesUSD": "64.09189914681190292002990184466476",
+    "volumeUSD": "14413.73174155293111228542316459732",
+    "feesUSD": "66.03847253527322010905471546134933",
     "exchangeid": "quickswap"
   },
   {
@@ -25474,8 +25474,8 @@
       "name": "Synapse",
       "price": "Infinity"
     },
-    "volumeUSD": "7713.395845785756245812032566349784",
-    "feesUSD": "27.59622988125296405095873042229135",
+    "volumeUSD": "7713.576445475740960494863261795321",
+    "feesUSD": "27.59654863970578707237392659975272",
     "exchangeid": "quickswap"
   },
   {
@@ -25499,21 +25499,21 @@
   },
   {
     "id": "0xbc8f3da0bd42e1f2509cd8671ce7c7e5f7fd39c8",
-    "liquidity": "71107721439317620004",
+    "liquidity": "71221370099453377131",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "1.000012543938366"
+      "price": "1.0000719511885645"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "0.9999874562189824"
+      "price": "0.9999280539880365"
     },
-    "volumeUSD": "19457933.21162649894804097512454823",
-    "feesUSD": "1945.939647442994583588568810347262",
+    "volumeUSD": "19558565.83713365132216887673459518",
+    "feesUSD": "1956.002909993709821001358971351957",
     "exchangeid": "quickswap"
   },
   {
@@ -25789,16 +25789,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.239436419502649"
+      "price": "0.24203908710696698"
     },
     "token1": {
       "id": "0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f",
       "symbol": "VOXEL",
       "name": "VOXEL Token",
-      "price": "4.176474080581282"
+      "price": "4.1315640872420705"
     },
-    "volumeUSD": "20256652.8088944075883",
-    "feesUSD": "54657.5927712987664904139",
+    "volumeUSD": "20277064.9865142898061",
+    "feesUSD": "54717.4122008564940814989",
     "exchangeid": "quickswap"
   },
   {
@@ -25892,8 +25892,8 @@
       "name": "STARV4 by StarSeeds Protocol",
       "price": "Infinity"
     },
-    "volumeUSD": "77989.52772",
-    "feesUSD": "111.403971495067",
+    "volumeUSD": "77993.392154",
+    "feesUSD": "111.410792221077",
     "exchangeid": "quickswap"
   },
   {
@@ -25979,13 +25979,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "3.082748392770898"
+      "price": "3.0574677087551643"
     },
     "token1": {
       "id": "0xe5417af564e4bfda1c483642db72007871397896",
       "symbol": "GNS",
       "name": "Gains Network",
-      "price": "0.3243858637133729"
+      "price": "0.3270680495288521"
     },
     "volumeUSD": "767.9433955248244806053210121005993",
     "feesUSD": "2.862008518631948210991698194630791",
@@ -26006,24 +26006,24 @@
       "name": "Bit Berry",
       "price": "Infinity"
     },
-    "volumeUSD": "14807.927407",
-    "feesUSD": "14.332026468199",
+    "volumeUSD": "14809.048259",
+    "feesUSD": "14.333851215255",
     "exchangeid": "quickswap"
   },
   {
     "id": "0xc10a06863f858f67c2cd46f1675ee029d3f7acd8",
-    "liquidity": "14941955367838053",
+    "liquidity": "15762803299431304",
     "token0": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "15.423753985184014"
+      "price": "15.675621177967972"
     },
     "token1": {
       "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
       "symbol": "LINK",
       "name": "ChainLink Token",
-      "price": "0.06483505902393123"
+      "price": "0.06379332523074085"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -26131,16 +26131,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "5.726205132083527e-8"
+      "price": "5.6770269550679314e-8"
     },
     "token1": {
       "id": "0xc708d6f2153933daa50b2d0758955be0a93a8fec",
       "symbol": "fxVERSE",
       "name": "Verse (FXERC20)",
-      "price": "17463572.766491894"
+      "price": "17614853.82956111"
     },
-    "volumeUSD": "407520.4884800284834958528837029249",
-    "feesUSD": "609.5304675047917713154014974556752",
+    "volumeUSD": "409228.5154537108612682943169499919",
+    "feesUSD": "612.4772216057918139095225325571633",
     "exchangeid": "quickswap"
   },
   {
@@ -26188,16 +26188,16 @@
       "id": "0xb4357054c3da8d46ed642383f03139ac7f090343",
       "symbol": "PORT3",
       "name": "Port3 Network",
-      "price": "6.992031638311518"
+      "price": "7.1240728656544245"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.143019947810403"
+      "price": "0.14036914260395328"
     },
-    "volumeUSD": "275579.2721192709554428674161135701",
-    "feesUSD": "736.4949840813425260996467823022836",
+    "volumeUSD": "281606.5482542709554428674161135701",
+    "feesUSD": "751.7268295468145260996467823022836",
     "exchangeid": "quickswap"
   },
   {
@@ -26329,8 +26329,8 @@
       "name": "SuperFarm (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "7405.402675372313679652368154547723",
-    "feesUSD": "21.03336938312166789766186283720909",
+    "volumeUSD": "7463.401742776556826127434831287249",
+    "feesUSD": "21.13406037795831119773157800393386",
     "exchangeid": "quickswap"
   },
   {
@@ -26720,13 +26720,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.0005559079842842813"
+      "price": "0.0005543306074593661"
     },
     "token1": {
       "id": "0x6deb362e86e79208f7dd60608e71596ffd88d733",
       "symbol": "$GOLD",
       "name": "NAQDI GOLD",
-      "price": "1798.858854829144"
+      "price": "1803.977602072609"
     },
     "volumeUSD": "20",
     "feesUSD": "0.002",
@@ -26853,16 +26853,16 @@
       "id": "0x27842334c55c01ddfe81bf687425f906816c5141",
       "symbol": "VEXT",
       "name": "Veloce",
-      "price": "25.31705483339025"
+      "price": "26.655253917909913"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.03949906521832532"
+      "price": "0.037516056049576425"
     },
-    "volumeUSD": "8234264.906226241214758537032830958",
-    "feesUSD": "20480.80947970425604553654758343961",
+    "volumeUSD": "8234513.962945343652658537032830958",
+    "feesUSD": "20481.85527312205245053984758343961",
     "exchangeid": "quickswap"
   },
   {
@@ -26880,8 +26880,8 @@
       "name": "RoboHero",
       "price": "Infinity"
     },
-    "volumeUSD": "13.67514422563592607208507598336017",
-    "feesUSD": "0.02400286609249183833907552610846702",
+    "volumeUSD": "14.43776055555613648413476358405772",
+    "feesUSD": "0.02565164259777933324992695070117513",
     "exchangeid": "quickswap"
   },
   {
@@ -26905,21 +26905,21 @@
   },
   {
     "id": "0xcad897389fd7f97592fe8d426a61e14bf4da36c0",
-    "liquidity": "2757861866571678857572989",
+    "liquidity": "2757887228580483396218200",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.011634727547656014"
+      "price": "0.011695385797082212"
     },
     "token1": {
       "id": "0xdcb72ae4d5dc6ae274461d57e65db8d50d0a33ad",
       "symbol": "RADAR",
       "name": "DappRadar",
-      "price": "85.94958462963447"
+      "price": "85.5038061463079"
     },
-    "volumeUSD": "912695.3877439382415578647568660844",
-    "feesUSD": "1954.304631057373022476791631598822",
+    "volumeUSD": "913415.662941567280609144714094833",
+    "feesUSD": "1954.573104836734698735964213340932",
     "exchangeid": "quickswap"
   },
   {
@@ -27013,8 +27013,8 @@
       "name": "ParaSwap (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "14689.83036109300798320620922592116",
-    "feesUSD": "32.95393509814264927167340627746223",
+    "volumeUSD": "14694.33829555954502577738859246089",
+    "feesUSD": "32.96195060672626919286558618427278",
     "exchangeid": "quickswap"
   },
   {
@@ -27146,8 +27146,8 @@
       "name": "SuperFarm (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "8479.459078532829626546058368592657",
-    "feesUSD": "30.11436677241691517459968275853981",
+    "volumeUSD": "8507.129615852825971116649847770434",
+    "feesUSD": "30.16635955373295234377344667188899",
     "exchangeid": "quickswap"
   },
   {
@@ -27260,8 +27260,8 @@
       "name": "Axelar",
       "price": "Infinity"
     },
-    "volumeUSD": "4223.002453413226049146769702456818",
-    "feesUSD": "24.49005012901201023423092185297663",
+    "volumeUSD": "4223.822437747365208375574847223781",
+    "feesUSD": "24.49207549031733395752607056055103",
     "exchangeid": "quickswap"
   },
   {
@@ -27323,7 +27323,7 @@
   },
   {
     "id": "0xce5dcdba14982ebeb49d363a9f4efa9156982091",
-    "liquidity": "35007739795392156706",
+    "liquidity": "32587456472495878292",
     "token0": {
       "id": "0x198f1d316aad1c0bfd36a79bd1a8e9dba92daa18",
       "symbol": "DECATS",
@@ -27412,8 +27412,8 @@
       "name": "XY Oracle (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "123.5129505725207724750875975004017",
-    "feesUSD": "0.1180409141862726291457872084727303",
+    "volumeUSD": "138.6716603377787113376809800161152",
+    "feesUSD": "0.143719768528619577579020398454349",
     "exchangeid": "quickswap"
   },
   {
@@ -27556,13 +27556,13 @@
       "id": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
       "symbol": "wstETH",
       "name": "Wrapped liquid staked Ether 2.0 (PoS)",
-      "price": "0.000012536931342137827"
+      "price": "0.00001253380417162656"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "79764.33568228169"
+      "price": "79784.23679729679"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -27665,21 +27665,21 @@
   },
   {
     "id": "0xd1e4816deaac1ff9cbeffd25195de9ba2d1bcec8",
-    "liquidity": "3427329514326842301629",
+    "liquidity": "3428233843805593126821",
     "token0": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.0002013345920897292"
+      "price": "0.00020129893087740498"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "4966.856363929393"
+      "price": "4967.736269841492"
     },
-    "volumeUSD": "3778360.466510973793744089884727637",
-    "feesUSD": "5723.250070452770895563751769042437",
+    "volumeUSD": "3779511.123952547773539108702181225",
+    "feesUSD": "5725.269937340999912345576392152891",
     "exchangeid": "quickswap"
   },
   {
@@ -27822,13 +27822,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.7242018142367981"
+      "price": "0.7221879952078335"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "1.3808305645489891"
+      "price": "1.3846810063800865"
     },
     "volumeUSD": "53856.71360956614850377373845520788",
     "feesUSD": "97.97110309190971170767784838218962",
@@ -27836,21 +27836,21 @@
   },
   {
     "id": "0xd385ac9c9bcc8b345080365bf9d3345f20f97db6",
-    "liquidity": "8366407333345935276729",
+    "liquidity": "9176479029028902781286",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "139.74656043919117"
+      "price": "139.37227933247388"
     },
     "token1": {
       "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
       "symbol": "AAVE",
       "name": "Aave (PoS)",
-      "price": "0.007155811183167807"
+      "price": "0.007175027952398559"
     },
-    "volumeUSD": "7951041.472099806656804719386584804",
-    "feesUSD": "16018.60108498667043617072045043459",
+    "volumeUSD": "8000134.833183467241648334192193196",
+    "feesUSD": "16165.88116823765219070156486725971",
     "exchangeid": "quickswap"
   },
   {
@@ -28088,16 +28088,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "104345.47487521282"
+      "price": "104395.73450517128"
     },
     "token1": {
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.000009583549274138664"
+      "price": "0.000009578935430072237"
     },
-    "volumeUSD": "1432154.776289628297827805303615783",
-    "feesUSD": "2120.155553825249647559423304748205",
+    "volumeUSD": "1432283.457263476440301518839651603",
+    "feesUSD": "2120.394379624457529713196364329002",
     "exchangeid": "quickswap"
   },
   {
@@ -28145,13 +28145,13 @@
       "id": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
       "symbol": "miMATIC",
       "name": "miMATIC",
-      "price": "0.05343731854708759"
+      "price": "0.05303389808342292"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "18.713513836193442"
+      "price": "18.855864572258834"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -28267,8 +28267,8 @@
       "name": "PlanetIX",
       "price": "Infinity"
     },
-    "volumeUSD": "3610472.816868184104587688505962074",
-    "feesUSD": "8944.636114783308910643542772510751",
+    "volumeUSD": "3611492.315835473408414861510655538",
+    "feesUSD": "8947.681484841668164059541786070649",
     "exchangeid": "quickswap"
   },
   {
@@ -28316,13 +28316,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "1.1235972053541903"
+      "price": "1.120409022701"
     },
     "token1": {
       "id": "0x576cf361711cd940cd9c397bb98c4c896cbd38de",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "0.8899986536409826"
+      "price": "0.8925311915011834"
     },
     "volumeUSD": "5.481031",
     "feesUSD": "0.002401923452",
@@ -28335,13 +28335,13 @@
       "id": "0xb6c3c00d730acca326db40e418353f04f7444e2b",
       "symbol": "fcc",
       "name": "first choice coin",
-      "price": "197.46941152636967"
+      "price": "197.5470109505001"
     },
     "token1": {
       "id": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
       "symbol": "MaticX",
       "name": "Liquid Staking Matic (PoS)",
-      "price": "0.005064075454878549"
+      "price": "0.005062086210206302"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -28392,21 +28392,21 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.6284626246201589"
+      "price": "0.6361896845644235"
     },
     "token1": {
       "id": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
       "symbol": "SAND",
       "name": "SAND",
-      "price": "1.5911845204866355"
+      "price": "1.571858243323553"
     },
-    "volumeUSD": "110662092.6251878151419741638620472",
-    "feesUSD": "173614.6133338195205263525109044681",
+    "volumeUSD": "110719334.7967160753922092382155922",
+    "feesUSD": "173719.8695671868260883977002480007",
     "exchangeid": "quickswap"
   },
   {
     "id": "0xd905b7e305cb1d385ff31b157fb43e53118e292e",
-    "liquidity": "144407447398063081805102",
+    "liquidity": "244921327303105329079943",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -28419,8 +28419,8 @@
       "name": "STARV4 by StarSeeds Protocol",
       "price": "Infinity"
     },
-    "volumeUSD": "173149.1571409305437270590067275079",
-    "feesUSD": "181.3490889348308886356496641881546",
+    "volumeUSD": "173323.4038540830059574045508129928",
+    "feesUSD": "181.5755846921938613612617285421715",
     "exchangeid": "quickswap"
   },
   {
@@ -28468,16 +28468,16 @@
       "id": "0x23001ae6cd2f0644c5846e156565998334fc2be3",
       "symbol": "ABYS",
       "name": "Abyss Fragment",
-      "price": "42.23879376098146"
+      "price": "42.463469432143114"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.02367491850403552"
+      "price": "0.023549653699352243"
     },
-    "volumeUSD": "1011711.146649288343182550955147714",
-    "feesUSD": "7115.999071334033110185805716423924",
+    "volumeUSD": "1022157.736566345616810846102020968",
+    "feesUSD": "7148.08824340211589156790992660199",
     "exchangeid": "quickswap"
   },
   {
@@ -28558,21 +28558,21 @@
   },
   {
     "id": "0xd9c2c978915b907df04972cb3f577126fe55143c",
-    "liquidity": "824902189134739386181718",
+    "liquidity": "824950252251544256359299",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.016608164856312883"
+      "price": "0.016587610955742967"
     },
     "token1": {
       "id": "0xc2a45fe7d40bcac8369371b08419ddafd3131b4a",
       "symbol": "LCD",
       "name": "Lucidao",
-      "price": "60.21134837301984"
+      "price": "60.28595695112923"
     },
-    "volumeUSD": "2246130.702645148230281029124849318",
-    "feesUSD": "7382.176610810008087430654510271223",
+    "volumeUSD": "2246341.744814620677773309326780622",
+    "feesUSD": "7382.212995590970811225421728749937",
     "exchangeid": "quickswap"
   },
   {
@@ -28799,8 +28799,8 @@
       "name": "Nahemah",
       "price": "Infinity"
     },
-    "volumeUSD": "490.089514488111185040873890918893",
-    "feesUSD": "1.271445937592341187539948922769846",
+    "volumeUSD": "490.3218330426984480040163391000328",
+    "feesUSD": "1.271872474458563402340278457630419",
     "exchangeid": "quickswap"
   },
   {
@@ -28862,21 +28862,21 @@
   },
   {
     "id": "0xdb975b96828352880409e86d5ae93c23c924f812",
-    "liquidity": "95406208484",
+    "liquidity": "95447319829",
     "token0": {
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.000014745825625966622"
+      "price": "0.000014779803480464332"
     },
     "token1": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "67815.80261189667"
+      "price": "67659.8982741402"
     },
-    "volumeUSD": "8466423.544919088008660577300345894",
-    "feesUSD": "8373.140725436877443851523815192454",
+    "volumeUSD": "8482131.16325799314770152498214498",
+    "feesUSD": "8393.231696617700803425489032071928",
     "exchangeid": "quickswap"
   },
   {
@@ -28943,16 +28943,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.3117430490604006"
+      "price": "0.3182395096316955"
     },
     "token1": {
       "id": "0xee9a352f6aac4af1a5b9f467f6a93e0ffbe9dd35",
       "symbol": "MASQ",
       "name": "MASQ (PoS)",
-      "price": "3.2077699984458956"
+      "price": "3.142287395921765"
     },
-    "volumeUSD": "4756326.656403005326197461023921909",
-    "feesUSD": "31877.38519693409854485083795984827",
+    "volumeUSD": "4765369.843367856025838539624431962",
+    "feesUSD": "31967.82888960926765975399252154791",
     "exchangeid": "quickswap"
   },
   {
@@ -29000,13 +29000,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.003667412631855084"
+      "price": "0.0036557778917181093"
     },
     "token1": {
       "id": "0xb6c3c00d730acca326db40e418353f04f7444e2b",
       "symbol": "fcc",
       "name": "first choice coin",
-      "price": "272.67179899911366"
+      "price": "273.53959393031647"
     },
     "volumeUSD": "34481.727716",
     "feesUSD": "72.326402066003",
@@ -29027,8 +29027,8 @@
       "name": "3A Utility Token (FXERC20)",
       "price": "Infinity"
     },
-    "volumeUSD": "127000.31803",
-    "feesUSD": "979.11117758059",
+    "volumeUSD": "127001.318058",
+    "feesUSD": "979.11272762399",
     "exchangeid": "quickswap"
   },
   {
@@ -29190,13 +29190,13 @@
       "id": "0xba777ae3a3c91fcd83ef85bfe65410592bdd0f7c",
       "symbol": "CONE",
       "name": "BitCone",
-      "price": "11.706923527859093"
+      "price": "10.948050640999664"
     },
     "token1": {
       "id": "0xf3abaa9ea255d38763a5d0ae6286d6df53154ddc",
       "symbol": "$HROOM",
       "name": "Shroom",
-      "price": "0.08541953807251658"
+      "price": "0.09134046167589614"
     },
     "volumeUSD": "0",
     "feesUSD": "0",
@@ -29209,16 +29209,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.000014615555066505608"
+      "price": "0.000014620471050293746"
     },
     "token1": {
       "id": "0xb5c064f955d8e7f38fe0460c556a72987494ee17",
       "symbol": "QUICK",
       "name": "QuickSwap",
-      "price": "68420.25468411356"
+      "price": "68397.24907357951"
     },
-    "volumeUSD": "60676207.11255368350615112830596862",
-    "feesUSD": "303440.9133631185746469726856477193",
+    "volumeUSD": "60688718.41554879950113066622851725",
+    "feesUSD": "303535.9036417403596809939250557467",
     "exchangeid": "quickswap"
   },
   {
@@ -29806,8 +29806,8 @@
       "name": "Wrapped Matic",
       "price": "0"
     },
-    "volumeUSD": "1329484.904043065217194789047953849",
-    "feesUSD": "7416.198272783362711671631317646745",
+    "volumeUSD": "1329905.922938069896874747252093941",
+    "feesUSD": "7417.001056301056642163904030066956",
     "exchangeid": "quickswap"
   },
   {
@@ -29855,16 +29855,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "1.7335961686156518"
+      "price": "1.7081258862131665"
     },
     "token1": {
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
       "name": "Aavegotchi GHST Token (PoS)",
-      "price": "0.576835608028911"
+      "price": "0.58543694470725"
     },
-    "volumeUSD": "99898698.5366356899638",
-    "feesUSD": "340822.2388039414934683762",
+    "volumeUSD": "99974737.0764931559205",
+    "feesUSD": "341075.9610245460856548529",
     "exchangeid": "quickswap"
   },
   {
@@ -30026,13 +30026,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "3.62449156112204e-8"
+      "price": "3.614207145081542e-8"
     },
     "token1": {
       "id": "0xf420e0ca9bb7027e136882e8fe32d7d6445c9996",
       "symbol": "MMX",
       "name": "MasonMuskX",
-      "price": "27590076.653135546"
+      "price": "27668585.66368748"
     },
     "volumeUSD": "1581822.762184291407705568868782893",
     "feesUSD": "16264.11795708425870834118345982977",
@@ -30262,8 +30262,8 @@
       "name": "Sunflower Land",
       "price": "Infinity"
     },
-    "volumeUSD": "70720.480144",
-    "feesUSD": "148.694911562774",
+    "volumeUSD": "71054.77906",
+    "feesUSD": "149.499069175988",
     "exchangeid": "quickswap"
   },
   {
@@ -30433,8 +30433,8 @@
       "name": "Wrapped Ether",
       "price": "0"
     },
-    "volumeUSD": "109640.735189446131527748013241274",
-    "feesUSD": "325.3109712066063064902743518771608",
+    "volumeUSD": "109664.5058065481792798812875279676",
+    "feesUSD": "325.3578468635315446574811687705205",
     "exchangeid": "quickswap"
   },
   {
@@ -30520,16 +30520,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.9999989723308778"
+      "price": "1"
     },
     "token1": {
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "1.0000010276701783"
+      "price": "1"
     },
-    "volumeUSD": "387046887.7861760835406482578089603",
-    "feesUSD": "38491.10373884765807916692426768127",
+    "volumeUSD": "387253461.406491461209579883862489",
+    "feesUSD": "38511.76110087919584606008687303414",
     "exchangeid": "quickswap"
   },
   {
@@ -30661,8 +30661,8 @@
       "name": "Render Token",
       "price": "Infinity"
     },
-    "volumeUSD": "718266.3899587379228309365123924315",
-    "feesUSD": "1681.096433835728031910709943912761",
+    "volumeUSD": "720052.7037270373001858054012822006",
+    "feesUSD": "1686.17267466371597498923840373985",
     "exchangeid": "quickswap"
   },
   {
@@ -30938,13 +30938,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.4084424258993129"
+      "price": "0.4122911023374356"
     },
     "token1": {
       "id": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
       "symbol": "SAND",
       "name": "SAND",
-      "price": "2.4483254838137576"
+      "price": "2.425470727674253"
     },
     "volumeUSD": "20457.535589",
     "feesUSD": "43.875753245987",
@@ -30957,16 +30957,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.30254098940984964"
+      "price": "0.30452849614141986"
     },
     "token1": {
       "id": "0xe261d618a959afffd53168cd07d12e37b26761db",
       "symbol": "DIMO",
       "name": "Dimo",
-      "price": "3.305337243560438"
+      "price": "3.2837649437430985"
     },
-    "volumeUSD": "838710.0853784025805503590880776762",
-    "feesUSD": "3559.240859553449427347464292854127",
+    "volumeUSD": "838716.6418541738807439355387568571",
+    "feesUSD": "3559.253004542656959552969976060044",
     "exchangeid": "quickswap"
   },
   {
@@ -31041,8 +31041,8 @@
       "name": "Wrapped Ether",
       "price": "0"
     },
-    "volumeUSD": "16824.98947560628499309381943646907",
-    "feesUSD": "55.06639800609984928746124775288068",
+    "volumeUSD": "16959.78903347403861244818431937526",
+    "feesUSD": "55.26865121894215431393636885350967",
     "exchangeid": "quickswap"
   },
   {
@@ -31337,16 +31337,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.9999864285627511"
+      "price": "0.9999280539880365"
     },
     "token1": {
       "id": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "symbol": "USDC",
       "name": "USD Coin",
-      "price": "1.0000135716214353"
+      "price": "1.0000719511885645"
     },
-    "volumeUSD": "1079858740.6947666637729",
-    "feesUSD": "4316.3606285152373903689",
+    "volumeUSD": "1080671106.5942890198999",
+    "feesUSD": "4317.1729944147597464959",
     "exchangeid": "quickswap"
   },
   {
@@ -31432,16 +31432,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "15.42354466267466"
+      "price": "15.674493379539166"
     },
     "token1": {
       "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
       "symbol": "LINK",
       "name": "ChainLink Token",
-      "price": "0.06483593894080804"
+      "price": "0.0637979152363137"
     },
-    "volumeUSD": "20962955.8849750039865",
-    "feesUSD": "51422.5147217997463953473",
+    "volumeUSD": "20963653.6609279933271",
+    "feesUSD": "51423.9312150109073018321",
     "exchangeid": "quickswap"
   },
   {
@@ -31451,16 +31451,16 @@
       "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "symbol": "DAI",
       "name": "(PoS) Dai Stablecoin",
-      "price": "1.0000010276701783"
+      "price": "1"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.9999989723308778"
+      "price": "1"
     },
-    "volumeUSD": "35301912.63242719974848609590344576",
-    "feesUSD": "9338.940656397829465473747518615457",
+    "volumeUSD": "35307939.57107514235942263061566293",
+    "feesUSD": "9341.954125721800770942014874724041",
     "exchangeid": "quickswap"
   },
   {
@@ -31603,16 +31603,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.2721038661887254"
+      "price": "0.2745550296330235"
     },
     "token1": {
       "id": "0xac0f66379a6d7801d7726d5a943356a172549adb",
       "symbol": "GEOD",
       "name": "Geodnet Token",
-      "price": "3.6750672234345303"
+      "price": "3.6422570780678205"
     },
-    "volumeUSD": "3870407.990195998693578306573536934",
-    "feesUSD": "16318.65991320154348167527950047736",
+    "volumeUSD": "3871180.598983016799196676136700415",
+    "feesUSD": "16320.28166718056894016364802095979",
     "exchangeid": "quickswap"
   },
   {
@@ -31641,16 +31641,16 @@
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "2.969049878895537"
+      "price": "2.9742792193294814"
     },
     "token1": {
       "id": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
       "symbol": "LDO",
       "name": "Lido DAO Token (PoS)",
-      "price": "0.33680808365940695"
+      "price": "0.3362159119093866"
     },
-    "volumeUSD": "8721604.914412602174428662724899098",
-    "feesUSD": "24165.98129008495956830110500823949",
+    "volumeUSD": "8738333.831353819167391471333772697",
+    "feesUSD": "24206.38228137402509994527342679568",
     "exchangeid": "quickswap"
   },
   {
@@ -31668,8 +31668,8 @@
       "name": "MATIKAToken",
       "price": "Infinity"
     },
-    "volumeUSD": "10460.71427528317199815401033222622",
-    "feesUSD": "26.4155193269568685974357253681775",
+    "volumeUSD": "10518.01737487811017759964815856169",
+    "feesUSD": "26.56648757408000056684217808316685",
     "exchangeid": "quickswap"
   },
   {
@@ -31698,13 +31698,13 @@
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.06851339357515147"
+      "price": "0.06845507385554611"
     },
     "token1": {
       "id": "0xe238ecb42c424e877652ad82d8a939183a04c35f",
       "symbol": "WIFI",
       "name": "WiFi Map",
-      "price": "14.595686300418219"
+      "price": "14.608120971576188"
     },
     "volumeUSD": "80.25889100065334827058810448198629",
     "feesUSD": "0.2955666906628658669563102680776639",
@@ -31744,8 +31744,8 @@
       "name": "Wrapped Matic",
       "price": "0"
     },
-    "volumeUSD": "31.67877643557239624920165288679446",
-    "feesUSD": "0.3888284786932392094680581239702607",
+    "volumeUSD": "31.7148551853940131093784609731982",
+    "feesUSD": "0.3893325585236362837527823031559207",
     "exchangeid": "quickswap"
   },
   {
@@ -31831,13 +31831,13 @@
       "id": "0x1a70807f022cbd3ac5380a6a2af3524e56a6184d",
       "symbol": "STRIX",
       "name": "Strix",
-      "price": "0.40580783872787257"
+      "price": "0.4069625862225347"
     },
     "token1": {
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "2.464220511695394"
+      "price": "2.4572283395436787"
     },
     "volumeUSD": "201620.038693",
     "feesUSD": "378.57326484747",
@@ -31934,8 +31934,8 @@
       "name": "Moss Carbon Credit (PoS)",
       "price": "Infinity"
     },
-    "volumeUSD": "202.139039",
-    "feesUSD": "1.016165886054",
+    "volumeUSD": "202.535965",
+    "feesUSD": "1.016809700026",
     "exchangeid": "quickswap"
   },
   {
@@ -32021,16 +32021,16 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.0425948013128052"
+      "price": "0.04079675533060706"
     },
     "token1": {
       "id": "0xbc5eb84c052fd012bb902c258c9fd241b17c0005",
       "symbol": "XNET",
       "name": "XNET Mobile",
-      "price": "23.47704342265289"
+      "price": "24.511753248419915"
     },
-    "volumeUSD": "797203.2644846808631",
-    "feesUSD": "7843.5722120030970856429",
+    "volumeUSD": "797792.2868241837278",
+    "feesUSD": "7845.1916807931007679704",
     "exchangeid": "quickswap"
   },
   {
@@ -32149,7 +32149,7 @@
   },
   {
     "id": "0xf48f80b61b2238674d468838a8744be43103d1f2",
-    "liquidity": "5922093832933339611",
+    "liquidity": "13775821583088336847",
     "token0": {
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
@@ -32287,13 +32287,13 @@
       "id": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
       "symbol": "stMATIC",
       "name": "Staked MATIC (PoS)",
-      "price": "1.3744766819534413"
+      "price": "1.3783655251680593"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "0.7275496289822644"
+      "price": "0.7254969612491385"
     },
     "volumeUSD": "41.25815410097475612601345627777855",
     "feesUSD": "0.09628134160858831791777243037602976",
@@ -32301,7 +32301,7 @@
   },
   {
     "id": "0xf53ba239046aee90d03c681165a5bfcbfc17e44a",
-    "liquidity": "128540417799261382761",
+    "liquidity": "118016609607695607201",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
@@ -32314,8 +32314,8 @@
       "name": "Bombcrypto Coin",
       "price": "Infinity"
     },
-    "volumeUSD": "750.8555063098645388044162432928612",
-    "feesUSD": "4.642120086392289002820698588509061",
+    "volumeUSD": "751.0920743093228592114946699504166",
+    "feesUSD": "4.643200729013814610440232841480774",
     "exchangeid": "quickswap"
   },
   {
@@ -32420,16 +32420,16 @@
       "id": "0x58001cc1a9e17a20935079ab40b1b8f4fc19efd1",
       "symbol": "PUSH",
       "name": "Ethereum Push Notification Service (PoS)",
-      "price": "20420.668290022295"
+      "price": "20407.43078599597"
     },
     "token1": {
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.00004896999382182846"
+      "price": "0.00004900175874594768"
     },
-    "volumeUSD": "438229.1375899539590461468668475939",
-    "feesUSD": "643.877805651924990783524457855507",
+    "volumeUSD": "438285.8658545134251382159820519941",
+    "feesUSD": "643.8858043372278755025062030993274",
     "exchangeid": "quickswap"
   },
   {
@@ -32466,8 +32466,8 @@
       "name": "Infinity Realm",
       "price": "Infinity"
     },
-    "volumeUSD": "475.7825030673190086330444809396757",
-    "feesUSD": "0.6987322332994532922042335705662704",
+    "volumeUSD": "481.9070199227354486100780554403262",
+    "feesUSD": "0.6994610508052478485615005659318478",
     "exchangeid": "quickswap"
   },
   {
@@ -32515,16 +32515,16 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.00001904733718828523"
+      "price": "0.00001908081174388616"
     },
     "token1": {
       "id": "0xe238ecb42c424e877652ad82d8a939183a04c35f",
       "symbol": "WIFI",
       "name": "WiFi Map",
-      "price": "52500.7768862849"
+      "price": "52408.67178098009"
     },
-    "volumeUSD": "9924741.133276079170049835179600678",
-    "feesUSD": "57727.99756885742165210586633641206",
+    "volumeUSD": "9924840.434467265123879161196498916",
+    "feesUSD": "57728.18695505333639998782750036282",
     "exchangeid": "quickswap"
   },
   {
@@ -32561,8 +32561,8 @@
       "name": "Phoenix Gold Coin",
       "price": "Infinity"
     },
-    "volumeUSD": "90795.86357658140861155860886925195",
-    "feesUSD": "173.0185997660034578662676832061096",
+    "volumeUSD": "90799.28258672709773671409373641538",
+    "feesUSD": "173.0243915691902552442810745710844",
     "exchangeid": "quickswap"
   },
   {
@@ -32586,21 +32586,21 @@
   },
   {
     "id": "0xf7c5f9b97815fbfcbeef672009ac14c7a51f03af",
-    "liquidity": "169688017053848313137260",
+    "liquidity": "169027469366214675856752",
     "token0": {
       "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "symbol": "WMATIC",
       "name": "Wrapped Matic",
-      "price": "0.01575374115383961"
+      "price": "0.015926137436859764"
     },
     "token1": {
       "id": "0xb53ec4ace420a62cfb75afdeba600d284777cd65",
       "symbol": "SPACE",
       "name": "Space Token",
-      "price": "63.47698557661481"
+      "price": "62.78986376731752"
     },
-    "volumeUSD": "364050.5345107883730170470242214437",
-    "feesUSD": "747.5359694442534454033378201912981",
+    "volumeUSD": "364512.0266296736314286980506770348",
+    "feesUSD": "748.5352880242655448528733980129778",
     "exchangeid": "quickswap"
   },
   {
@@ -32699,6 +32699,25 @@
     "exchangeid": "quickswap"
   },
   {
+    "id": "0xf86845fc950a26caca529531988fd094d06dfa82",
+    "liquidity": "4884276764075358357819",
+    "token0": {
+      "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "symbol": "WMATIC",
+      "name": "Wrapped Matic",
+      "price": "0"
+    },
+    "token1": {
+      "id": "0xb769aa3c13291041639409f3f872bd76642e76fc",
+      "symbol": "RTC",
+      "name": "Rato Rico ",
+      "price": "Infinity"
+    },
+    "volumeUSD": "1.29395350651805015268450562118972",
+    "feesUSD": "0.000129395350651805015268450562118972",
+    "exchangeid": "quickswap"
+  },
+  {
     "id": "0xf8902f78962a0a642b28c19916bddc49c9a85ee7",
     "liquidity": "15886359787903459",
     "token0": {
@@ -32724,13 +32743,13 @@
       "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
       "symbol": "WBTC",
       "name": "(PoS) Wrapped BTC",
-      "price": "0.00022743598676333124"
+      "price": "0.0002316826004445714"
     },
     "token1": {
       "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
       "symbol": "LINK",
       "name": "ChainLink Token",
-      "price": "4396.841565097589"
+      "price": "4316.249895681069"
     },
     "volumeUSD": "815.3968505888044355180714893122186",
     "feesUSD": "1.291466365607866312299732469971481",
@@ -33188,8 +33207,8 @@
       "name": "Tacon Token",
       "price": "Infinity"
     },
-    "volumeUSD": "6004.02655739024921469835886886191",
-    "feesUSD": "72.22952107601103829022626575787899",
+    "volumeUSD": "6004.209245529476089046896800035269",
+    "feesUSD": "72.23141737889621324596408948345845",
     "exchangeid": "quickswap"
   },
   {
@@ -33237,13 +33256,13 @@
       "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "symbol": "USDC",
       "name": "USD Coin (PoS)",
-      "price": "0.9715169149560053"
+      "price": "0.968760256821948"
     },
     "token1": {
       "id": "0xec38621e72d86775a89c7422746de1f52bba5320",
       "symbol": "DAVOS",
       "name": "Davos",
-      "price": "1.0293181565915241"
+      "price": "1.032247135406375"
     },
     "volumeUSD": "1755886.8295658891848",
     "feesUSD": "244.311772908112730875",
@@ -33264,8 +33283,8 @@
       "name": "(PoS) Decentraland MANA",
       "price": "Infinity"
     },
-    "volumeUSD": "27281.43270472950776971198405518423",
-    "feesUSD": "57.30292263388831694331860098698597",
+    "volumeUSD": "27288.56566948343443942951003422281",
+    "feesUSD": "57.31619591403706499701830852876077",
     "exchangeid": "quickswap"
   },
   {
@@ -33397,8 +33416,8 @@
       "name": "XEN Crypto",
       "price": "Infinity"
     },
-    "volumeUSD": "276993.3133767044140622042518087656",
-    "feesUSD": "2011.152284091671140909263515030307",
+    "volumeUSD": "276994.6211200668029194331954083445",
+    "feesUSD": "2011.155324027180374642378499928105",
     "exchangeid": "quickswap"
   },
   {
@@ -33511,8 +33530,8 @@
       "name": "(PoS) Tether USD",
       "price": "0"
     },
-    "volumeUSD": "66.70994230059124135044429493546222",
-    "feesUSD": "0.4842809272844417903083777468666331",
+    "volumeUSD": "67.15454830059124135044429493546222",
+    "feesUSD": "0.4881307706384417903083777468666331",
     "exchangeid": "quickswap"
   },
   {
@@ -33598,13 +33617,13 @@
       "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "price": "0.00011355065341453153"
+      "price": "0.0001149198805041177"
     },
     "token1": {
       "id": "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
       "symbol": "SAND",
       "name": "SAND",
-      "price": "8806.642409615813"
+      "price": "8701.714582484003"
     },
     "volumeUSD": "21.15944371084760127460994207282179",
     "feesUSD": "0.06378257230179314644725801271197386",
@@ -33625,8 +33644,8 @@
       "name": "Wrapped Ether",
       "price": "0"
     },
-    "volumeUSD": "1696293.940671722087183077632372922",
-    "feesUSD": "2852.077982756754519706153295127675",
+    "volumeUSD": "1696294.317530742002600424695867741",
+    "feesUSD": "2852.080645265730222129710298718573",
     "exchangeid": "quickswap"
   },
   {
@@ -33712,16 +33731,16 @@
       "id": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
       "symbol": "GHST",
       "name": "Aavegotchi GHST Token (PoS)",
-      "price": "0.576835608028911"
+      "price": "0.58543694470725"
     },
     "token1": {
       "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
       "symbol": "USDT",
       "name": "(PoS) Tether USD",
-      "price": "1.7335961686156518"
+      "price": "1.7081258862131665"
     },
-    "volumeUSD": "429.2276704428433513472513418525451",
-    "feesUSD": "1.316148572184143927996087280146713",
+    "volumeUSD": "458.6705184428433513472513418525451",
+    "feesUSD": "1.654096638656143927996087280146713",
     "exchangeid": "quickswap"
   },
   {

@@ -1,0 +1,130 @@
+[
+  {
+    "timestamp": "2024-06-09T04:28:42.566Z",
+    "message": "updateData.mjs script started."
+  },
+  {
+    "timestamp": "2024-06-09T04:28:42.567Z",
+    "message": "Starting initial data update..."
+  },
+  {
+    "timestamp": "2024-06-09T04:28:42.568Z",
+    "message": "Starting to fetch Uniswap pools..."
+  },
+  {
+    "timestamp": "2024-06-09T04:28:42.569Z",
+    "message": "Fetching pools data from uniswap with skip value: 0"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:44.244Z",
+    "message": "Fetched 1000 pools from uniswap, total: 317"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:44.245Z",
+    "message": "Fetching pools data from uniswap with skip value: 1000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:45.967Z",
+    "message": "Fetched 1000 pools from uniswap, total: 610"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:45.968Z",
+    "message": "Fetching pools data from uniswap with skip value: 2000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:47.509Z",
+    "message": "Fetched 1000 pools from uniswap, total: 911"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:47.510Z",
+    "message": "Fetching pools data from uniswap with skip value: 3000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:49.081Z",
+    "message": "Fetched 1000 pools from uniswap, total: 1209"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:49.082Z",
+    "message": "Fetching pools data from uniswap with skip value: 4000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:50.666Z",
+    "message": "Fetched 1000 pools from uniswap, total: 1508"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:50.667Z",
+    "message": "Fetching pools data from uniswap with skip value: 5000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:52.219Z",
+    "message": "Fetched 1000 pools from uniswap, total: 1828"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:52.219Z",
+    "message": "Fetching pools data from uniswap with skip value: 6000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:52.416Z",
+    "message": "Error fetching pools data from uniswap: Cannot read properties of undefined (reading 'pools')"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:52.425Z",
+    "message": "Data written to uniswapchart.json"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:52.426Z",
+    "message": "Starting to fetch QuickSwap pools..."
+  },
+  {
+    "timestamp": "2024-06-09T04:28:52.427Z",
+    "message": "Fetching pools data from quickswap with skip value: 0"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:54.547Z",
+    "message": "Fetched 1000 pools from quickswap, total: 411"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:54.547Z",
+    "message": "Fetching pools data from quickswap with skip value: 1000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:56.702Z",
+    "message": "Fetched 1000 pools from quickswap, total: 836"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:56.703Z",
+    "message": "Fetching pools data from quickswap with skip value: 2000"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:58.908Z",
+    "message": "Fetched 1000 pools from quickswap, total: 1278"
+  },
+  {
+    "timestamp": "2024-06-09T04:28:58.909Z",
+    "message": "Fetching pools data from quickswap with skip value: 3000"
+  },
+  {
+    "timestamp": "2024-06-09T04:29:00.738Z",
+    "message": "Fetched 1000 pools from quickswap, total: 1657"
+  },
+  {
+    "timestamp": "2024-06-09T04:29:00.738Z",
+    "message": "Fetching pools data from quickswap with skip value: 4000"
+  },
+  {
+    "timestamp": "2024-06-09T04:29:01.863Z",
+    "message": "Fetched 274 pools from quickswap, total: 1788"
+  },
+  {
+    "timestamp": "2024-06-09T04:29:01.864Z",
+    "message": "Fetching pools data from quickswap with skip value: 5000"
+  },
+  {
+    "timestamp": "2024-06-09T04:29:02.347Z",
+    "message": "Data written to quickswapchart.json"
+  },
+  {
+    "timestamp": "2024-06-09T04:29:02.347Z",
+    "message": "Initial data update complete."
+  }
+]

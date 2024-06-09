@@ -1,6 +1,11 @@
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const UNISWAP_SUBGRAPH_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3';
 const QUICKSWAP_SUBGRAPH_URL = 'https://gateway-arbitrum.network.thegraph.com/api/50519f57b0b77627e43df041c62d7970/subgraphs/id/5AK9Y4tk27ZWrPKvSAUQmffXWyQvjWqyJ2GNEZUWTirU';
@@ -12,18 +17,26 @@ const logMessage = (message) => {
     const timestamp = new Date().toISOString();
     const logEntry = { timestamp, message };
 
-    fs.readFile(logFilePath, 'utf8', (err, data) => {
-        let logs = [];
-        if (!err && data) {
-            logs = JSON.parse(data);
+    let logs = [];
+    try {
+        const data = fs.readFileSync(logFilePath, 'utf8');
+        logs = JSON.parse(data);
+    } catch (err) {
+        if (err.code !== 'ENOENT') {
+            console.error('Error reading logs.json:', err);
         }
-        logs.push(logEntry);
+    }
 
-        fs.writeFile(logFilePath, JSON.stringify(logs, null, 2), (err) => {
-            if (err) console.error('Error writing to logs.json:', err);
-        });
-    });
+    logs.push(logEntry);
+
+    try {
+        fs.writeFileSync(logFilePath, JSON.stringify(logs, null, 2));
+    } catch (err) {
+        console.error('Error writing to logs.json:', err);
+    }
 };
+
+logMessage('updateData.mjs script started.'); // Initial log message
 
 async function fetchPoolsData(subgraphUrl, queryFunc, transformFunc, fileName, exchangeId) {
     let skip = 0;
@@ -178,4 +191,4 @@ setInterval(async () => {
   logMessage('Periodic data update complete.');
 }, 5 * 60 * 1000);
 
-module.exports = { fetchPoolsData, logMessage };
+export { fetchPoolsData, logMessage };
